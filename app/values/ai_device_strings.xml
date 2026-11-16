@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_control_category">Phone control</string>
+    <string name="device_control_title">Let the AI control the phone</string>
+    <string name="device_control_summary">The AI assistant can read the screen, tap, swipe, type and open apps. Every action asks for your approval by default.</string>
+    <string name="device_backend_title">Control method</string>
+    <string name="device_backend_accessibility">Accessibility service (no root)</string>
+    <string name="device_backend_shizuku">Shizuku (ADB permissions)</string>
+    <string name="device_backend_root">Root (su)</string>
+    <string name="device_setup_title">Status and authorization</string>
+    <string name="device_status_ready">Ready · %1$s</string>
+    <string name="device_status_accessibility_off">The accessibility service is off. Tap to turn it on.</string>
+    <string name="device_status_shizuku_off">Shizuku is not running or not authorized. Tap to authorize.</string>
+    <string name="device_status_root_unconfirmed">Root control has not been confirmed. Tap to review the risks.</string>
+    <string name="device_accessibility_label">AIDE+ AI phone control</string>
+    <string name="device_accessibility_description">Lets the AIDE+ AI assistant read the screen, tap, swipe and type when you ask it to operate your phone. It reads the current window only while an AI phone tool runs (each run asks for your approval by default) and stores nothing.</string>
+    <string name="device_accessibility_message">In the system Accessibility settings, open “AIDE+ AI phone control” (under downloaded or installed apps) and turn it on.\n\nIf Android says the setting is restricted, open the AIDE+ app info page, use the ⋮ menu → “Allow restricted settings”, then try again.</string>
+    <string name="device_accessibility_open">Open settings</string>
+    <string name="device_shizuku_not_running">Shizuku is not running. Start Shizuku first, then come back to authorize.</string>
+    <string name="device_root_testing">Checking root access…</string>
+    <string name="device_root_ok">Root access works: %1$s</string>
+    <string name="device_root_failed">Root access failed: %1$s</string>
+    <string name="device_root_title">Control the phone as root?</string>
+    <string name="device_root_message">With root, the AI runs input and uiautomator commands as the superuser. Every phone tool still asks you before it runs, but if you switch these tools to automatic, one wrong decision by the model can tap anything, change system settings, send messages or delete data — and root bypasses the protections Android normally applies.\n\nOnly enable this on a device you control, keep the phone tools on “confirm every time”, and watch what the AI does. You can turn it off here at any time.</string>
+    <string name="device_approval_warning">This acts on the whole phone, not just the project: it can tap, type and open apps anywhere. Check the screen and the target before allowing; never allow payments, transfers, security changes or messages you did not ask for.</string>
+    <string name="device_root_confirm">Enable root control</string>
+    <string name="device_root_confirm_wait">Enable (%1$d s)</string>
+</resources>

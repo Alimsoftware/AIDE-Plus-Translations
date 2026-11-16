@@ -18,7 +18,6 @@
     <string name="preference_title_keystore_password">设置自定义密钥密码</string>
     <string name="qqgroup">QQ群%s</string>
     <string name="create_project_loading">创建项目...</string>
-    <string name="app_name">AIDE+</string>
     <string name="start_server">启动 socat</string>
     <string name="stop_server">停止 socat</string>
     <string name="server_stopped">socat 已停止</string>

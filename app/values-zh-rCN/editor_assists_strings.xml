@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="editor_indent_guides_title">缩进引导线</string>
+    <string name="editor_indent_guides_summary">显示缩进引导线，不改动文件内容。</string>
+    <string name="editor_bracket_guides_title">括号配对引导线</string>
+    <string name="editor_bracket_guides_summary">突出 Java/Kotlin/C/C++/JSON/JSONC 括号及 XML/SVG/HTML 标签的当前层级，跳过字符串及对应语言允许的注释。</string>
+    <string name="editor_symbol_bar_title">签名与符号提示</string>
+    <string name="editor_symbol_bar_summary">光标在实参表里时像 IntelliJ IDEA 那样显示这个调用需要的参数：每个重载一行，当前参数加粗，还没填的参数高亮。Java 由代码分析引擎提供，库里的方法也有；Kotlin 只认当前文件里的声明。不在实参表里时显示光标所在标识符的声明（只认当前文件）。</string>
+    <string name="editor_folding_title">代码折叠</string>
+    <string name="editor_folding_summary">折叠跨行的块：点块首行行尾的小三角折起，点带隐藏行数的 … 标记展开。按 Java/Kotlin/C/C++/JSON/JSONC 的括号与 XML/SVG/HTML 的标签配对判断层级，结束行保持可见。</string>
+    <string name="editor_sticky_title">粘性滚动</string>
+    <string name="editor_sticky_summary">滚动时把所在的外层作用域钉在编辑器顶部，点一下跳回去。按 Java/Kotlin/C/C++/JSON/JSONC 的括号与 XML/SVG/HTML 的标签配对判断层级。</string>
+    <string name="editor_occurrence_title">相同符号高亮</string>
+    <string name="editor_occurrence_summary">描出光标所在标识符在当前屏幕里的其它出现位置。只按词法判断，会跳过字符串、注释和关键字，不区分作用域，同名符号会一起描出。</string>
+    <string name="editor_auto_closing_title">智能括号配对</string>
+    <string name="editor_auto_closing_summary">在 Java、Kotlin、C/C++、AIDL、Gradle/Groovy、Dart、Lua、TOML、shell、CMake、smali 及 JSON/JSONC 中配对括号与引号、包裹选区、删除空对。XML/SVG 自动闭合标签并配对或删除空的属性引号。关闭后沿用原生输入。</string>
+    <string name="editor_inline_title">行内错误提示</string>
+    <string name="editor_inline_summary">在代码后显示实时诊断摘要，点按查看详情；构建错误仍保留在错误列表中。</string>
+    <string name="editor_inline_error">错误：%1$s</string>
+    <string name="editor_inline_warning">警告：%1$s</string>
+    <string name="editor_inline_more">%1$s（另 %2$d 条）</string>
+    <string name="editor_inline_group">第 %1$d 行的诊断</string>
+    <string name="quick_key_bar_hide">收起符号栏</string>
+    <string name="quick_key_bar_show">展开符号栏</string>
+    <string name="editor_ligature_font_title">连字字体（JetBrains Mono）</string>
+    <string name="editor_ligature_font_summary">使用内置的 JetBrains Mono 字体，->、!=、>= 等运算符显示为连字。上面填了自定义字体时以自定义字体为准；关闭后使用系统等宽字体。</string>
+    <string name="editor_format_on_paste_title">粘贴后自动格式化</string>
+    <string name="editor_format_on_paste_summary">粘贴后让代码分析引擎重新缩进粘贴的行，编辑器会等结果；超过 2000 行的粘贴不格式化（会提示）。关闭后直接粘贴，不调整缩进。</string>
+    <plurals name="editor_format_on_paste_skipped">
+        <item quantity="one">粘贴了 %1$d 行，超过 %2$d 行不自动格式化。</item>
+        <item quantity="other">粘贴了 %1$d 行，超过 %2$d 行不自动格式化。</item>
+    </plurals>
+    <string name="editor_param_info_none">无参数</string>
+    <plurals name="editor_param_info_more">
+        <item quantity="one">还有 %d 个重载</item>
+        <item quantity="other">还有 %d 个重载</item>
+    </plurals>
+</resources>

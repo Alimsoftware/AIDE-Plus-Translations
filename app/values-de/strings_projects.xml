@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pj_details">Details</string>
+    <string name="pj_info_path">Pfad</string>
+    <string name="pj_info_modules">Module</string>
+    <string name="pj_info_package">Paket</string>
+    <string name="pj_info_modified">Zuletzt geändert</string>
+    <string name="pj_info_opened">Zuletzt geöffnet</string>
+    <string name="pj_never">Nie</string>
+    <string name="pj_info_size">Quellgröße (ohne Build-Ausgaben)</string>
+    <string name="pj_calculating">Wird berechnet…</string>
+    <string name="pj_git">Git</string>
+    <string name="pj_info_branch">Branch</string>
+    <string name="pj_info_remote">Remote (origin)</string>
+    <string name="pj_actions">Aktionen</string>
+    <string name="pj_open">Projekt öffnen</string>
+    <string name="pj_manage">Projekt verwalten</string>
+    <string name="pj_share">Projekt teilen</string>
+    <string name="pj_share_message">Packt das Projekt als ZIP ohne Build-Ausgaben (build, .gradle usw.), local.properties und App-Pakete.</string>
+    <string name="pj_share_git">Git-Verlauf einschließen (.git)</string>
+    <string name="pj_share_start">Packen und teilen</string>
+    <string name="pj_share_packing">Wird gepackt… %1$d Dateien</string>
+    <string name="pj_share_failed">Projekt kann nicht gepackt werden: %1$s</string>
+    <string name="pj_rename">Umbenennen</string>
+    <string name="pj_rename_hint">Neuer Ordnername</string>
+    <string name="pj_rename_invalid">Der Name ist ungültig oder existiert bereits</string>
+    <string name="pj_rename_failed">Ordner kann nicht umbenannt werden</string>
+    <string name="pj_delete">Projekt löschen</string>
+    <string name="pj_delete_message">%1$s und alle Dateien in %2$s werden dauerhaft gelöscht. Das kann nicht rückgängig gemacht werden.</string>
+    <string name="pj_delete_failed">Einige Dateien konnten nicht gelöscht werden</string>
+    <string name="pj_current_project">Dieses Projekt ist im Editor geöffnet. Wechsle dort zuerst zu einem anderen Projekt.</string>
+    <string name="pj_current">Im Editor geöffnet</string>
+    <string name="pj_sort_modified">Zuletzt geändert</string>
+    <string name="pj_group_pinned">Angeheftet</string>
+    <string name="pj_all_projects">Alle Projekte</string>
+    <string name="pj_group_by_folder">Nach Ordner gruppieren</string>
+    <string name="pj_storage">Interner Speicher</string>
+    <string name="pj_empty_title">Noch keine Projekte</string>
+    <string name="pj_empty_message">Erstelle, öffne oder klone ein Projekt; Projekte in AppProjects werden automatisch gefunden.</string>
+    <string name="pj_remove_from_list">Aus Liste entfernen</string>
+    <string name="pj_remove_missing_one">Der Ordner %1$s existiert nicht mehr. Aus der Liste entfernen? Es werden keine Dateien gelöscht.</string>
+    <string name="pj_remove_missing">Fehlende Projekte entfernen</string>
+    <string name="pj_no_missing">Alle Projekte in der Liste existieren</string>
+    <string name="pj_batch_manage">Projekte auswählen</string>
+    <string name="pj_select_all">Alle auswählen</string>
+    <string name="pj_selected_count">Ausgewählt: %1$d</string>
+    <string name="pj_select_project">%1$s auswählen</string>
+    <string name="pj_batch_remove_message">%1$d Projekte aus der Liste entfernen? Die Ordner bleiben erhalten und erscheinen beim erneuten Öffnen wieder.</string>
+    <string name="pj_type_android">Android</string>
+    <string name="pj_type_gradle">Gradle</string>
+    <string name="pj_type_eclipse">AIDE / Eclipse</string>
+    <string name="pj_type_java">Java</string>
+    <string name="pj_type_unknown">Ordner</string>
+    <plurals name="pj_modules">
+        <item quantity="one">%d Modul</item>
+        <item quantity="other">%d Module</item>
+    </plurals>
+    <plurals name="pj_remove_missing_message">
+        <item quantity="one">%d Projekt entfernen, dessen Ordner nicht mehr existiert? Es werden keine Dateien gelöscht.</item>
+        <item quantity="other">%d Projekte entfernen, deren Ordner nicht mehr existieren? Es werden keine Dateien gelöscht.</item>
+    </plurals>
+</resources>

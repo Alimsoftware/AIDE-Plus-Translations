@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_control_category">操控手机</string>
+    <string name="device_control_title">允许 AI 操控手机</string>
+    <string name="device_control_summary">AI 助手可以读取屏幕、点按、滑动、输入文字和打开应用；默认每次操作都需要你确认。</string>
+    <string name="device_backend_title">操控方式</string>
+    <string name="device_backend_accessibility">无障碍服务（无需 root）</string>
+    <string name="device_backend_shizuku">Shizuku（adb 权限）</string>
+    <string name="device_backend_root">Root（su）</string>
+    <string name="device_setup_title">状态与授权</string>
+    <string name="device_status_ready">已就绪 · %1$s</string>
+    <string name="device_status_accessibility_off">无障碍服务未开启，点按去开启。</string>
+    <string name="device_status_shizuku_off">Shizuku 未运行或未授权，点按授权。</string>
+    <string name="device_status_root_unconfirmed">尚未确认 root 方式，点按查看风险说明。</string>
+    <string name="device_accessibility_label">AIDE+ AI 手机操控</string>
+    <string name="device_accessibility_description">让 AIDE+ 的 AI 助手在你要求它操作手机时读取屏幕、点按、滑动和输入文字。只在 AI 调用操控手机的工具时读取当前窗口（默认每次都会先征求你同意），不保存任何内容。</string>
+    <string name="device_accessibility_message">在系统“无障碍”设置中找到“AIDE+ AI 手机操控”（位于“已下载的应用”或“已安装的服务”中）并开启。\n\n如果系统提示这是“受限制的设置”，请打开 AIDE+ 的应用信息页，点右上角 ⋮ →“允许受限制的设置”，再回来开启。</string>
+    <string name="device_accessibility_open">去开启</string>
+    <string name="device_shizuku_not_running">Shizuku 未运行，请先启动 Shizuku 再回来授权。</string>
+    <string name="device_root_testing">正在检查 root 权限…</string>
+    <string name="device_root_ok">root 权限可用：%1$s</string>
+    <string name="device_root_failed">root 权限不可用：%1$s</string>
+    <string name="device_root_title">以 root 身份操控手机？</string>
+    <string name="device_root_message">使用 root 时，AI 会以超级用户身份执行 input、uiautomator 等命令。每个操控手机的工具默认仍会先征求你同意；但如果把这些工具改成自动执行，模型的一次误判就可能点到任何东西、修改系统设置、发送消息或删除数据，而且 root 会绕过 Android 平时的保护。\n\n只在你自己掌控的设备上启用，保持“每次确认”，并留意 AI 的每一步操作。随时可以在这里关闭。</string>
+    <string name="device_approval_warning">此操作作用于整台手机，而不只是当前项目：它能在任何应用里点按、输入和打开应用。允许前请看清当前屏幕与目标；不是你要求的付款、转账、安全设置修改或发送消息，一律不要允许。</string>
+    <string name="device_root_confirm">确认启用</string>
+    <string name="device_root_confirm_wait">确认启用（%1$d 秒）</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_empty_title">有什么可以帮你？</string>
+    <string name="ai_empty_message">可以询问当前打开的项目。助手能读取、搜索和修改代码，修改文件前会先征得你同意。输入 / 可使用项目技能。</string>
+    <string name="ai_empty_title_setup">先配置一个模型</string>
+    <string name="ai_empty_setup_message">选择接口类型，填写 API Key 和模型名称后即可开始。</string>
+    <string name="ai_configure_model">配置模型</string>
+</resources>

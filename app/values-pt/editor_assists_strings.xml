@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="editor_indent_guides_title">Guias de indentação</string>
+    <string name="editor_indent_guides_summary">Mostrar guias de indentação sem alterar o documento.</string>
+    <string name="editor_bracket_guides_title">Guias de pares de delimitadores</string>
+    <string name="editor_bracket_guides_summary">Destaque os pares de delimitadores em Java/Kotlin/C/C++/JSON/JSONC e as tags XML/SVG/HTML. Ignore strings e comentários permitidos em cada linguagem.</string>
+    <string name="editor_symbol_bar_title">Dicas de assinatura e símbolo</string>
+    <string name="editor_symbol_bar_summary">Com o cursor dentro de uma lista de argumentos, mostra os parâmetros da chamada como no IntelliJ IDEA: uma linha por sobrecarga, o parâmetro atual a negrito e os parâmetros ainda em falta destacados. Em Java os dados vêm do motor de análise de código, incluindo métodos de bibliotecas; em Kotlin usam-se as declarações do ficheiro atual. Caso contrário, mostra a declaração do identificador sob o cursor (apenas o ficheiro atual).</string>
+    <string name="editor_folding_title">Dobragem de código</string>
+    <string name="editor_folding_summary">Dobre blocos de várias linhas: toque no pequeno triângulo no fim da primeira linha do bloco para dobrar e na marca … com o número de linhas ocultas para desdobrar. Usa os pares de delimitadores e tags de Java, Kotlin, C/C++, JSON/JSONC e XML/SVG/HTML. A linha de fecho permanece visível.</string>
+    <string name="editor_sticky_title">Rolagem fixa</string>
+    <string name="editor_sticky_summary">Fixe os escopos que envolvem a posição atual no topo do editor ao rolar e toque num deles para voltar. Usa os pares de delimitadores e tags de Java, Kotlin, C/C++, JSON/JSONC e XML/SVG/HTML.</string>
+    <string name="editor_occurrence_title">Destaque de símbolos iguais</string>
+    <string name="editor_occurrence_summary">Contorne as outras ocorrências do identificador sob o cursor. Apenas léxico: strings, comentários e palavras reservadas são ignorados, e símbolos de mesmo nome em outros escopos também correspondem.</string>
+    <string name="editor_auto_closing_title">Pares inteligentes de delimitadores</string>
+    <string name="editor_auto_closing_summary">Emparelhe delimitadores e aspas, envolva a seleção e apague pares vazios em Java, Kotlin, C/C++, AIDL, Gradle/Groovy, Dart, Lua, TOML, shell, CMake, smali e JSON/JSONC. Feche tags XML/SVG e emparelhe ou apague aspas de atributo vazias. Desativado, mantém a edição nativa.</string>
+    <string name="editor_inline_title">Diagnósticos na linha</string>
+    <string name="editor_inline_summary">Mostrar resumos de diagnósticos em tempo real após o código. Toque para ver detalhes; erros de compilação permanecem na lista de problemas.</string>
+    <string name="editor_inline_error">Erro: %1$s</string>
+    <string name="editor_inline_warning">Aviso: %1$s</string>
+    <string name="editor_inline_more">%1$s (+%2$d)</string>
+    <string name="editor_inline_group">Diagnósticos na linha %1$d</string>
+    <string name="quick_key_bar_hide">Ocultar barra de símbolos</string>
+    <string name="quick_key_bar_show">Mostrar barra de símbolos</string>
+    <string name="editor_ligature_font_title">Fonte com ligaduras (JetBrains Mono)</string>
+    <string name="editor_ligature_font_summary">Usar a JetBrains Mono incluída para que ->, !=, >= e operadores semelhantes apareçam como ligaduras. Uma fonte personalizada indicada acima tem prioridade; desativado, usa a fonte monoespaçada do sistema.</string>
+    <string name="editor_format_on_paste_title">Formatar após colar</string>
+    <string name="editor_format_on_paste_summary">Reindentar as linhas coladas com o mecanismo de análise de código; o editor espera pelo resultado. Colagens com mais de 2000 linhas não são formatadas (com aviso). Desative para colar imediatamente sem reindentar.</string>
+    <plurals name="editor_format_on_paste_skipped">
+        <item quantity="one">%1$d linha colada. Acima de %2$d linhas não se formata automaticamente.</item>
+        <item quantity="other">%1$d linhas coladas. Acima de %2$d linhas não se formata automaticamente.</item>
+    </plurals>
+    <string name="editor_param_info_none">Sem parâmetros</string>
+    <plurals name="editor_param_info_more">
+        <item quantity="one">+%d outra sobrecarga</item>
+        <item quantity="other">+%d outras sobrecargas</item>
+    </plurals>
+</resources>

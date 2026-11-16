@@ -38,4 +38,7 @@
     <string name="manifest_editor_add_application">新增 application</string>
     <string name="manifest_editor_namespace_readonly">命名空间声明保持原样，只读展示</string>
     <string name="manifest_editor_catalog_error">无法读取系统权限目录；已有权限和自定义权限仍可编辑。</string>
+    <string name="manifest_editor_store_encoding">清单中声明的编码不受支持。</string>
+    <string name="manifest_editor_store_changed">文件已被其它编辑器修改。</string>
+    <string name="manifest_editor_store_refresh">编辑器刷新期间文件内容发生变化，未写入本次版本。</string>
 </resources>

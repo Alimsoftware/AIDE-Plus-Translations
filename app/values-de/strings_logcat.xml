@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="logcat_ui_header">LogCat · %1$s</string>
+    <string name="logcat_ui_menu">Logcat-Menü</string>
+    <string name="logcat_ui_open_floating">Im schwebenden Fenster öffnen</string>
+    <string name="logcat_ui_close_floating">Schwebendes Fenster schließen</string>
+    <string name="logcat_ui_minimize">Zu Blase verkleinern</string>
+    <string name="logcat_ui_bubble">Schwebendes Logcat: tippen zum Öffnen, ziehen zum Verschieben, lange drücken zum Schließen</string>
+    <string name="logcat_ui_resize">Ziehen, um die Größe zu ändern</string>
+    <string name="logcat_ui_overlay_hint">Titelleiste ziehen zum Verschieben, Ecke ziehen für die Größe; über die Titelleiste zu einer Blase verkleinern</string>
+    <string name="logcat_ui_search">Suche</string>
+    <string name="logcat_ui_search_hint">Text, Tag, Prozess oder PID suchen</string>
+    <string name="logcat_ui_filters">Filter</string>
+    <string name="logcat_ui_clear_filters">Filter löschen</string>
+    <string name="logcat_ui_level_title">Mindeststufe</string>
+    <string name="logcat_ui_filter_app">Nur die App des aktuellen Projekts</string>
+    <string name="logcat_ui_filter_tag">Tag</string>
+    <string name="logcat_ui_filter_process">Prozess</string>
+    <string name="logcat_ui_filter_rules">Regeln</string>
+    <string name="logcat_ui_rules_hint">Eine Regel pro Zeile, z. B. tag:MyApp level:W,E\nMit - beginnen zum Ausschließen, z. B. -text:heartbeat</string>
+    <string name="logcat_ui_pick_hint">Wert eingeben oder wählen</string>
+    <string name="logcat_ui_pick_empty">Noch keine Werte erfasst</string>
+    <string name="logcat_ui_apply">Anwenden</string>
+    <string name="logcat_ui_clear">Löschen</string>
+    <string name="logcat_ui_clear_log">Protokoll leeren</string>
+    <string name="logcat_ui_copy">Protokoll kopieren</string>
+    <string name="logcat_ui_source">Quelle: %1$s</string>
+    <string name="logcat_ui_source_automatic">Automatisch (su → Shizuku → ADRT)</string>
+    <string name="logcat_ui_source_su">su (root)</string>
+    <string name="logcat_ui_source_shizuku">Shizuku</string>
+    <string name="logcat_ui_source_adrt">ADRT (aus AIDE+ gestartete Apps)</string>
+    <string name="logcat_ui_source_status">Quellstatus</string>
+    <string name="logcat_ui_mode_automatic">Automatisch</string>
+    <string name="logcat_ui_mode_manual">Manuell</string>
+    <string name="logcat_ui_source_details">Quelle: %1$s\nModus: %2$s\nStatus: %3$s\nVerlauf: %4$d Zeilen</string>
+    <string name="logcat_ui_status_starting">%1$s · verbinde…</string>
+    <string name="logcat_ui_status_capturing">%1$s · erfasse</string>
+    <string name="logcat_ui_status_waiting">ADRT · warte auf eine aus AIDE+ gestartete App</string>
+    <string name="logcat_ui_status_failed">%1$s · %2$s</string>
+    <string name="logcat_ui_status_stopped">%1$s · gestoppt</string>
+    <string name="logcat_ui_status_detail">%1$s · %2$s</string>
+    <string name="logcat_ui_status_paused">Angehalten (Erfassung läuft weiter) · %1$s</string>
+    <string name="logcat_ui_status_filtered">%1$s · gefiltert</string>
+    <string name="logcat_ui_fallback">%1$s nicht verfügbar (%2$s), zu %3$s gewechselt</string>
+    <string name="logcat_ui_no_project_app">Öffne ein Android-Projekt, um nach seiner App zu filtern</string>
+    <string name="logcat_ui_only_app">Nur %1$s wird angezeigt</string>
+    <string name="logcat_ui_rule_missing">Zeile %1$d: Regel ist leer</string>
+    <string name="logcat_ui_rule_missing_value">Zeile %1$d: %2$s hat keinen Wert</string>
+    <string name="logcat_ui_rule_level">Zeile %1$d: unbekannte Stufe %2$s</string>
+    <string name="logcat_ui_rule_field">Zeile %1$d: unbekanntes Feld %2$s</string>
+    <string name="logcat_ui_rule_quote">Zeile %1$d: Anführungszeichen nicht geschlossen</string>
+    <string-array name="logcat_ui_level_names">
+        <item>V · Ausführlich (alle)</item>
+        <item>D · Debug</item>
+        <item>I · Info</item>
+        <item>W · Warnung</item>
+        <item>E · Fehler</item>
+        <item>F · Fatal</item>
+    </string-array>
+    <plurals name="logcat_ui_copied">
+        <item quantity="one">%1$d Zeile kopiert</item>
+        <item quantity="other">%1$d Zeilen kopiert</item>
+    </plurals>
+</resources>

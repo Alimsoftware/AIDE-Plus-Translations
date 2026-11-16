@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="st_cat_checks">错误检查</string>
+    <string name="st_cat_navigation">跳转与源码</string>
+    <string name="st_cat_platform">SDK 与平台数据</string>
+    <string name="st_cat_sdk_deps">SDK 与依赖</string>
+    <string name="st_cat_gradle_command">Gradle 命令构建</string>
+    <string name="st_cat_code_translation">代码翻译</string>
+    <string name="st_cat_startup_layout">启动与布局</string>
+    <string name="st_cat_appbar_tabs">标题栏与标签</string>
+    <string name="st_cat_gestures">手势与触控</string>
+    <string name="st_cat_file_browser">文件浏览器</string>
+    <string name="st_cat_keyboard">键盘与输入法</string>
+    <string name="st_cat_guides">引导线与高亮</string>
+    <string name="st_cat_structure">折叠与结构</string>
+    <string name="st_cat_editor_hints">编辑器内提示</string>
+    <string name="st_cat_offline_docs">离线文档</string>
+    <string name="st_cat_editor_actions">编辑器操作按钮</string>
+    <string name="st_cat_semantic_completion">语义补全</string>
+    <string name="st_cat_warnings">警告显示</string>
+    <string name="st_cat_decompiler">反编译</string>
+    <string name="st_cat_compile_package">编译与打包</string>
+    <string name="st_cat_build_output">构建输出</string>
+    <string name="st_cat_java_project">Java 工程</string>
+    <string name="st_cat_install">安装方式</string>
+    <string name="st_cat_terminal">终端</string>
+    <string name="st_cat_git_identity">Git 身份</string>
+    <string name="st_cat_git_credentials">凭据与 SSH</string>
+    <string name="st_cat_ai_assistant">AI 助手入口</string>
+    <string name="st_cat_mcp_server">MCP 服务</string>
+    <string name="st_cat_translation_engine">翻译引擎</string>
+    <string name="st_cat_translation_cache">翻译缓存</string>
+    <string name="st_cat_logging">日志</string>
+    <string name="st_cat_tools_logs">工具链与日志</string>
+    <string name="st_cat_community">社区与联系</string>
+</resources>

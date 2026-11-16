@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pj_details">Details</string>
+    <string name="pj_info_path">Path</string>
+    <string name="pj_info_modules">Modules</string>
+    <string name="pj_info_package">Package</string>
+    <string name="pj_info_modified">Last modified</string>
+    <string name="pj_info_opened">Last opened</string>
+    <string name="pj_never">Never</string>
+    <string name="pj_info_size">Source size (without build outputs)</string>
+    <string name="pj_calculating">Calculating…</string>
+    <string name="pj_git">Git</string>
+    <string name="pj_info_branch">Branch</string>
+    <string name="pj_info_remote">Remote (origin)</string>
+    <string name="pj_actions">Actions</string>
+    <string name="pj_open">Open project</string>
+    <string name="pj_manage">Manage project</string>
+    <string name="pj_share">Share project</string>
+    <string name="pj_share_message">Packs the project as a zip without build outputs (build, .gradle and similar), local.properties or app packages.</string>
+    <string name="pj_share_git">Include Git history (.git)</string>
+    <string name="pj_share_start">Pack and share</string>
+    <string name="pj_share_packing">Packing… %1$d files</string>
+    <string name="pj_share_failed">Cannot pack the project: %1$s</string>
+    <string name="pj_rename">Rename</string>
+    <string name="pj_rename_hint">New folder name</string>
+    <string name="pj_rename_invalid">The name is invalid or already exists</string>
+    <string name="pj_rename_failed">Cannot rename the folder</string>
+    <string name="pj_delete">Delete project</string>
+    <string name="pj_delete_message">%1$s and all files in %2$s will be deleted permanently. This cannot be undone.</string>
+    <string name="pj_delete_failed">Some files could not be deleted</string>
+    <string name="pj_current_project">This project is open in the editor. Switch to another project in the editor first.</string>
+    <string name="pj_current">Open in the editor</string>
+    <string name="pj_sort_modified">Last modified</string>
+    <string name="pj_group_pinned">Pinned</string>
+    <string name="pj_all_projects">All projects</string>
+    <string name="pj_group_by_folder">Group by folder</string>
+    <string name="pj_storage">Internal storage</string>
+    <string name="pj_empty_title">No projects yet</string>
+    <string name="pj_empty_message">Create, open or clone a project; projects in AppProjects are found automatically.</string>
+    <string name="pj_remove_from_list">Remove from list</string>
+    <string name="pj_remove_missing_one">The folder %1$s no longer exists. Remove it from the list? No files are deleted.</string>
+    <string name="pj_remove_missing">Remove missing projects</string>
+    <string name="pj_no_missing">All listed projects exist</string>
+    <string name="pj_batch_manage">Select projects</string>
+    <string name="pj_select_all">Select all</string>
+    <string name="pj_selected_count">Selected: %1$d</string>
+    <string name="pj_select_project">Select %1$s</string>
+    <string name="pj_batch_remove_message">Remove %1$d project entries from the list? Project folders are kept; opening one again adds it back.</string>
+    <string name="pj_type_android">Android</string>
+    <string name="pj_type_gradle">Gradle</string>
+    <string name="pj_type_eclipse">AIDE / Eclipse</string>
+    <string name="pj_type_java">Java</string>
+    <string name="pj_type_unknown">Folder</string>
+    <plurals name="pj_modules">
+        <item quantity="one">%d module</item>
+        <item quantity="other">%d modules</item>
+    </plurals>
+    <plurals name="pj_remove_missing_message">
+        <item quantity="one">Remove %d project whose folder no longer exists? No files are deleted.</item>
+        <item quantity="other">Remove %d projects whose folders no longer exist? No files are deleted.</item>
+    </plurals>
+</resources>

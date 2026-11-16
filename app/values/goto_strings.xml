@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="goto_title">Go to</string>
+    <string name="goto_hint">Classes, files, symbols, actions…</string>
+    <string name="goto_tab_all">All</string>
+    <string name="goto_tab_classes">Classes</string>
+    <string name="goto_tab_files">Files</string>
+    <string name="goto_tab_symbols">Symbols</string>
+    <string name="goto_tab_actions">Actions</string>
+    <string name="goto_section_open_files">Open files</string>
+    <string name="goto_show_all">All (%1$d)</string>
+    <string name="goto_line">Go to line %1$d</string>
+    <string name="goto_line_column">Go to line %1$d, column %2$d</string>
+    <string name="goto_nav_next_error">Next error</string>
+    <string name="goto_nav_previous_error">Previous error</string>
+    <string name="goto_nav_back">Back</string>
+    <string name="goto_nav_forward">Forward</string>
+    <string name="goto_no_results">Nothing matches “%1$s”</string>
+    <string name="goto_too_many">Too many matches. Keep typing to narrow them down.</string>
+    <string name="goto_no_project">Open a project to search its classes, files and symbols.</string>
+    <string name="goto_files_truncated">Only the first %1$d files of this project are searched.</string>
+    <string name="goto_library">Library</string>
+    <string name="goto_clear">Clear</string>
+    <string name="goto_type_to_search">Type a class, file or symbol name. Use Name:line to jump to a line.</string>
+    <string name="goto_engine_unavailable">Code analysis is not ready yet.</string>
+    <string name="goto_tab_current">This file</string>
+    <string name="goto_section_recent">Recent</string>
+    <string name="goto_clear_recent">Clear</string>
+    <string name="goto_tip">Name:line opens a file at a line, :line jumps within this file. Long-press a class or member for its documentation.</string>
+    <string name="goto_current_unavailable">The current file is not Java or Kotlin, or has no declarations to list.</string>
+</resources>

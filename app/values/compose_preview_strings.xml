@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="preview_compose">Preview Compose</string>
+    <string name="compose_preview_refresh">Reload preview</string>
+    <string name="compose_preview_loading">Loading the last build…</string>
+    <string name="compose_preview_not_built">This project has not been built yet. Build it once and the preview loads automatically.</string>
+    <string name="compose_preview_built_at">From the build at %1$s</string>
+    <string name="compose_preview_stale">The code changed after the build at %1$s. Build again to update the preview; it reloads automatically.</string>
+    <string name="compose_preview_no_compose">The last build does not contain Compose UI (androidx.compose.ui). Add the Compose dependencies and build again.</string>
+    <string name="compose_preview_load_failed">Could not load the last build: %1$s</string>
+    <string name="compose_preview_none">No @Preview functions found in this file.</string>
+    <string name="compose_preview_class_missing">%1$s is not in the last build. Build the project again.</string>
+    <string name="compose_preview_method_missing">The preview function %1$s is not in the last build. Build the project again.</string>
+    <string name="compose_preview_parameters">Previews with parameters (@PreviewParameter) are not supported yet.</string>
+    <string name="compose_preview_failed">Preview failed: %1$s</string>
+    <string name="compose_preview_runtime_error">The preview stopped after an error: %1$s</string>
+    <string name="compose_preview_scan_title">Compose preview code check</string>
+    <string name="compose_preview_scan_message">The preview runs this file\'s code inside AIDE+, with its permissions and data. The code contains calls that may be risky:\n\n%1$s\n\nRun the preview only if you trust this code.</string>
+    <string name="compose_preview_blocked">Not run: the code check found risky calls. Tap reload to decide again.</string>
+    <string name="compose_preview_auto_refresh">Auto-refresh Compose preview</string>
+    <string name="compose_preview_auto_refresh_summary">While the preview is open, compile the module incrementally and refresh 1.5 s after the code stops changing. When off, the preview compiles only when opened or when you tap reload.</string>
+    <string name="compose_preview_compiling">Compiling the preview…</string>
+    <string name="compose_preview_compiled">Compiled in %1$d ms, on top of the build at %2$s</string>
+    <string name="compose_preview_compiled_stale">The code changed after this preview was compiled (on top of the build at %2$s). Tap reload to compile again.</string>
+    <string name="compose_preview_compile_failed">Compilation failed; the last working preview is kept. Tap an error to go to its line.</string>
+    <string name="compose_preview_needs_full_build">%1$s changed after the last build. Resources, the manifest or dependencies in the preview may be out of date; build the project to update them.</string>
+    <string name="compose_preview_incremental_unavailable">Cannot compile the preview (%1$s); showing the last build.</string>
+    <string name="compose_preview_need_compiler">turn on ECJ and Kotlin compilation in settings</string>
+    <string name="compose_preview_not_in_module">the file is not in a module source folder</string>
+    <string name="compose_preview_engine_unavailable">the code analysis service is not connected</string>
+</resources>

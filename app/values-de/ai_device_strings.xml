@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_control_category">Telefonsteuerung</string>
+    <string name="device_control_title">KI darf das Telefon bedienen</string>
+    <string name="device_control_summary">Der KI-Assistent kann den Bildschirm lesen, tippen, wischen, Text eingeben und Apps öffnen. Jede Aktion fragt standardmäßig nach deiner Bestätigung.</string>
+    <string name="device_backend_title">Steuerungsart</string>
+    <string name="device_backend_accessibility">Bedienungshilfe (ohne Root)</string>
+    <string name="device_backend_shizuku">Shizuku (ADB-Rechte)</string>
+    <string name="device_backend_root">Root (su)</string>
+    <string name="device_setup_title">Status und Berechtigung</string>
+    <string name="device_status_ready">Bereit · %1$s</string>
+    <string name="device_status_accessibility_off">Die Bedienungshilfe ist aus. Zum Einschalten tippen.</string>
+    <string name="device_status_shizuku_off">Shizuku läuft nicht oder ist nicht autorisiert. Zum Autorisieren tippen.</string>
+    <string name="device_status_root_unconfirmed">Root-Steuerung wurde noch nicht bestätigt. Tippen, um die Risiken zu lesen.</string>
+    <string name="device_accessibility_label">AIDE+ KI-Telefonsteuerung</string>
+    <string name="device_accessibility_description">Erlaubt dem KI-Assistenten von AIDE+, den Bildschirm zu lesen, zu tippen, zu wischen und Text einzugeben, wenn du ihn das Telefon bedienen lässt. Das aktuelle Fenster wird nur gelesen, während ein KI-Telefonwerkzeug läuft (standardmäßig mit deiner Bestätigung), und nichts wird gespeichert.</string>
+    <string name="device_accessibility_message">Öffne in den Bedienungshilfen des Systems „AIDE+ KI-Telefonsteuerung“ (unter heruntergeladenen bzw. installierten Apps) und schalte sie ein.\n\nWenn Android meldet, dass die Einstellung eingeschränkt ist, öffne die App-Info von AIDE+, wähle im ⋮-Menü „Eingeschränkte Einstellungen zulassen“ und versuche es erneut.</string>
+    <string name="device_accessibility_open">Einstellungen öffnen</string>
+    <string name="device_shizuku_not_running">Shizuku läuft nicht. Starte zuerst Shizuku und komm dann zum Autorisieren zurück.</string>
+    <string name="device_root_testing">Root-Zugriff wird geprüft…</string>
+    <string name="device_root_ok">Root-Zugriff funktioniert: %1$s</string>
+    <string name="device_root_failed">Root-Zugriff fehlgeschlagen: %1$s</string>
+    <string name="device_root_title">Telefon mit Root steuern?</string>
+    <string name="device_root_message">Mit Root führt die KI input- und uiautomator-Befehle als Superuser aus. Jedes Telefonwerkzeug fragt weiterhin vor der Ausführung nach, aber wenn du diese Werkzeuge auf automatisch stellst, kann eine einzige Fehlentscheidung des Modells beliebige Elemente antippen, Systemeinstellungen ändern, Nachrichten senden oder Daten löschen – und Root umgeht die Schutzmechanismen, die Android normalerweise anwendet.\n\nAktiviere das nur auf einem Gerät, das dir gehört, lass die Telefonwerkzeuge auf „Jedes Mal bestätigen“ und beobachte, was die KI tut. Du kannst es hier jederzeit ausschalten.</string>
+    <string name="device_approval_warning">Diese Aktion wirkt auf das ganze Telefon, nicht nur auf das Projekt: Sie kann in jeder App tippen, Text eingeben und Apps öffnen. Prüfe vor dem Erlauben den Bildschirm und das Ziel; erlaube niemals Zahlungen, Überweisungen, Sicherheitsänderungen oder Nachrichten, die du nicht verlangt hast.</string>
+    <string name="device_root_confirm">Root-Steuerung aktivieren</string>
+    <string name="device_root_confirm_wait">Aktivieren (%1$d s)</string>
+</resources>

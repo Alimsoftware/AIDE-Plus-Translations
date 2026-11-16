@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="codemodel_background_title">Análise de código em segundo plano</string>
+    <string name="codemodel_background_summary">Analisar o código em threads de trabalho para que a digitação, o preenchimento e o realce não esperem (atualmente erros, realce e correções do Kotlin). Desative para analisar na thread do motor como antes</string>
+</resources>

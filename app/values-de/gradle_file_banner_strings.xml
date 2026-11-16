@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="gradle_banner_module">Die Einstellungen dieses Moduls im visuellen Editor bearbeiten</string>
+    <string name="gradle_banner_project">Module, Abhängigkeiten und Versionen im visuellen Editor verwalten</string>
+    <string name="gradle_banner_open">Öffnen</string>
+    <string name="gradle_banner_dismiss">Hinweis schließen</string>
+</resources>

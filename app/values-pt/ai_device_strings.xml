@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_control_category">Controlo do telemóvel</string>
+    <string name="device_control_title">Permitir que a IA controle o telemóvel</string>
+    <string name="device_control_summary">O assistente de IA pode ler o ecrã, tocar, deslizar, escrever e abrir apps. Por omissão, cada ação pede a sua aprovação.</string>
+    <string name="device_backend_title">Método de controlo</string>
+    <string name="device_backend_accessibility">Serviço de acessibilidade (sem root)</string>
+    <string name="device_backend_shizuku">Shizuku (permissões ADB)</string>
+    <string name="device_backend_root">Root (su)</string>
+    <string name="device_setup_title">Estado e autorização</string>
+    <string name="device_status_ready">Pronto · %1$s</string>
+    <string name="device_status_accessibility_off">O serviço de acessibilidade está desligado. Toque para o ligar.</string>
+    <string name="device_status_shizuku_off">O Shizuku não está em execução ou não está autorizado. Toque para autorizar.</string>
+    <string name="device_status_root_unconfirmed">O controlo com root ainda não foi confirmado. Toque para rever os riscos.</string>
+    <string name="device_accessibility_label">Controlo do telemóvel por IA do AIDE+</string>
+    <string name="device_accessibility_description">Permite que o assistente de IA do AIDE+ leia o ecrã, toque, deslize e escreva quando lhe pede para operar o telemóvel. Só lê a janela atual enquanto uma ferramenta de controlo do telemóvel está a correr (por omissão cada execução pede a sua aprovação) e não guarda nada.</string>
+    <string name="device_accessibility_message">Nas definições de acessibilidade do sistema, abra “Controlo do telemóvel por IA do AIDE+” (em apps transferidas ou instaladas) e ative-o.\n\nSe o Android disser que a definição é restrita, abra as informações da app AIDE+, use o menu ⋮ → “Permitir definições restritas” e tente novamente.</string>
+    <string name="device_accessibility_open">Abrir definições</string>
+    <string name="device_shizuku_not_running">O Shizuku não está em execução. Inicie primeiro o Shizuku e volte para autorizar.</string>
+    <string name="device_root_testing">A verificar o acesso root…</string>
+    <string name="device_root_ok">O acesso root funciona: %1$s</string>
+    <string name="device_root_failed">O acesso root falhou: %1$s</string>
+    <string name="device_root_title">Controlar o telemóvel como root?</string>
+    <string name="device_root_message">Com root, a IA executa comandos input e uiautomator como superutilizador. Cada ferramenta de controlo do telemóvel continua a pedir aprovação antes de correr, mas se mudar estas ferramentas para automático, uma única decisão errada do modelo pode tocar em qualquer coisa, alterar definições do sistema, enviar mensagens ou apagar dados — e o root contorna as proteções que o Android normalmente aplica.\n\nAtive isto apenas num dispositivo que controla, mantenha as ferramentas em “confirmar sempre” e acompanhe o que a IA faz. Pode desativá-lo aqui a qualquer momento.</string>
+    <string name="device_approval_warning">Isto atua sobre todo o telemóvel e não apenas sobre o projeto: pode tocar, escrever e abrir apps em qualquer lugar. Verifique o ecrã e o alvo antes de permitir; nunca permita pagamentos, transferências, alterações de segurança ou mensagens que não pediu.</string>
+    <string name="device_root_confirm">Ativar controlo com root</string>
+    <string name="device_root_confirm_wait">Ativar (%1$d s)</string>
+</resources>

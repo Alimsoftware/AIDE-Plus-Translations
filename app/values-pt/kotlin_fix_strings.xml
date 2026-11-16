@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="kotlin_warning_browser_title">Mostrar avisos Kotlin na lista de erros</string>
+    <string name="kotlin_warning_browser_summary">Mostrar avisos Kotlin quando não houver erros. Reinicie a aplicação para aplicar.</string>
+    <string name="kotlin_warning_editor_title">Mostrar avisos Kotlin no editor</string>
+    <string name="kotlin_warning_editor_summary">Sublinhar avisos Kotlin no código-fonte. Reinicie a aplicação para aplicar.</string>
+    <string name="kotlin_fix_replace_import">Alterar importação para %1$s</string>
+    <string name="kotlin_fix_remove_import">Remover importação %1$s</string>
+    <string name="kotlin_fix_val_to_var">Alterar val %1$s para var</string>
+    <string name="kotlin_fix_safe_call">Usar chamada segura ?. em %1$s</string>
+    <string name="kotlin_fix_not_null_call">Afirmar que %1$s não é nulo (!!.)</string>
+    <string name="kotlin_fix_choose">Escolher uma correção</string>
+    <string name="kotlin_compiler_check_title">Verificação completa com o compilador Kotlin</string>
+    <string name="kotlin_compiler_check_summary">Depois de parar de escrever, verificar o módulo em segundo plano com o compilador Kotlin e mostrar todos os erros e avisos (requer compilação Kotlin; usa mais CPU)</string>
+    <string name="kotlin_fix_add_suspend">Tornar %1$s suspend</string>
+    <string name="kotlin_fix_add_composable">Adicionar @Composable a %1$s</string>
+    <string name="kotlin_fix_opt_in">Aceitar com @OptIn(%1$s::class)</string>
+    <string name="kotlin_fix_add_override">Adicionar override a %1$s</string>
+    <string name="kotlin_fix_add_else">Adicionar ramo else a %1$s</string>
+    <string name="kotlin_fix_implement_members">Implementar membros de %1$s</string>
+    <string name="kotlin_fix_initialize">Inicializar %1$s com %2$s</string>
+    <string name="kotlin_fix_lateinit">Marcar %1$s como lateinit</string>
+    <string name="kotlin_fix_add_not_null">Afirmar que %1$s não é nulo (!!)</string>
+    <string name="kotlin_fix_change_type">Alterar tipo de %1$s para %2$s</string>
+    <string name="kotlin_fix_change_return_type">Alterar tipo de retorno de %1$s para %2$s</string>
+    <string name="kotlin_fix_add_todo">Adicionar TODO() no fim de %1$s</string>
+    <string name="kotlin_fix_add_argument">Adicionar argumento %1$s = TODO()</string>
+    <string name="kotlin_fix_make_open">Tornar %1$s open</string>
+    <string name="kotlin_fix_remove_modifier">Remover modificador %1$s</string>
+    <string name="kotlin_fix_make_abstract">Tornar %1$s abstract</string>
+    <string name="kotlin_fix_add_body">Adicionar corpo a %1$s</string>
+    <string name="kotlin_fix_rename">Alterar para %1$s</string>
+    <string name="kotlin_fix_remove_redundant">Remover %1$s redundante</string>
+    <string name="kotlin_fix_replace">Substituir %1$s por %2$s</string>
+    <string name="kotlin_fix_insert">Inserir %1$s</string>
+    <string name="kotlin_fix_call_constructor">Chamar o construtor de %1$s</string>
+    <string name="kotlin_fix_remove_declaration">Remover %1$s</string>
+    <string name="kotlin_fix_add_branches">Adicionar ramos ausentes %1$s</string>
+    <string name="kotlin_fix_var_to_val">Mudar var %1$s para val</string>
+    <string name="kotlin_fix_remove_unreachable">Remover código inalcançável</string>
+</resources>

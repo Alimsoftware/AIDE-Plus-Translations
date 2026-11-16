@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="toolchain_mirror">Downloadquelle</string>
+    <string name="toolchain_mirror_direct">GitHub (direkt)</string>
+    <string name="toolchain_mirror_custom">Eigenes Präfix…</string>
+    <string name="toolchain_mirror_custom_title">Eigenes Spiegel-Präfix</string>
+    <string name="toolchain_mirror_hint">HTTPS-Präfix vor der GitHub-Adresse, zum Beispiel https://example.com/https://github.com/… Leer lassen für eine direkte Verbindung.</string>
+    <string name="toolchain_mirror_invalid">Bitte das HTTPS-Präfix eines Spiegels angeben, nicht eine GitHub-Adresse</string>
+    <string name="toolchain_mirror_note">Nur NDK- und CMake-Downloads nutzen diese Quelle. Heruntergeladene Dateien werden weiterhin gegen Größe und SHA-256 aus dem Katalog geprüft, ein Spiegel kann also keine andere Datei liefern. Öffentliche Spiegel können drosseln, die Domain wechseln oder abgeschaltet werden; schlägt einer fehl, lädt die Installation direkt weiter.</string>
+    <string name="toolchain_filter_installed">Installiert</string>
+    <string name="toolchain_filter_available">Verfügbar</string>
+    <string name="toolchain_filter_stable">Stabil</string>
+    <string name="toolchain_filter_beta">Beta</string>
+    <string name="toolchain_filter_ollvm">OLLVM</string>
+    <string name="toolchain_active">Aktiv · ndk-build</string>
+    <string name="toolchain_installing">Wird installiert…</string>
+    <string name="toolchain_update_available">Installiert · Update verfügbar</string>
+    <string name="toolchain_info">Paketdetails</string>
+    <string name="toolchain_package_summary">%1$s · %2$s</string>
+    <string name="toolchain_package_info">Version: %1$s\n\nURL: %2$s\n\nSHA-256: %3$s\n\nArchivwurzel: %4$s\nEntpackte Größe: %5$s\n\nQuelle: %6$s\n\nInstallationsordner: %7$s</string>
+    <string name="toolchain_local_title">%1$s %2$s</string>
+    <string name="toolchain_local_source">Lokaler Ordner · nicht im Katalog</string>
+    <string name="toolchain_bundled_source">In dieser App enthalten · kein Download nötig</string>
+    <string name="toolchain_download_storage">Download und Speicher</string>
+    <string name="toolchain_no_matches">Keine passenden Versionen. Suche oder Filter ändern.</string>
+    <string name="toolchain_compat_warning">Das aktive ndk-build-NDK fehlt oder ist inkompatibel. Ein kompatibles NDK installieren oder aktivieren; CMake verwendet weiterhin die im Projekt konfigurierte Version.</string>
+    <string name="toolchain_refresh">Bestand aktualisieren</string>
+    <string name="toolchain_script_failed">Installationsskript fehlgeschlagen (Exit %1$d). Diagnoseausgabe in den Statusdetails öffnen.</string>
+    <string name="toolchain_busybox_missing">libbusybox.so fehlt im APK. Entpacken der nativen Bibliotheken prüfen.</string>
+    <string name="toolchain_busybox_permission">BusyBox-Berechtigungen können nicht gesetzt werden.</string>
+    <string name="toolchain_busybox_list_failed">BusyBox-Appletliste kann nicht gelesen werden (Exit %1$d).</string>
+    <string name="toolchain_busybox_links_failed">Prüfung der BusyBox-Appletverknüpfungen fehlgeschlagen.</string>
+    <string name="toolchain_busybox_installing">BusyBox wird installiert…</string>
+    <string name="toolchain_command_timeout">Zeitüberschreitung beim Befehl: %1$s</string>
+    <string name="toolchain_check_failed">Werkzeugprüfung fehlgeschlagen (Exit %1$d): %2$s</string>
+    <string name="toolchain_extract_detail">%1$s wird entpackt\n%2$s</string>
+    <string name="toolchain_unknown_version">Unbekannte Toolchain-Version.</string>
+    <string name="toolchain_kotlin_source">Lokaler Compiler</string>
+    <string name="toolchain_bundled_title">Mitgeliefertes Kotlin %1$s</string>
+    <string name="toolchain_removing">Wird deinstalliert…</string>
+</resources>

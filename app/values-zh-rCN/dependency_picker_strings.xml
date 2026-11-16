@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dependency_popular_title">常用库</string>
+    <string name="dependency_popular_androidx">AndroidX 基础</string>
+    <string name="dependency_popular_architecture">架构组件</string>
+    <string name="dependency_popular_compose">Jetpack Compose</string>
+    <string name="dependency_popular_network">网络与 JSON</string>
+    <string name="dependency_popular_images">图片加载</string>
+    <string name="dependency_popular_storage">数据存储</string>
+    <string name="dependency_popular_kotlin">Kotlin 与协程</string>
+    <string name="dependency_popular_injection">依赖注入</string>
+    <string name="dependency_popular_tools">常用工具</string>
+    <string name="dependency_popular_processors">注解处理器</string>
+    <string name="dependency_search_idle_title">搜索依赖库</string>
+    <string name="dependency_search_idle_message">在 Google Maven、Maven Central、deps.dev 以及模块声明的仓库中，按名称、坐标或类名查找</string>
+    <string name="dependency_search_loading">正在搜索…</string>
+    <string name="dependency_search_partial">%1$s 暂时无法访问，结果可能不全</string>
+    <string name="dependency_added_version">已添加 %1$s</string>
+    <string name="dependency_change_version">修改版本</string>
+    <string name="dependency_update">更新</string>
+    <string name="dependency_version_updated">已更新 %1$s 的版本</string>
+    <string name="dependency_version_loading">正在查询可用版本…</string>
+    <plurals name="dependency_version_summary">
+        <item quantity="other">%1$d 个版本 · 最新正式版 %2$s</item>
+    </plurals>
+    <plurals name="dependency_version_count">
+        <item quantity="other">%d 个版本</item>
+    </plurals>
+    <string name="dependency_version_offline">无法联网，显示上次查到的版本</string>
+    <string name="dependency_version_not_found">仓库中没有找到这个库，可以直接输入版本</string>
+    <string name="dependency_version_tag_latest">最新正式版</string>
+    <string name="dependency_version_tag_prerelease">预览版</string>
+    <string name="dependency_version_tag_current">当前</string>
+    <string name="dependency_version_tag_downloaded">已下载</string>
+    <string name="dependency_add_search_summary">在 Google Maven、Maven Central 等仓库中搜索</string>
+    <string name="dependency_add_maven_summary">手动填写 group:artifact:version</string>
+    <string name="dependency_add_project_summary">依赖本工程的其他模块</string>
+    <string name="dependency_add_filetree_summary">引用目录里的全部 jar / aar</string>
+    <string name="dependency_add_file_summary">引用单个 jar / aar 文件</string>
+</resources>

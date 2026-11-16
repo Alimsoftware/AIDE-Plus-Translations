@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="project_tree_title">Project tree</string>
+    <string name="project_tree_show">Show project tree</string>
+    <string name="project_tree_locate">Select opened file</string>
+    <string name="project_tree_collapse_all">Collapse all</string>
+    <string name="project_tree_more">More options</string>
+    <string name="project_tree_refresh">Refresh</string>
+    <string name="project_tree_compact">Merge single folders</string>
+    <string name="project_tree_show_hidden">Show hidden and build folders</string>
+    <string name="project_tree_close">Close project tree</string>
+    <string name="project_tree_empty">Open a project to browse its files as a tree.</string>
+    <string name="project_tree_no_file">No file is open.</string>
+    <string name="project_tree_not_in_project">The opened file is not in this project.</string>
+    <string name="project_tree_expanded">%1$s, expanded</string>
+    <string name="project_tree_collapsed">%1$s, collapsed</string>
+    <string name="project_tree_mode_project">Project</string>
+    <string name="project_tree_mode_android">Android</string>
+    <string name="project_tree_view_mode">Switch view</string>
+    <string name="project_tree_gradle_scripts">Gradle Scripts</string>
+    <string name="project_tree_script_project">Project: %1$s</string>
+    <string name="project_tree_script_module">Module: %1$s</string>
+    <string name="project_tree_script_proguard">ProGuard rules for %1$s</string>
+    <string name="project_tree_script_properties">Project properties</string>
+    <string name="project_tree_script_wrapper">Gradle version</string>
+    <string name="project_tree_script_catalog">Version catalog</string>
+    <string name="project_tree_script_local">SDK location</string>
+    <string name="project_tree_script_settings">Project settings</string>
+    <string name="project_tree_drag_title">Drag to move in the project tree</string>
+    <string name="project_tree_drag_summary">Long-press a file or folder in the project tree, then drag it onto a folder (or onto a file in that folder) to move it there.</string>
+    <string name="project_tree_drag_menu">Drag to move</string>
+    <string name="project_tree_move_title">Move</string>
+    <string name="project_tree_move_message">Move %1$s to %2$s?</string>
+    <string name="project_tree_move_source_note">Package declarations in Java and Kotlin files are not changed.</string>
+    <string name="project_tree_move_exists">%1$s already exists in the target folder.</string>
+    <string name="project_tree_move_failed">Could not move %1$s: %2$s</string>
+</resources>

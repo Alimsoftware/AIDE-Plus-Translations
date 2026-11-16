@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="jf_screen_title">Formato Java do Eclipse</string>
+    <string name="jf_indent">Indentação</string>
+    <string name="jf_indent_size">Tamanho da indentação</string>
+    <string name="jf_indent_size_summary">%s (ao seguir o editor, usa a largura do editor)</string>
+    <string name="jf_line_width">Largura da linha</string>
+    <string name="jf_braces">Posição das chavetas</string>
+    <string name="jf_blank_lines">Linhas em branco a manter</string>
+    <string name="jf_join_wrapped">Juntar linhas quebradas</string>
+    <string name="jf_join_wrapped_summary">Desligado mantém as quebras de linha que escreveu</string>
+    <string name="jf_comments">Formatar comentários</string>
+    <string name="jf_annotation_newline">Nova linha após anotações</string>
+    <string name="jf_annotation_newline_summary">Em classes, métodos, campos e constantes de enum</string>
+    <string-array name="jf_indent_entries">
+        <item>Seguir o editor</item>
+        <item>Tabulações</item>
+        <item>Espaços</item>
+    </string-array>
+    <string-array name="jf_line_width_entries">
+        <item>Manter quebras (sem quebrar)</item>
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>160</item>
+    </string-array>
+    <string-array name="jf_braces_entries">
+        <item>Mesma linha</item>
+        <item>Linha seguinte</item>
+    </string-array>
+    <string-array name="jf_blank_lines_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>Manter todas</item>
+    </string-array>
+</resources>

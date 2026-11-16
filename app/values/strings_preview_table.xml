@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="preview_table_title">Table</string>
+    <string name="preview_table_loading">Loading table…</string>
+    <string name="preview_table_saving">Updating editor…</string>
+    <string name="preview_table_load_failed">Cannot load this table. Return to source and try again.</string>
+    <string name="preview_table_write_failed">The editor could not accept the change. The table was not changed.</string>
+    <string name="preview_table_empty">Empty table</string>
+    <string name="preview_table_header_on">Use first row as header</string>
+    <string name="preview_table_header_off">Use first row as data</string>
+    <string name="preview_table_add_row">Add row</string>
+    <string name="preview_table_add_column">Add column</string>
+    <string name="preview_table_find">Find in table</string>
+    <string name="preview_table_previous">Previous matching cell</string>
+    <string name="preview_table_next">Next matching cell</string>
+    <string name="preview_table_close_find">Close search</string>
+    <string name="preview_table_searching">Searching…</string>
+    <string name="preview_table_search_failed">Search failed. Try again.</string>
+    <string name="preview_table_no_match">No matching cells</string>
+    <string name="preview_table_match_position">%1$d / %2$d</string>
+    <string name="preview_table_status">%1$s · %2$s · %3$s</string>
+    <string name="preview_table_ragged">%1$s · Uneven row lengths</string>
+    <string name="preview_table_status_error">%1$s · Parse issue at line %2$d</string>
+    <string name="preview_table_warning">Parse issue at line %1$d · Tap to open source</string>
+    <string name="preview_table_open_error">Open parse issue in source</string>
+    <string name="preview_table_tab">Tab</string>
+    <string name="preview_table_comma">Comma</string>
+    <string name="preview_table_semicolon">Semicolon</string>
+    <string name="preview_table_row">Row %1$d</string>
+    <string name="preview_table_column">Column %1$d</string>
+    <string name="preview_table_cell">Row %1$d, column %2$d</string>
+    <string name="preview_table_cell_description">Row %1$d, column %2$d: %3$s</string>
+    <string name="preview_table_edit">Edit cell</string>
+    <string name="preview_table_row_above">Insert row above</string>
+    <string name="preview_table_row_below">Insert row below</string>
+    <string name="preview_table_column_left">Insert column to the left</string>
+    <string name="preview_table_column_right">Insert column to the right</string>
+    <string name="preview_table_delete_row">Delete row</string>
+    <string name="preview_table_delete_column">Delete column</string>
+    <string name="preview_table_delete">Delete</string>
+    <string name="preview_table_confirm_row">Delete row %1$d and all its cells? You can undo this in the source editor.</string>
+    <string name="preview_table_confirm_column">Delete column %1$d from all rows? You can undo this in the source editor.</string>
+    <plurals name="preview_table_rows">
+        <item quantity="one">%1$d row</item>
+        <item quantity="other">%1$d rows</item>
+    </plurals>
+    <plurals name="preview_table_columns">
+        <item quantity="one">%1$d column</item>
+        <item quantity="other">%1$d columns</item>
+    </plurals>
+</resources>

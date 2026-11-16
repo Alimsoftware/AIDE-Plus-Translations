@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="signing_settings_required">请输入绝对文件路径，并填写必填项。</string>
+    <string name="signing_settings_password">密码至少需要六个字符，且两次输入必须一致。</string>
+    <string name="signing_settings_validity">请输入 1 到 1000 的整数年数。</string>
+    <string name="signing_settings_country">请输入两位英文字母国家代码，或留空。</string>
+    <string name="signing_settings_exists">文件已存在。请选择新路径，不会覆盖已有密钥库。</string>
+    <string name="signing_settings_creating">正在创建密钥库…</string>
+    <string name="signing_settings_failed">无法创建或选用密钥库，请检查路径、存储权限和证书信息。</string>
+    <string name="signing_settings_backup">请安全备份密钥库及其密码。丢失后可能无法继续更新应用。</string>
+    <string name="signing_settings_saved">密钥库已创建，文件与密码已选用于自定义签名。</string>
+</resources>

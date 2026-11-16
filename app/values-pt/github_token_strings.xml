@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="github_token_title">Token de acesso do GitHub</string>
+    <string name="github_token_summary_none">Não configurado</string>
+    <string name="github_token_summary_saved">Configurado</string>
+    <string name="github_token_summary_quota">Configurado · restam %1$d pedidos por hora</string>
+    <string name="github_token_summary_rejected">Configurado · rejeitado pelo GitHub, a usar acesso anónimo</string>
+    <string name="github_token_summary_unavailable">Não é possível ler o token guardado. Introduza-o novamente.</string>
+    <string name="github_token_description">Usado na verificação de atualizações, na pesquisa Descobrir da página Compartilhados, nas atualizações das bibliotecas de ícones e noutros pedidos à API do GitHub. Sem token, o GitHub permite apenas 60 pedidos por hora. Repositórios públicos não precisam de permissões, por isso deixe todos os âmbitos por marcar. O token é guardado apenas neste dispositivo, encriptado.</string>
+    <string name="github_token_hint">Token de acesso pessoal</string>
+    <string name="github_token_keep_hint">Deixe em branco para verificar novamente o token guardado.</string>
+    <string name="github_token_saved_row">Token guardado</string>
+    <string name="github_token_save">Guardar</string>
+    <string name="github_token_request">Obter token</string>
+    <string name="github_token_clear">Limpar token</string>
+    <string name="github_token_clear_message">Remover o token do GitHub guardado? Os pedidos à API do GitHub voltam a usar acesso anónimo.</string>
+    <string name="github_token_clear_confirm">Limpar</string>
+    <string name="github_token_verifying">A verificar o token com o GitHub…</string>
+    <string name="github_token_saved_toast">Token guardado · limite de %1$d por hora, restam %2$d</string>
+    <string name="github_token_error_empty">Introduza um token.</string>
+    <string name="github_token_error_malformed">Um token não pode conter espaços nem caracteres não ASCII.</string>
+    <string name="github_token_error_rejected">O GitHub rejeitou este token (HTTP 401). Pode estar mal escrito, expirado ou revogado.</string>
+    <string name="github_token_error_http">O GitHub devolveu HTTP %1$d.</string>
+    <string name="github_token_error_network">Não foi possível contactar o GitHub: %1$s</string>
+    <string name="github_token_error_unrecognized">O GitHub devolveu uma resposta que não foi reconhecida.</string>
+    <string name="github_token_error_save">Não foi possível guardar o token em segurança.</string>
+    <string name="github_token_rejected">Token do GitHub inválido; a usar acesso anónimo.</string>
+    <string name="github_token_rate_limited_title">Limite de acesso ao GitHub atingido</string>
+    <string name="github_token_rate_limited_anonymous">A quota de acesso anónimo ao GitHub esgotou-se. Pode configurar um token em %1$s.</string>
+    <string name="github_token_rate_limited_until">A quota da API do GitHub esgotou-se. Será reposta às %1$s.</string>
+    <string name="github_token_rate_limited_later">A quota da API do GitHub esgotou-se. Tente novamente mais tarde.</string>
+    <string name="github_token_open_settings">Abrir definições</string>
+    <string name="github_token_configure">Configurar token de acesso do GitHub</string>
+    <string name="github_token_open_failed">Nenhuma aplicação disponível para abrir a ligação.</string>
+</resources>

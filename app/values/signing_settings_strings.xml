@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="signing_settings_required">Enter an absolute file path and complete the required fields.</string>
+    <string name="signing_settings_password">Use at least six characters and matching passwords.</string>
+    <string name="signing_settings_validity">Enter a whole number from 1 to 1000.</string>
+    <string name="signing_settings_country">Use a two-letter country code, or leave this blank.</string>
+    <string name="signing_settings_exists">This file already exists. Choose a new path; existing keystores are never overwritten.</string>
+    <string name="signing_settings_creating">Creating keystore…</string>
+    <string name="signing_settings_failed">Could not create or select the keystore. Check the path, storage access and certificate details.</string>
+    <string name="signing_settings_backup">Keep a secure backup of this keystore and its password. Losing them may prevent future app updates.</string>
+    <string name="signing_settings_saved">Keystore created. The file and password are now selected for custom signing.</string>
+</resources>

@@ -46,14 +46,8 @@
     <string name="dependency_inspection_failed">Abhängigkeiten können nicht geprüft werden</string>
     <string name="logcat_resume">Protokoll fortsetzen</string>
     <string name="logcat_pause">Protokoll pausieren</string>
-    <string name="logcat_paused">Pausiert; Erfassung läuft im Hintergrund weiter</string>
-    <string name="logcat_resumed">Fortgesetzt und Verlauf synchronisiert</string>
-    <string name="logcat_filters_applied">Filter angewendet</string>
-    <string name="logcat_showing_all">Alle Protokolle werden angezeigt</string>
     <string name="logcat_window_failed">Schwebendes Logcat kann nicht geöffnet werden (%1$s); zu AIDE zurückkehren und erneut versuchen</string>
     <string name="logcat_overlay_title">Schwebendes Logcat</string>
-    <string name="logcat_overlay_hint">Linkes Symbol zum Ein-/Ausblenden antippen; zum Schließen gedrückt halten</string>
-    <string name="logcat_adrt_service">ADRT-Protokolle werden vom nativen AIDE LogcatService bereitgestellt</string>
     <string name="logcat_shizuku_not_running">Shizuku läuft nicht; Shizuku zuerst starten</string>
     <string name="logcat_shizuku_authorize">Shizuku-Berechtigung verweigert; in Shizuku erteilen</string>
     <string name="logcat_shizuku_denied">Shizuku-Berechtigung verweigert</string>
@@ -200,6 +194,8 @@
     <string name="build_apt_processing">Annotationsprozessoren werden ausgeführt…</string>
     <string name="build_user_stopped">Build vom Benutzer gestoppt</string>
     <string name="build_unknown_error">Unbekannter Fehler</string>
+    <string name="build_automation_blocked_by_errors">Build blockiert: Das Projekt hat Kompilierfehler. Der KI-Client kann sie über build_status abrufen.</string>
+    <string name="build_automation_failed">Build fehlgeschlagen (vom KI-Client gestartet). Details im Build-Aufgabenbereich.</string>
     <string name="build_project_title">Build%1$s</string>
     <plurals name="build_compile_errors">
         <item quantity="one">%1$d Kompilierungsfehler</item>
@@ -232,8 +228,6 @@
     <string name="app_not_installed">Die App wurde nicht installiert.</string>
     <string name="app_launch_intent_missing">Die App wurde installiert, aber im Manifest wurde kein Start-Intent gefunden.</string>
     <string name="native_toolchain_install_hint">%1$s\n\nToolchain unter Einstellungen → Build und Ausführung → NDK-/CMake-Verwaltung installieren und erneut erstellen.</string>
-    <string name="logcat_handle_hide">Logcat ausblenden; zum Schließen gedrückt halten; zum Verschieben ziehen</string>
-    <string name="logcat_handle_show">Logcat anzeigen; zum Schließen gedrückt halten; zum Verschieben ziehen</string>
     <string name="signing_build_error">Build-Fehler</string>
     <string name="signing_invalid_credentials">Ungültige Keystore-Zugangsdaten!</string>
     <string name="signing_select_alias">Keystore-Alias auswählen</string>

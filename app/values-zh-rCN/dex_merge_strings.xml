@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="build_merge_all_dex">合并全部 DEX</string>
+    <string name="dex_merge_title">合并 DEX</string>
+    <string name="dex_merge_summary">把项目与依赖库的 DEX 合并成尽量少的文件（与 Android Gradle 插件的 release 构建相同）。调试构建仍分组合并，未变化的依赖直接复用，构建更快。</string>
+    <string-array name="dex_merge_entries">
+        <item>仅 release 构建（推荐）</item>
+        <item>总是</item>
+        <item>从不</item>
+    </string-array>
+</resources>

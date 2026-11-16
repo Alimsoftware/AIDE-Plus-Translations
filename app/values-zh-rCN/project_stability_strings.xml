@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="maven_cache_refresh_preserve_message">刷新依赖描述与版本元数据？保留已下载的 JAR/AAR 和已解包的依赖库，仅缺失或损坏的二进制文件需要重新下载。</string>
+    <string name="maven_cache_refreshing">正在刷新 Maven 元数据…</string>
+    <string name="maven_cache_refreshed">Maven 元数据已刷新</string>
+    <string name="maven_cache_refresh_failed">刷新 Maven 元数据失败，详情见日志。</string>
+    <string name="settings_needs_editor">请先进入编辑器再使用此项。</string>
+    <string name="command_recheck_error_files">重新检查有错误的文件</string>
+    <plurals name="recheck_error_files_started">
+        <item quantity="other">正在重新检查 %d 个有错误的文件…</item>
+    </plurals>
+    <string name="recheck_error_files_unavailable">代码分析尚未启动，请稍后再试。</string>
 </resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="signing_settings_required">Geben Sie einen absoluten Dateipfad ein und füllen Sie die Pflichtfelder aus.</string>
+    <string name="signing_settings_password">Verwenden Sie mindestens sechs Zeichen und übereinstimmende Passwörter.</string>
+    <string name="signing_settings_validity">Geben Sie eine ganze Zahl zwischen 1 und 1000 ein.</string>
+    <string name="signing_settings_country">Geben Sie einen Ländercode aus zwei Buchstaben ein oder lassen Sie das Feld leer.</string>
+    <string name="signing_settings_exists">Diese Datei existiert bereits. Wählen Sie einen neuen Pfad; vorhandene Schlüsselspeicher werden nie überschrieben.</string>
+    <string name="signing_settings_creating">Schlüsselspeicher wird erstellt…</string>
+    <string name="signing_settings_failed">Der Schlüsselspeicher konnte nicht erstellt oder ausgewählt werden. Prüfen Sie Pfad, Speicherzugriff und Zertifikatsangaben.</string>
+    <string name="signing_settings_backup">Bewahren Sie eine sichere Kopie dieses Schlüsselspeichers und seines Passworts auf. Bei Verlust sind weitere App-Updates möglicherweise nicht mehr möglich.</string>
+    <string name="signing_settings_saved">Schlüsselspeicher erstellt. Datei und Passwort sind jetzt für die eigene Signierung ausgewählt.</string>
+</resources>

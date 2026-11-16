@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="github_token_title">GitHub access token</string>
+    <string name="github_token_summary_none">Not configured</string>
+    <string name="github_token_summary_saved">Configured</string>
+    <string name="github_token_summary_quota">Configured · %1$d requests left per hour</string>
+    <string name="github_token_summary_rejected">Configured · rejected by GitHub, using anonymous access</string>
+    <string name="github_token_summary_unavailable">The saved token cannot be read. Enter it again.</string>
+    <string name="github_token_description">Used for update checks, Discover search on the Shared page, icon library updates and other GitHub API requests. Without a token GitHub allows only 60 requests per hour. Public repositories need no permissions, so leave every scope unchecked. The token is stored only on this device, encrypted.</string>
+    <string name="github_token_hint">Personal access token</string>
+    <string name="github_token_keep_hint">Leave blank to check the saved token again.</string>
+    <string name="github_token_saved_row">Saved token</string>
+    <string name="github_token_save">Save</string>
+    <string name="github_token_request">Get a token</string>
+    <string name="github_token_clear">Clear token</string>
+    <string name="github_token_clear_message">Remove the saved GitHub token? GitHub API requests will use anonymous access again.</string>
+    <string name="github_token_clear_confirm">Clear</string>
+    <string name="github_token_verifying">Checking the token with GitHub…</string>
+    <string name="github_token_saved_toast">Token saved · limit %1$d per hour, %2$d left</string>
+    <string name="github_token_error_empty">Enter a token.</string>
+    <string name="github_token_error_malformed">A token cannot contain spaces or non-ASCII characters.</string>
+    <string name="github_token_error_rejected">GitHub rejected this token (HTTP 401). It may be mistyped, expired or revoked.</string>
+    <string name="github_token_error_http">GitHub returned HTTP %1$d.</string>
+    <string name="github_token_error_network">Could not reach GitHub: %1$s</string>
+    <string name="github_token_error_unrecognized">GitHub returned a response that could not be recognized.</string>
+    <string name="github_token_error_save">Could not securely save the token.</string>
+    <string name="github_token_rejected">GitHub token is invalid; switched to anonymous access.</string>
+    <string name="github_token_rate_limited_title">GitHub access limit reached</string>
+    <string name="github_token_rate_limited_anonymous">GitHub anonymous access quota is used up. You can configure a token in %1$s.</string>
+    <string name="github_token_rate_limited_until">GitHub API quota is used up. It resets at %1$s.</string>
+    <string name="github_token_rate_limited_later">GitHub API quota is used up. Try again later.</string>
+    <string name="github_token_open_settings">Open settings</string>
+    <string name="github_token_configure">Configure GitHub access token</string>
+    <string name="github_token_open_failed">No app is available to open the link.</string>
+</resources>

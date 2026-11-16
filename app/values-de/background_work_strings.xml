@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="background_channel_work">Hintergrundaufgaben</string>
+    <string name="background_channel_events">Aufgabenergebnisse</string>
+    <string name="background_work_title">AIDE+ arbeitet im Hintergrund</string>
+    <string name="background_task_line">%1$s: %2$s</string>
+    <string name="background_stop_build">Build stoppen</string>
+    <string name="background_stop_agent">KI stoppen</string>
+    <string name="background_build_title">%1$s wird erstellt</string>
+    <string name="background_build_succeeded">Build abgeschlossen: %1$s</string>
+    <string name="background_build_failed">Build fehlgeschlagen: %1$s</string>
+    <string name="background_open_hint">Tippen, um zu AIDE+ zurückzukehren</string>
+    <string name="background_agent_title">KI-Assistent arbeitet</string>
+    <string name="background_agent_working">Antwort wird erstellt</string>
+    <string name="background_agent_tool">%1$s wird ausgeführt</string>
+    <string name="background_agent_waiting">Wartet auf deine Antwort</string>
+    <string name="background_agent_waiting_tool">Wartet auf deine Freigabe für %1$s</string>
+    <string name="background_agent_waiting_title">Der KI-Assistent braucht dich</string>
+    <string name="background_agent_done_title">KI-Assistent ist fertig</string>
+</resources>

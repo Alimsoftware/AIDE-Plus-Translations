@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="editor_ime_text_access_title">向输入法提供文本与选区</string>
+    <string name="editor_ime_text_access_summary">让输入法的光标键盘、选择键盘以及全选、剪切、复制、粘贴按钮正常工作；某个输入法在编辑器里表现异常时可以关闭。</string>
+</resources>

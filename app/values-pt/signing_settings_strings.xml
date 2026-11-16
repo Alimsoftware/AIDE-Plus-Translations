@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="signing_settings_required">Introduza um caminho absoluto e preencha os campos obrigatórios.</string>
+    <string name="signing_settings_password">Utilize pelo menos seis caracteres e palavras-passe iguais.</string>
+    <string name="signing_settings_validity">Introduza um número inteiro entre 1 e 1000.</string>
+    <string name="signing_settings_country">Introduza um código de país com duas letras ou deixe este campo vazio.</string>
+    <string name="signing_settings_exists">Este ficheiro já existe. Escolha outro caminho; os repositórios de chaves existentes nunca são substituídos.</string>
+    <string name="signing_settings_creating">A criar o repositório de chaves…</string>
+    <string name="signing_settings_failed">Não foi possível criar ou selecionar o repositório de chaves. Verifique o caminho, o acesso ao armazenamento e os dados do certificado.</string>
+    <string name="signing_settings_backup">Guarde uma cópia segura deste repositório de chaves e da respetiva palavra-passe. A sua perda pode impedir futuras atualizações da aplicação.</string>
+    <string name="signing_settings_saved">Repositório de chaves criado. O ficheiro e a palavra-passe estão selecionados para a assinatura personalizada.</string>
+</resources>

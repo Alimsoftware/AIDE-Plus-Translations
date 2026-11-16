@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="logcat_ui_header">LogCat · %1$s</string>
+    <string name="logcat_ui_menu">Logcat 菜单</string>
+    <string name="logcat_ui_open_floating">在悬浮窗中打开</string>
+    <string name="logcat_ui_close_floating">关闭悬浮窗</string>
+    <string name="logcat_ui_minimize">收起为气泡</string>
+    <string name="logcat_ui_bubble">悬浮 Logcat：点按展开，拖动移动，长按关闭</string>
+    <string name="logcat_ui_resize">拖动改变大小</string>
+    <string name="logcat_ui_overlay_hint">拖动标题栏移动、拖动右下角改变大小；可在标题栏收起为气泡</string>
+    <string name="logcat_ui_search">搜索</string>
+    <string name="logcat_ui_search_hint">搜索正文、标签、进程或 PID</string>
+    <string name="logcat_ui_filters">过滤</string>
+    <string name="logcat_ui_clear_filters">清除过滤</string>
+    <string name="logcat_ui_level_title">最低级别</string>
+    <string name="logcat_ui_filter_app">只看当前项目的应用</string>
+    <string name="logcat_ui_filter_tag">标签</string>
+    <string name="logcat_ui_filter_process">进程</string>
+    <string name="logcat_ui_filter_rules">规则</string>
+    <string name="logcat_ui_rules_hint">每行一条规则，如 tag:MyApp level:W,E\n以 - 开头表示排除，如 -text:heartbeat</string>
+    <string name="logcat_ui_pick_hint">输入或选择</string>
+    <string name="logcat_ui_pick_empty">还没有采集到可选的值</string>
+    <string name="logcat_ui_apply">应用</string>
+    <string name="logcat_ui_clear">清除</string>
+    <string name="logcat_ui_clear_log">清空日志</string>
+    <string name="logcat_ui_copy">复制日志</string>
+    <string name="logcat_ui_source">来源：%1$s</string>
+    <string name="logcat_ui_source_automatic">自动（su → Shizuku → ADRT）</string>
+    <string name="logcat_ui_source_su">su（root）</string>
+    <string name="logcat_ui_source_shizuku">Shizuku</string>
+    <string name="logcat_ui_source_adrt">ADRT（从 AIDE+ 运行的应用）</string>
+    <string name="logcat_ui_source_status">来源状态</string>
+    <string name="logcat_ui_mode_automatic">自动</string>
+    <string name="logcat_ui_mode_manual">手动</string>
+    <string name="logcat_ui_source_details">来源：%1$s\n模式：%2$s\n状态：%3$s\n历史：%4$d 行</string>
+    <string name="logcat_ui_status_starting">%1$s · 正在连接…</string>
+    <string name="logcat_ui_status_capturing">%1$s · 采集中</string>
+    <string name="logcat_ui_status_waiting">ADRT · 等待从 AIDE+ 运行的应用</string>
+    <string name="logcat_ui_status_failed">%1$s · %2$s</string>
+    <string name="logcat_ui_status_stopped">%1$s · 已停止</string>
+    <string name="logcat_ui_status_detail">%1$s · %2$s</string>
+    <string name="logcat_ui_status_paused">已暂停（后台继续采集）· %1$s</string>
+    <string name="logcat_ui_status_filtered">%1$s · 已过滤</string>
+    <string name="logcat_ui_fallback">%1$s 不可用（%2$s），已切换到 %3$s</string>
+    <string name="logcat_ui_no_project_app">打开 Android 项目后才能按其应用过滤</string>
+    <string name="logcat_ui_only_app">只显示 %1$s</string>
+    <string name="logcat_ui_rule_missing">第 %1$d 行：规则为空</string>
+    <string name="logcat_ui_rule_missing_value">第 %1$d 行：%2$s 缺少值</string>
+    <string name="logcat_ui_rule_level">第 %1$d 行：未知的级别 %2$s</string>
+    <string name="logcat_ui_rule_field">第 %1$d 行：未知的字段 %2$s</string>
+    <string name="logcat_ui_rule_quote">第 %1$d 行：引号未闭合</string>
+    <string-array name="logcat_ui_level_names">
+        <item>V · 详细（全部）</item>
+        <item>D · 调试</item>
+        <item>I · 信息</item>
+        <item>W · 警告</item>
+        <item>E · 错误</item>
+        <item>F · 致命</item>
+    </string-array>
+    <plurals name="logcat_ui_copied">
+        <item quantity="other">已复制 %1$d 行</item>
+    </plurals>
+</resources>

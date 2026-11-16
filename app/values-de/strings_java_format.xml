@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="jf_screen_title">Eclipse-Java-Format</string>
+    <string name="jf_indent">Einrückung</string>
+    <string name="jf_indent_size">Einrückungsbreite</string>
+    <string name="jf_indent_size_summary">%s (bei „Editor folgen“ wird die Editorbreite verwendet)</string>
+    <string name="jf_line_width">Zeilenbreite</string>
+    <string name="jf_braces">Klammerposition</string>
+    <string name="jf_blank_lines">Beizubehaltende Leerzeilen</string>
+    <string name="jf_join_wrapped">Umbrochene Zeilen zusammenführen</string>
+    <string name="jf_join_wrapped_summary">Aus: eigene Zeilenumbrüche bleiben erhalten</string>
+    <string name="jf_comments">Kommentare formatieren</string>
+    <string name="jf_annotation_newline">Neue Zeile nach Annotationen</string>
+    <string name="jf_annotation_newline_summary">Bei Klassen, Methoden, Feldern und Enum-Konstanten</string>
+    <string-array name="jf_indent_entries">
+        <item>Editor folgen</item>
+        <item>Tabulatoren</item>
+        <item>Leerzeichen</item>
+    </string-array>
+    <string-array name="jf_line_width_entries">
+        <item>Umbrüche beibehalten (kein Umbruch)</item>
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>160</item>
+    </string-array>
+    <string-array name="jf_braces_entries">
+        <item>Gleiche Zeile</item>
+        <item>Nächste Zeile</item>
+    </string-array>
+    <string-array name="jf_blank_lines_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>Alle behalten</item>
+    </string-array>
+</resources>

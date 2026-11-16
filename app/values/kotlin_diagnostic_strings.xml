@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="kotlin_diagnostic_details">Kotlin problem details</string>
+    <string name="kotlin_diagnostic_original">Complete compiler diagnostic</string>
+    <string name="kotlin_diagnostic_go_to_code">Go to code</string>
+    <string name="kotlin_diagnostic_location">Line %1$d · Column %2$d</string>
+    <string name="kotlin_diagnostic_missing_argument">Missing required argument: %1$s</string>
+    <string name="kotlin_diagnostic_missing_argument_advice">Pass a value for %1$s at this call. The editor’s Fix (Kotlin) action may offer a placeholder; replace it with a real value before running.</string>
+    <string name="kotlin_diagnostic_unknown_parameter">Unknown parameter: %1$s</string>
+    <string name="kotlin_diagnostic_unknown_parameter_advice">Check the parameter name against the function declaration and the library version in this project.</string>
+    <string name="kotlin_diagnostic_too_many_arguments">Too many arguments</string>
+    <string name="kotlin_diagnostic_too_many_arguments_advice">Compare the call with the function declaration. Remove extra arguments or choose the intended overload.</string>
+    <string name="kotlin_diagnostic_no_matching_overload">No matching function call</string>
+    <string name="kotlin_diagnostic_ambiguous_overload">More than one function matches this call</string>
+    <string name="kotlin_diagnostic_overload_advice">Check argument names, count and types. The signatures below are alternatives, not separate fixes that must all be applied.</string>
+    <string name="kotlin_diagnostic_unresolved_reference">Cannot resolve: %1$s</string>
+    <string name="kotlin_diagnostic_unresolved_reference_advice">Check spelling, imports and downloaded project dependencies. Use Fix (Kotlin) to see available import suggestions.</string>
+    <string name="kotlin_diagnostic_type_mismatch">Value type does not match the required type</string>
+    <string name="kotlin_diagnostic_type_mismatch_advice">Compare the actual and expected types in the complete diagnostic below, including whether null is allowed.</string>
+    <string name="kotlin_diagnostic_composable_context">Composable call outside a Composable context</string>
+    <string name="kotlin_diagnostic_composable_context_advice">Call this function from a @Composable function or lambda. Only add @Composable if the enclosing function is intended to build UI.</string>
+    <string name="kotlin_diagnostic_suspend_context">Suspend call outside a coroutine</string>
+    <string name="kotlin_diagnostic_suspend_context_advice">Call this function from a coroutine or another suspend function. In Compose, use an appropriate effect such as LaunchedEffect for side effects.</string>
+    <string name="kotlin_diagnostic_unsafe_call">Receiver may be null</string>
+    <string name="kotlin_diagnostic_unsafe_call_advice">Check for null or use a safe call (?.). Do not use !! unless the value is guaranteed to be non-null.</string>
+    <string name="kotlin_diagnostic_other_advice">Read the complete diagnostic below for context. The original text is preserved for copying and troubleshooting.</string>
+    <string name="kotlin_diagnostic_unknown">Kotlin compiler diagnostic</string>
+</resources>

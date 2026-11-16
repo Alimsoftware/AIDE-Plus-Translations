@@ -43,4 +43,8 @@
     <string name="tm_notice">Importe apenas gramáticas de confiança. Os motores regex diferem; nem todas as gramáticas TextMate/VS Code são compatíveis e os limites de tempo não conseguem interromper todas as expressões lentas. As importações são copiadas para dados privados da aplicação, não para o projeto ou recursos integrados. Includes desconhecidos nunca são descarregados. Os interruptores afetam ficheiros, não includes usados por outras gramáticas. O interruptor global TextMate mantém-se. Guardar não recarrega o projeto automaticamente.</string>
     <string name="tm_limits">Suportado: JSON UTF-8 e XML plist, não plist binário, YAML ou ZIP. Entrada até 512 KiB, gramática normalizada até 1 MiB; 32 gramáticas externas, 256 associações e 8 MiB de dados de gramática. Pré-visualização: 4096 caracteres, 20 linhas, 512 caracteres por linha; orçamento flexível de 1 segundo. Os conflitos não substituem alterações mais recentes.</string>
     <string name="tm_draft_lost">O processo foi reiniciado. Volte a selecionar a gramática para reconstruir a pré-visualização não guardada.</string>
+    <string name="tm_toggle_source">Ativar gramática %1$s</string>
+    <string name="tm_toggle_mapping">Ativar associação de ficheiro %1$s</string>
+    <string name="tm_no_results">Nenhuma gramática ou associação de ficheiro corresponde à pesquisa.</string>
+    <string name="tm_no_entries">Este grupo não tem entradas.</string>
 </resources>

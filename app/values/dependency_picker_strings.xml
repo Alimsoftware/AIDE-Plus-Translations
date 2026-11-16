@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="dependency_popular_title">Popular</string>
+    <string name="dependency_popular_androidx">AndroidX basics</string>
+    <string name="dependency_popular_architecture">Architecture components</string>
+    <string name="dependency_popular_compose">Jetpack Compose</string>
+    <string name="dependency_popular_network">Networking &amp; JSON</string>
+    <string name="dependency_popular_images">Image loading</string>
+    <string name="dependency_popular_storage">Data storage</string>
+    <string name="dependency_popular_kotlin">Kotlin &amp; coroutines</string>
+    <string name="dependency_popular_injection">Dependency injection</string>
+    <string name="dependency_popular_tools">Utilities</string>
+    <string name="dependency_popular_processors">Annotation processors</string>
+    <string name="dependency_search_idle_title">Search libraries</string>
+    <string name="dependency_search_idle_message">Find libraries on Google Maven, Maven Central, deps.dev and the repositories this module declares, by name, coordinates or class name</string>
+    <string name="dependency_search_loading">Searching…</string>
+    <string name="dependency_search_partial">%1$s unavailable right now; results may be incomplete</string>
+    <string name="dependency_added_version">Added %1$s</string>
+    <string name="dependency_change_version">Change version</string>
+    <string name="dependency_update">Update</string>
+    <string name="dependency_version_updated">Updated the version of %1$s</string>
+    <string name="dependency_version_loading">Looking up available versions…</string>
+    <plurals name="dependency_version_summary">
+        <item quantity="one">%1$d version · latest stable %2$s</item>
+        <item quantity="other">%1$d versions · latest stable %2$s</item>
+    </plurals>
+    <plurals name="dependency_version_count">
+        <item quantity="one">%d version</item>
+        <item quantity="other">%d versions</item>
+    </plurals>
+    <string name="dependency_version_offline">Offline: showing versions from the last lookup</string>
+    <string name="dependency_version_not_found">Not found in the repositories; you can type a version</string>
+    <string name="dependency_version_tag_latest">Latest stable</string>
+    <string name="dependency_version_tag_prerelease">Preview</string>
+    <string name="dependency_version_tag_current">Current</string>
+    <string name="dependency_version_tag_downloaded">Downloaded</string>
+    <string name="dependency_add_search_summary">Search Google Maven, Maven Central and more</string>
+    <string name="dependency_add_maven_summary">Type group:artifact:version yourself</string>
+    <string name="dependency_add_project_summary">Depend on another module of this project</string>
+    <string name="dependency_add_filetree_summary">Use every jar / aar in a folder</string>
+    <string name="dependency_add_file_summary">Use a single jar / aar file</string>
+</resources>

@@ -26,4 +26,15 @@
     <string name="build_menu_gradle_other">其他任务…</string>
     <string name="build_gradle_tasks_hint">任务与参数，例如 :app:assembleRelease --stacktrace</string>
     <string name="build_run">运行</string>
+    <plurals name="terminal_apk_title">
+        <item quantity="one">构建生成了 %d 个 APK</item>
+        <item quantity="other">构建生成了 %d 个 APK</item>
+    </plurals>
+    <string name="terminal_apk_item">%1$s · %2$s\n%3$s</string>
+    <string name="terminal_apk_install">安装</string>
+    <string name="terminal_apk_resign">重新签名…</string>
+    <string name="terminal_apk_choose_profile">选择签名配置</string>
+    <string name="terminal_apk_no_profiles">没有已保存的签名配置，可在项目属性的“签名”中添加。</string>
+    <string name="terminal_apk_signing">正在签名 %1$s…</string>
+    <string name="terminal_apk_failed">无法安装 APK</string>
 </resources>

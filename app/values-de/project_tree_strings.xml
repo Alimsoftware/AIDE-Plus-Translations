@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="project_tree_title">Projektbaum</string>
+    <string name="project_tree_show">Projektbaum anzeigen</string>
+    <string name="project_tree_locate">Geöffnete Datei auswählen</string>
+    <string name="project_tree_collapse_all">Alle einklappen</string>
+    <string name="project_tree_more">Weitere Optionen</string>
+    <string name="project_tree_refresh">Aktualisieren</string>
+    <string name="project_tree_compact">Einzelne Ordner zusammenfassen</string>
+    <string name="project_tree_show_hidden">Versteckte und Build-Ordner anzeigen</string>
+    <string name="project_tree_close">Projektbaum schließen</string>
+    <string name="project_tree_empty">Öffne ein Projekt, um seine Dateien als Baum zu durchsuchen.</string>
+    <string name="project_tree_no_file">Keine Datei geöffnet.</string>
+    <string name="project_tree_not_in_project">Die geöffnete Datei gehört nicht zu diesem Projekt.</string>
+    <string name="project_tree_expanded">%1$s, ausgeklappt</string>
+    <string name="project_tree_collapsed">%1$s, eingeklappt</string>
+    <string name="project_tree_mode_project">Projekt</string>
+    <string name="project_tree_mode_android">Android</string>
+    <string name="project_tree_view_mode">Ansicht wechseln</string>
+    <string name="project_tree_gradle_scripts">Gradle-Skripte</string>
+    <string name="project_tree_script_project">Projekt: %1$s</string>
+    <string name="project_tree_script_module">Modul: %1$s</string>
+    <string name="project_tree_script_proguard">ProGuard-Regeln für %1$s</string>
+    <string name="project_tree_script_properties">Projekteigenschaften</string>
+    <string name="project_tree_script_wrapper">Gradle-Version</string>
+    <string name="project_tree_script_catalog">Versionskatalog</string>
+    <string name="project_tree_script_local">SDK-Speicherort</string>
+    <string name="project_tree_script_settings">Projekteinstellungen</string>
+    <string name="project_tree_drag_title">Im Projektbaum per Ziehen verschieben</string>
+    <string name="project_tree_drag_summary">Halte im Projektbaum eine Datei oder einen Ordner gedrückt und ziehe sie auf einen Ordner (oder eine Datei darin), um sie dorthin zu verschieben.</string>
+    <string name="project_tree_drag_menu">Zum Verschieben ziehen</string>
+    <string name="project_tree_move_title">Verschieben</string>
+    <string name="project_tree_move_message">%1$s nach %2$s verschieben?</string>
+    <string name="project_tree_move_source_note">Package-Deklarationen in Java- und Kotlin-Dateien werden nicht angepasst.</string>
+    <string name="project_tree_move_exists">%1$s ist im Zielordner bereits vorhanden.</string>
+    <string name="project_tree_move_failed">%1$s konnte nicht verschoben werden: %2$s</string>
+</resources>

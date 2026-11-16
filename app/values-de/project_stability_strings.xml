@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="maven_cache_refresh_preserve_message">Abhängigkeitsbeschreibungen und Versionsmetadaten aktualisieren? Vorhandene JAR/AAR-Dateien und entpackte Bibliotheken bleiben erhalten. Nur fehlende oder beschädigte Binärdateien werden erneut geladen.</string>
+    <string name="maven_cache_refreshing">Maven-Metadaten werden aktualisiert…</string>
+    <string name="maven_cache_refreshed">Maven-Metadaten aktualisiert</string>
+    <string name="maven_cache_refresh_failed">Maven-Metadaten konnten nicht aktualisiert werden. Details im Protokoll.</string>
+    <string name="settings_needs_editor">Öffne zuerst den Editor, um diese Option zu verwenden.</string>
+    <string name="command_recheck_error_files">Dateien mit Fehlern erneut prüfen</string>
+    <plurals name="recheck_error_files_started">
+        <item quantity="one">%d Datei mit Fehlern wird erneut geprüft…</item>
+        <item quantity="other">%d Dateien mit Fehlern werden erneut geprüft…</item>
+    </plurals>
+    <string name="recheck_error_files_unavailable">Die Codeanalyse läuft noch nicht. Bitte gleich noch einmal versuchen.</string>
 </resources>

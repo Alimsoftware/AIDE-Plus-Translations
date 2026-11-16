@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="github_token_title">GitHub-Zugriffstoken</string>
+    <string name="github_token_summary_none">Nicht eingerichtet</string>
+    <string name="github_token_summary_saved">Eingerichtet</string>
+    <string name="github_token_summary_quota">Eingerichtet · noch %1$d Anfragen pro Stunde</string>
+    <string name="github_token_summary_rejected">Eingerichtet · von GitHub abgelehnt, anonymer Zugriff aktiv</string>
+    <string name="github_token_summary_unavailable">Das gespeicherte Token kann nicht gelesen werden. Bitte erneut eingeben.</string>
+    <string name="github_token_description">Wird für Update-Prüfungen, die Suche unter „Entdecken“ auf der Seite „Geteilt“, Updates der Symbolbibliotheken und andere GitHub-API-Anfragen verwendet. Ohne Token erlaubt GitHub nur 60 Anfragen pro Stunde. Für öffentliche Repositorys sind keine Berechtigungen nötig, lassen Sie alle Bereiche leer. Das Token wird nur auf diesem Gerät und verschlüsselt gespeichert.</string>
+    <string name="github_token_hint">Persönliches Zugriffstoken</string>
+    <string name="github_token_keep_hint">Leer lassen, um das gespeicherte Token erneut zu prüfen.</string>
+    <string name="github_token_saved_row">Gespeichertes Token</string>
+    <string name="github_token_save">Speichern</string>
+    <string name="github_token_request">Token anfordern</string>
+    <string name="github_token_clear">Token löschen</string>
+    <string name="github_token_clear_message">Gespeichertes GitHub-Token entfernen? GitHub-API-Anfragen erfolgen danach wieder anonym.</string>
+    <string name="github_token_clear_confirm">Löschen</string>
+    <string name="github_token_verifying">Token wird bei GitHub geprüft …</string>
+    <string name="github_token_saved_toast">Token gespeichert · Limit %1$d pro Stunde, noch %2$d übrig</string>
+    <string name="github_token_error_empty">Bitte ein Token eingeben.</string>
+    <string name="github_token_error_malformed">Ein Token darf keine Leerzeichen oder Nicht-ASCII-Zeichen enthalten.</string>
+    <string name="github_token_error_rejected">GitHub hat dieses Token abgelehnt (HTTP 401). Es ist möglicherweise falsch, abgelaufen oder widerrufen.</string>
+    <string name="github_token_error_http">GitHub hat HTTP %1$d zurückgegeben.</string>
+    <string name="github_token_error_network">GitHub ist nicht erreichbar: %1$s</string>
+    <string name="github_token_error_unrecognized">Die Antwort von GitHub konnte nicht erkannt werden.</string>
+    <string name="github_token_error_save">Das Token konnte nicht sicher gespeichert werden.</string>
+    <string name="github_token_rejected">GitHub-Token ungültig, es wird anonym zugegriffen.</string>
+    <string name="github_token_rate_limited_title">GitHub-Zugriffslimit erreicht</string>
+    <string name="github_token_rate_limited_anonymous">Das Kontingent für anonyme GitHub-Zugriffe ist aufgebraucht. Unter %1$s können Sie ein Token einrichten.</string>
+    <string name="github_token_rate_limited_until">Das GitHub-API-Kontingent ist aufgebraucht. Es wird um %1$s zurückgesetzt.</string>
+    <string name="github_token_rate_limited_later">Das GitHub-API-Kontingent ist aufgebraucht. Bitte später erneut versuchen.</string>
+    <string name="github_token_open_settings">Einstellungen öffnen</string>
+    <string name="github_token_configure">GitHub-Zugriffstoken einrichten</string>
+    <string name="github_token_open_failed">Keine App zum Öffnen des Links verfügbar.</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="github_token_title">GitHub 访问令牌</string>
+    <string name="github_token_summary_none">未配置</string>
+    <string name="github_token_summary_saved">已配置</string>
+    <string name="github_token_summary_quota">已配置 · 剩余 %1$d 次/小时</string>
+    <string name="github_token_summary_rejected">已配置 · 令牌被 GitHub 拒绝，当前使用匿名访问</string>
+    <string name="github_token_summary_unavailable">无法读取已保存的令牌，请重新输入。</string>
+    <string name="github_token_description">用于检查更新、共享页的“发现”搜索、图标库更新等 GitHub API 请求；不配置令牌时 GitHub 每小时只允许 60 次。公开仓库不需要勾选任何权限；令牌只保存在本机并加密。</string>
+    <string name="github_token_hint">个人访问令牌</string>
+    <string name="github_token_keep_hint">留空则重新验证已保存的令牌。</string>
+    <string name="github_token_saved_row">已保存的令牌</string>
+    <string name="github_token_save">保存</string>
+    <string name="github_token_request">申请令牌</string>
+    <string name="github_token_clear">清除令牌</string>
+    <string name="github_token_clear_message">清除已保存的 GitHub 令牌？之后访问 GitHub API 将改用匿名访问。</string>
+    <string name="github_token_clear_confirm">清除</string>
+    <string name="github_token_verifying">正在向 GitHub 验证令牌…</string>
+    <string name="github_token_saved_toast">令牌已保存 · 每小时上限 %1$d 次，剩余 %2$d 次</string>
+    <string name="github_token_error_empty">请输入令牌。</string>
+    <string name="github_token_error_malformed">令牌不能包含空格或非 ASCII 字符。</string>
+    <string name="github_token_error_rejected">GitHub 拒绝了这个令牌（HTTP 401），可能填错、已过期或已被撤销。</string>
+    <string name="github_token_error_http">GitHub 返回了 HTTP %1$d。</string>
+    <string name="github_token_error_network">无法连接 GitHub：%1$s</string>
+    <string name="github_token_error_unrecognized">GitHub 返回了无法识别的内容。</string>
+    <string name="github_token_error_save">无法安全保存令牌。</string>
+    <string name="github_token_rejected">GitHub 令牌无效，已改用匿名访问</string>
+    <string name="github_token_rate_limited_title">GitHub 访问受限</string>
+    <string name="github_token_rate_limited_anonymous">GitHub 匿名访问次数已用完，可在 %1$s 中配置</string>
+    <string name="github_token_rate_limited_until">GitHub API 访问次数已用完，将于 %1$s 恢复。</string>
+    <string name="github_token_rate_limited_later">GitHub API 访问次数已用完，请稍后再试。</string>
+    <string name="github_token_open_settings">打开设置</string>
+    <string name="github_token_configure">配置 GitHub 访问令牌</string>
+    <string name="github_token_open_failed">没有可打开此链接的应用。</string>
+</resources>

@@ -46,14 +46,8 @@
     <string name="dependency_inspection_failed">查看失败</string>
     <string name="logcat_resume">继续日志</string>
     <string name="logcat_pause">暂停日志</string>
-    <string name="logcat_paused">已暂停，后台仍持续收集</string>
-    <string name="logcat_resumed">已继续并同步历史</string>
-    <string name="logcat_filters_applied">过滤已应用</string>
-    <string name="logcat_showing_all">已显示全部日志</string>
     <string name="logcat_window_failed">无法打开悬浮 Logcat（%1$s）；请返回 AIDE 后重试</string>
     <string name="logcat_overlay_title">Logcat 悬浮窗</string>
-    <string name="logcat_overlay_hint">左侧图标显隐，长按关闭</string>
-    <string name="logcat_adrt_service">ADRT 日志由 AIDE 原生 LogcatService 提供</string>
     <string name="logcat_shizuku_not_running">Shizuku 未运行，请先启动 Shizuku</string>
     <string name="logcat_shizuku_authorize">Shizuku 授权已被拒绝，请在 Shizuku 中授权</string>
     <string name="logcat_shizuku_denied">Shizuku 授权被拒绝</string>
@@ -200,6 +194,8 @@
     <string name="build_apt_processing">注解处理…</string>
     <string name="build_user_stopped">用户停止了构建</string>
     <string name="build_unknown_error">未知错误</string>
+    <string name="build_automation_blocked_by_errors">构建被拦下：项目有编译错误。AI 客户端可通过 build_status 读取错误列表。</string>
+    <string name="build_automation_failed">构建失败（由 AI 客户端发起），详情见构建任务面板。</string>
     <string name="build_project_title">构建%1$s</string>
     <plurals name="build_compile_errors">
         <item quantity="one">编译错误 %1$d 处</item>
@@ -232,8 +228,6 @@
     <string name="app_not_installed">该应用未安装。</string>
     <string name="app_launch_intent_missing">该应用程序已成功安装，但在清单中未发现任何启动意图。</string>
     <string name="native_toolchain_install_hint">%1$s\n\n请在 设置 → 构建与运行 → NDK / CMake 管理 中安装后再构建。</string>
-    <string name="logcat_handle_hide">隐藏 Logcat；长按关闭；拖动移动</string>
-    <string name="logcat_handle_show">显示 Logcat；长按关闭；拖动移动</string>
     <string name="signing_build_error">构建错误</string>
     <string name="signing_invalid_credentials">无效的密钥库凭据！</string>
     <string name="signing_select_alias">选择密钥库别名</string>

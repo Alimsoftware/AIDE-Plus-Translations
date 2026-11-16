@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="goto_title">Ir para</string>
+    <string name="goto_hint">Classes, arquivos, símbolos, ações…</string>
+    <string name="goto_tab_all">Tudo</string>
+    <string name="goto_tab_classes">Classes</string>
+    <string name="goto_tab_files">Arquivos</string>
+    <string name="goto_tab_symbols">Símbolos</string>
+    <string name="goto_tab_actions">Ações</string>
+    <string name="goto_section_open_files">Arquivos abertos</string>
+    <string name="goto_show_all">Todos (%1$d)</string>
+    <string name="goto_line">Ir para a linha %1$d</string>
+    <string name="goto_line_column">Ir para a linha %1$d, coluna %2$d</string>
+    <string name="goto_nav_next_error">Próximo erro</string>
+    <string name="goto_nav_previous_error">Erro anterior</string>
+    <string name="goto_nav_back">Voltar</string>
+    <string name="goto_nav_forward">Avançar</string>
+    <string name="goto_no_results">Nada corresponde a “%1$s”</string>
+    <string name="goto_too_many">Muitos resultados. Continue digitando para refiná-los.</string>
+    <string name="goto_no_project">Abra um projeto para pesquisar suas classes, arquivos e símbolos.</string>
+    <string name="goto_files_truncated">Apenas os primeiros %1$d arquivos deste projeto são pesquisados.</string>
+    <string name="goto_library">Biblioteca</string>
+    <string name="goto_clear">Limpar</string>
+    <string name="goto_type_to_search">Digite o nome de uma classe, arquivo ou símbolo. Use Nome:linha para ir a uma linha.</string>
+    <string name="goto_engine_unavailable">A análise de código ainda não está pronta.</string>
+    <string name="goto_tab_current">Este arquivo</string>
+    <string name="goto_section_recent">Recentes</string>
+    <string name="goto_clear_recent">Limpar</string>
+    <string name="goto_tip">Nome:linha abre um arquivo numa linha, :linha salta dentro deste arquivo. Toque e segure numa classe ou membro para ver a documentação.</string>
+    <string name="goto_current_unavailable">O arquivo atual não é Java nem Kotlin, ou não tem declarações para listar.</string>
+</resources>

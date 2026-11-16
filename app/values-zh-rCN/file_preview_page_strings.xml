@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pv_cannot_preview">无法预览</string>
+    <string name="pv_open_page">在独立页面打开</string>
+    <string name="pv_hex">十六进制</string>
+    <string name="pv_hex_summary">逐字节查看文件内容</string>
+    <string name="pv_hex_partial">只显示此条目的前 %1$s</string>
+    <string name="pv_go_to_offset">跳转到偏移</string>
+    <string name="pv_offset_invalid">请输入小于 %1$s 的偏移（十进制，或十六进制如 0x1F0）</string>
+    <string name="pv_close_search">关闭搜索</string>
+    <string name="pv_search_results">搜索结果</string>
+    <string name="pv_view_packages">按包查看</string>
+    <string name="pv_view_folders">按目录查看</string>
+    <string name="pv_find_previous">上一个</string>
+    <string name="pv_find_next">下一个</string>
+    <string name="pv_no_match">无匹配</string>
+    <string name="pv_match_position">%1$d/%2$d</string>
+    <string name="pv_section_file">文件</string>
+    <string name="pv_section_format">格式</string>
+    <string name="pv_section_checksum">校验</string>
+    <string name="pv_section_content">内容</string>
+    <string name="pv_entry">条目</string>
+    <string name="pv_archive">所在归档</string>
+    <string name="pv_size">大小</string>
+    <string name="pv_compressed">压缩后大小</string>
+    <string name="pv_modified">修改时间</string>
+    <string name="pv_type">类型</string>
+    <string name="pv_tap_to_calculate">点按计算</string>
+    <string name="pv_uncompressed_short">解压后 %1$s</string>
+    <string name="pv_app_name">应用名称</string>
+    <string name="pv_app_version">版本</string>
+    <string name="pv_fact_format">格式</string>
+    <string name="pv_fact_abi">ABI</string>
+    <string name="pv_fact_elf_type">ELF 类型</string>
+    <string name="pv_fact_dex_version">DEX 版本</string>
+    <string name="pv_fact_classes">类</string>
+    <string name="pv_fact_methods">方法引用</string>
+    <string name="pv_fact_strings">字符串</string>
+    <string name="pv_fact_java_version">Java 版本</string>
+    <string name="pv_fact_entries">文件数</string>
+    <string name="pv_fact_uncompressed">解压后大小</string>
+    <string name="pv_fact_implementation">实现版本</string>
+    <string name="pv_fact_package">包名</string>
+    <string name="pv_fact_min_sdk">最低 SDK</string>
+    <string name="pv_fact_target_sdk">目标 SDK</string>
+    <string name="pv_copy">复制</string>
+    <string name="pv_media_error">此设备无法播放该文件，可尝试用其他应用打开。</string>
+    <string name="pv_media_tap">点按显示播放控制</string>
+    <string name="pv_pdf_error">此 PDF 已损坏或不受支持。</string>
+    <string name="pv_pdf_protected">此 PDF 受密码保护，请用其他应用打开。</string>
+    <string name="pv_sqlite_error">无法以只读方式打开此数据库。</string>
+    <string name="pv_sqlite_empty">此数据库没有表</string>
+    <string name="pv_sqlite_tables">表</string>
+    <string name="pv_sqlite_views">视图</string>
+    <string name="pv_sqlite_first_rows">显示前 %1$d 行（共 %2$d 行）</string>
+    <string name="pv_certificate">证书</string>
+    <string name="pv_certificate_number">证书 %1$d</string>
+    <string name="pv_certificate_error">不是可读取的 X.509 证书。</string>
+    <string name="pv_certificate_subject">主体</string>
+    <string name="pv_certificate_issuer">颁发者</string>
+    <string name="pv_certificate_valid">有效期</string>
+    <string name="pv_certificate_serial">序列号</string>
+    <string name="pv_certificate_signature">签名算法</string>
+    <string name="pv_certificate_key">公钥</string>
+    <string name="pv_font_sample_line">天地玄黄，宇宙洪荒 Aa Bb Cc 0123</string>
+    <string name="pv_font_characters">字符</string>
+    <plurals name="pv_entries">
+        <item quantity="other">%1$d 项</item>
+    </plurals>
+    <plurals name="pv_hidden_entries">
+        <item quantity="other">已隐藏 %1$d 个路径不安全的条目</item>
+    </plurals>
+    <plurals name="pv_lines">
+        <item quantity="other">%1$d 行</item>
+    </plurals>
+    <plurals name="pv_pages">
+        <item quantity="other">%1$d 页</item>
+    </plurals>
+    <plurals name="pv_tables">
+        <item quantity="other">%1$d 张表</item>
+    </plurals>
+    <plurals name="pv_rows">
+        <item quantity="other">%1$d 行</item>
+    </plurals>
+    <plurals name="pv_columns">
+        <item quantity="other">%1$d 列</item>
+    </plurals>
+</resources>

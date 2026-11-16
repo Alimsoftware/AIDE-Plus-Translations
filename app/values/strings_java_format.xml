@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="jf_screen_title">Eclipse Java format</string>
+    <string name="jf_indent">Indentation</string>
+    <string name="jf_indent_size">Indentation size</string>
+    <string name="jf_indent_size_summary">%s (ignored when following the editor)</string>
+    <string name="jf_line_width">Line width</string>
+    <string name="jf_braces">Brace position</string>
+    <string name="jf_blank_lines">Blank lines to keep</string>
+    <string name="jf_join_wrapped">Join wrapped lines</string>
+    <string name="jf_join_wrapped_summary">Off keeps the line breaks you wrote</string>
+    <string name="jf_comments">Format comments</string>
+    <string name="jf_annotation_newline">New line after annotations</string>
+    <string name="jf_annotation_newline_summary">On classes, methods, fields and enum constants</string>
+    <string-array name="jf_indent_entries">
+        <item>Follow editor</item>
+        <item>Tabs</item>
+        <item>Spaces</item>
+    </string-array>
+    <string-array name="jf_line_width_entries">
+        <item>Keep line breaks (no wrapping)</item>
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>160</item>
+    </string-array>
+    <string-array name="jf_braces_entries">
+        <item>Same line</item>
+        <item>Next line</item>
+    </string-array>
+    <string-array name="jf_blank_lines_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>Keep all</item>
+    </string-array>
+</resources>

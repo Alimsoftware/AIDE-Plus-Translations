@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="build_merge_all_dex">Alle DEX-Dateien werden zusammengeführt</string>
+    <string name="dex_merge_title">DEX-Dateien zusammenführen</string>
+    <string name="dex_merge_summary">Projekt- und Bibliotheks-DEX-Dateien zu möglichst wenigen Dateien zusammenführen (wie das Android-Gradle-Plugin bei Release-Builds). Debug-Builds führen weiter gruppenweise zusammen und verwenden unveränderte Bibliotheken wieder.</string>
+    <string-array name="dex_merge_entries">
+        <item>Nur Release-Builds (empfohlen)</item>
+        <item>Immer</item>
+        <item>Nie</item>
+    </string-array>
+</resources>

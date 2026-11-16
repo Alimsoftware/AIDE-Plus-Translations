@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="preview_table_title">Tabela</string>
+    <string name="preview_table_loading">Carregando tabela…</string>
+    <string name="preview_table_saving">Atualizando editor…</string>
+    <string name="preview_table_load_failed">Não foi possível carregar a tabela. Volte ao código-fonte e tente novamente.</string>
+    <string name="preview_table_write_failed">O editor não aceitou a alteração. A tabela não foi modificada.</string>
+    <string name="preview_table_empty">Tabela vazia</string>
+    <string name="preview_table_header_on">Usar primeira linha como cabeçalho</string>
+    <string name="preview_table_header_off">Usar primeira linha como dados</string>
+    <string name="preview_table_add_row">Adicionar linha</string>
+    <string name="preview_table_add_column">Adicionar coluna</string>
+    <string name="preview_table_find">Buscar na tabela</string>
+    <string name="preview_table_previous">Célula correspondente anterior</string>
+    <string name="preview_table_next">Próxima célula correspondente</string>
+    <string name="preview_table_close_find">Fechar busca</string>
+    <string name="preview_table_searching">Buscando…</string>
+    <string name="preview_table_search_failed">A busca falhou. Tente novamente.</string>
+    <string name="preview_table_no_match">Nenhuma célula correspondente</string>
+    <string name="preview_table_match_position">%1$d / %2$d</string>
+    <string name="preview_table_status">%1$s · %2$s · %3$s</string>
+    <string name="preview_table_ragged">%1$s · Linhas com tamanhos diferentes</string>
+    <string name="preview_table_status_error">%1$s · Erro de leitura na linha %2$d</string>
+    <string name="preview_table_warning">Erro de leitura na linha %1$d · Toque para abrir o código-fonte</string>
+    <string name="preview_table_open_error">Abrir erro de leitura no código-fonte</string>
+    <string name="preview_table_tab">Tabulação</string>
+    <string name="preview_table_comma">Vírgula</string>
+    <string name="preview_table_semicolon">Ponto e vírgula</string>
+    <string name="preview_table_row">Linha %1$d</string>
+    <string name="preview_table_column">Coluna %1$d</string>
+    <string name="preview_table_cell">Linha %1$d, coluna %2$d</string>
+    <string name="preview_table_cell_description">Linha %1$d, coluna %2$d: %3$s</string>
+    <string name="preview_table_edit">Editar célula</string>
+    <string name="preview_table_row_above">Inserir linha acima</string>
+    <string name="preview_table_row_below">Inserir linha abaixo</string>
+    <string name="preview_table_column_left">Inserir coluna à esquerda</string>
+    <string name="preview_table_column_right">Inserir coluna à direita</string>
+    <string name="preview_table_delete_row">Excluir linha</string>
+    <string name="preview_table_delete_column">Excluir coluna</string>
+    <string name="preview_table_delete">Excluir</string>
+    <string name="preview_table_confirm_row">Excluir a linha %1$d e todas as suas células? É possível desfazer no editor de código-fonte.</string>
+    <string name="preview_table_confirm_column">Excluir a coluna %1$d de todas as linhas? É possível desfazer no editor de código-fonte.</string>
+    <plurals name="preview_table_rows">
+        <item quantity="one">%1$d linha</item>
+        <item quantity="other">%1$d linhas</item>
+    </plurals>
+    <plurals name="preview_table_columns">
+        <item quantity="one">%1$d coluna</item>
+        <item quantity="other">%1$d colunas</item>
+    </plurals>
+</resources>

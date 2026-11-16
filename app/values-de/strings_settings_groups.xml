@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="st_cat_checks">Fehlerprüfung</string>
+    <string name="st_cat_navigation">Navigation und Quelltext</string>
+    <string name="st_cat_platform">SDK und Plattformdaten</string>
+    <string name="st_cat_sdk_deps">SDK und Abhängigkeiten</string>
+    <string name="st_cat_gradle_command">Gradle-Befehls-Builds</string>
+    <string name="st_cat_code_translation">Code-Übersetzung</string>
+    <string name="st_cat_startup_layout">Start und Layout</string>
+    <string name="st_cat_appbar_tabs">Titelleiste und Tabs</string>
+    <string name="st_cat_gestures">Gesten und Touch</string>
+    <string name="st_cat_file_browser">Dateibrowser</string>
+    <string name="st_cat_keyboard">Tastatur und Eingabemethode</string>
+    <string name="st_cat_guides">Hilfslinien und Hervorhebungen</string>
+    <string name="st_cat_structure">Faltung und Struktur</string>
+    <string name="st_cat_editor_hints">Hinweise im Editor</string>
+    <string name="st_cat_offline_docs">Offline-Dokumentation</string>
+    <string name="st_cat_editor_actions">Editor-Schaltflächen</string>
+    <string name="st_cat_semantic_completion">Semantische Vervollständigung</string>
+    <string name="st_cat_warnings">Anzeige von Warnungen</string>
+    <string name="st_cat_decompiler">Dekompilierung</string>
+    <string name="st_cat_compile_package">Kompilieren und Verpacken</string>
+    <string name="st_cat_build_output">Build-Ausgabe</string>
+    <string name="st_cat_java_project">Java-Projekte</string>
+    <string name="st_cat_install">Installation</string>
+    <string name="st_cat_terminal">Terminal</string>
+    <string name="st_cat_git_identity">Git-Identität</string>
+    <string name="st_cat_git_credentials">Anmeldedaten und SSH</string>
+    <string name="st_cat_ai_assistant">Zugriff auf KI-Assistent</string>
+    <string name="st_cat_mcp_server">MCP-Server</string>
+    <string name="st_cat_translation_engine">Übersetzungs-Engines</string>
+    <string name="st_cat_translation_cache">Übersetzungs-Cache</string>
+    <string name="st_cat_logging">Protokollierung</string>
+    <string name="st_cat_tools_logs">Toolchains und Protokolle</string>
+    <string name="st_cat_community">Community und Kontakt</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="build_merge_all_dex">Merging all DEX files</string>
+    <string name="dex_merge_title">Merge DEX files</string>
+    <string name="dex_merge_summary">Merge the project and library DEX files into as few files as possible (like the Android Gradle plugin for release). Debug builds keep merging in groups so unchanged libraries are reused.</string>
+    <string-array name="dex_merge_entries">
+        <item>Release builds only (recommended)</item>
+        <item>Always</item>
+        <item>Never</item>
+    </string-array>
+</resources>

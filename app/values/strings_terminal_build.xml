@@ -26,4 +26,15 @@
     <string name="build_menu_gradle_other">Other tasks…</string>
     <string name="build_gradle_tasks_hint">Tasks and options, e.g. :app:assembleRelease --stacktrace</string>
     <string name="build_run">Run</string>
+    <plurals name="terminal_apk_title">
+        <item quantity="one">Build produced %d APK</item>
+        <item quantity="other">Build produced %d APKs</item>
+    </plurals>
+    <string name="terminal_apk_item">%1$s · %2$s\n%3$s</string>
+    <string name="terminal_apk_install">Install</string>
+    <string name="terminal_apk_resign">Re-sign…</string>
+    <string name="terminal_apk_choose_profile">Choose signing configuration</string>
+    <string name="terminal_apk_no_profiles">No saved signing configurations. Add one in Project properties › Signing.</string>
+    <string name="terminal_apk_signing">Signing %1$s…</string>
+    <string name="terminal_apk_failed">Could not install the APK</string>
 </resources>

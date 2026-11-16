@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="library_build_command">Bibliotheken bauen (AAR / JAR)</string>
+    <string name="library_build_title">Bibliotheksmodule bauen</string>
+    <string name="library_build_item_aar">%1$s · AAR</string>
+    <string name="library_build_item_jar">%1$s · JAR</string>
+    <string name="library_build_start">Bauen</string>
+    <string name="library_build_none">Dieses Projekt hat kein android-library- oder java-library-Modul</string>
+    <string name="library_build_task_title">Bibliotheken verpacken (AAR / JAR)</string>
+    <string name="library_build_done">%1$s: %2$s</string>
+    <string name="library_build_failed">Einige Bibliotheken konnten nicht verpackt werden:\n%1$s</string>
+    <string name="library_build_no_classes">Keine kompilierten Klassen; das Modul wurde in diesem Build nicht kompiliert</string>
+    <string name="library_build_not_library">%1$s ist kein Bibliotheksmodul und wurde übersprungen</string>
+</resources>

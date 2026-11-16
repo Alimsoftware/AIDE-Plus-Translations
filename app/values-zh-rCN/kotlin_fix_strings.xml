@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="kotlin_warning_browser_title">在错误列表中显示 Kotlin 警告</string>
+    <string name="kotlin_warning_browser_summary">没有错误时显示 Kotlin 警告，重启应用后生效。</string>
+    <string name="kotlin_warning_editor_title">在编辑器中显示 Kotlin 警告</string>
+    <string name="kotlin_warning_editor_summary">在源代码中为 Kotlin 警告显示波浪线，重启应用后生效。</string>
+    <string name="kotlin_fix_replace_import">将导入改为 %1$s</string>
+    <string name="kotlin_fix_remove_import">删除导入 %1$s</string>
+    <string name="kotlin_fix_val_to_var">将 val %1$s 改为 var</string>
+    <string name="kotlin_fix_safe_call">对 %1$s 使用安全调用 ?.</string>
+    <string name="kotlin_fix_not_null_call">断言 %1$s 不为空（!!.）</string>
+    <string name="kotlin_fix_choose">选择修复</string>
+    <string name="kotlin_compiler_check_title">用 Kotlin 编译器完整检查</string>
+    <string name="kotlin_compiler_check_summary">停止输入后在后台用 Kotlin 编译器检查当前模块，显示编译器给出的全部错误与警告（需要开启 Kotlin 编译，会额外占用 CPU）</string>
+    <string name="kotlin_fix_add_suspend">将 %1$s 改为 suspend 函数</string>
+    <string name="kotlin_fix_add_composable">为 %1$s 添加 @Composable</string>
+    <string name="kotlin_fix_opt_in">添加 @OptIn(%1$s::class)</string>
+    <string name="kotlin_fix_add_override">为 %1$s 添加 override</string>
+    <string name="kotlin_fix_add_else">为 %1$s 添加 else 分支</string>
+    <string name="kotlin_fix_implement_members">实现 %1$s 的抽象成员</string>
+    <string name="kotlin_fix_initialize">将 %1$s 初始化为 %2$s</string>
+    <string name="kotlin_fix_lateinit">将 %1$s 标为 lateinit</string>
+    <string name="kotlin_fix_add_not_null">断言 %1$s 不为空（!!）</string>
+    <string name="kotlin_fix_change_type">将 %1$s 的类型改为 %2$s</string>
+    <string name="kotlin_fix_change_return_type">将 %1$s 的返回类型改为 %2$s</string>
+    <string name="kotlin_fix_add_todo">在 %1$s 末尾添加 TODO()</string>
+    <string name="kotlin_fix_add_argument">添加参数 %1$s = TODO()</string>
+    <string name="kotlin_fix_make_open">将 %1$s 改为 open</string>
+    <string name="kotlin_fix_remove_modifier">删除 %1$s 修饰符</string>
+    <string name="kotlin_fix_make_abstract">将 %1$s 改为 abstract</string>
+    <string name="kotlin_fix_add_body">为 %1$s 添加函数体</string>
+    <string name="kotlin_fix_rename">改为 %1$s</string>
+    <string name="kotlin_fix_remove_redundant">删除多余的 %1$s</string>
+    <string name="kotlin_fix_replace">将 %1$s 替换为 %2$s</string>
+    <string name="kotlin_fix_insert">插入 %1$s</string>
+    <string name="kotlin_fix_call_constructor">调用 %1$s 的构造函数</string>
+    <string name="kotlin_fix_remove_declaration">删除 %1$s</string>
+    <string name="kotlin_fix_add_branches">补全缺少的分支 %1$s</string>
+    <string name="kotlin_fix_var_to_val">将 var %1$s 改为 val</string>
+    <string name="kotlin_fix_remove_unreachable">删除不可达代码</string>
+</resources>

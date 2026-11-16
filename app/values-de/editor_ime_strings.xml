@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="editor_ime_text_access_title">Text und Auswahl mit der Tastatur teilen</string>
+    <string name="editor_ime_text_access_summary">Ermöglicht Tastaturen, den Cursor zu bewegen, Text auszuwählen und ihre Schaltflächen für Alles auswählen, Ausschneiden, Kopieren und Einfügen zu nutzen. Ausschalten, wenn sich eine Tastatur im Editor falsch verhält.</string>
+</resources>

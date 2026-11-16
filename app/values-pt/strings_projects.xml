@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pj_details">Detalhes</string>
+    <string name="pj_info_path">Caminho</string>
+    <string name="pj_info_modules">Módulos</string>
+    <string name="pj_info_package">Pacote</string>
+    <string name="pj_info_modified">Última modificação</string>
+    <string name="pj_info_opened">Última abertura</string>
+    <string name="pj_never">Nunca</string>
+    <string name="pj_info_size">Tamanho do código (sem resultados de compilação)</string>
+    <string name="pj_calculating">A calcular…</string>
+    <string name="pj_git">Git</string>
+    <string name="pj_info_branch">Ramo</string>
+    <string name="pj_info_remote">Remoto (origin)</string>
+    <string name="pj_actions">Ações</string>
+    <string name="pj_open">Abrir projeto</string>
+    <string name="pj_manage">Gerir projeto</string>
+    <string name="pj_share">Partilhar projeto</string>
+    <string name="pj_share_message">Empacota o projeto em zip sem resultados de compilação (build, .gradle, etc.), local.properties nem pacotes de aplicação.</string>
+    <string name="pj_share_git">Incluir histórico Git (.git)</string>
+    <string name="pj_share_start">Empacotar e partilhar</string>
+    <string name="pj_share_packing">A empacotar… %1$d ficheiros</string>
+    <string name="pj_share_failed">Não é possível empacotar o projeto: %1$s</string>
+    <string name="pj_rename">Mudar o nome</string>
+    <string name="pj_rename_hint">Novo nome da pasta</string>
+    <string name="pj_rename_invalid">O nome é inválido ou já existe</string>
+    <string name="pj_rename_failed">Não é possível mudar o nome da pasta</string>
+    <string name="pj_delete">Eliminar projeto</string>
+    <string name="pj_delete_message">%1$s e todos os ficheiros em %2$s serão eliminados permanentemente. Esta ação não pode ser anulada.</string>
+    <string name="pj_delete_failed">Alguns ficheiros não puderam ser eliminados</string>
+    <string name="pj_current_project">Este projeto está aberto no editor. Mude primeiro para outro projeto no editor.</string>
+    <string name="pj_current">Aberto no editor</string>
+    <string name="pj_sort_modified">Última modificação</string>
+    <string name="pj_group_pinned">Afixados</string>
+    <string name="pj_all_projects">Todos os projetos</string>
+    <string name="pj_group_by_folder">Agrupar por pasta</string>
+    <string name="pj_storage">Armazenamento interno</string>
+    <string name="pj_empty_title">Ainda sem projetos</string>
+    <string name="pj_empty_message">Crie, abra ou clone um projeto; os projetos em AppProjects são encontrados automaticamente.</string>
+    <string name="pj_remove_from_list">Remover da lista</string>
+    <string name="pj_remove_missing_one">A pasta %1$s já não existe. Removê-la da lista? Nenhum ficheiro é eliminado.</string>
+    <string name="pj_remove_missing">Remover projetos em falta</string>
+    <string name="pj_no_missing">Todos os projetos da lista existem</string>
+    <string name="pj_batch_manage">Selecionar projetos</string>
+    <string name="pj_select_all">Selecionar tudo</string>
+    <string name="pj_selected_count">Selecionados: %1$d</string>
+    <string name="pj_select_project">Selecionar %1$s</string>
+    <string name="pj_batch_remove_message">Remover %1$d projetos da lista? As pastas serão mantidas e os projetos voltarão ao serem abertos.</string>
+    <string name="pj_type_android">Android</string>
+    <string name="pj_type_gradle">Gradle</string>
+    <string name="pj_type_eclipse">AIDE / Eclipse</string>
+    <string name="pj_type_java">Java</string>
+    <string name="pj_type_unknown">Pasta</string>
+    <plurals name="pj_modules">
+        <item quantity="one">%d módulo</item>
+        <item quantity="other">%d módulos</item>
+    </plurals>
+    <plurals name="pj_remove_missing_message">
+        <item quantity="one">Remover %d projeto cuja pasta já não existe? Nenhum ficheiro é eliminado.</item>
+        <item quantity="other">Remover %d projetos cujas pastas já não existem? Nenhum ficheiro é eliminado.</item>
+    </plurals>
+</resources>

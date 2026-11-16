@@ -6,4 +6,18 @@
     <string name="build_progress_bucket">第 %1$d/%2$d 组 · %3$d 个库 · %4$s</string>
     <string name="build_progress_bucket_reused">第 %1$d/%2$d 组未变化</string>
     <string name="build_core_library_desugaring">编译核心库脱糖运行时（L8）</string>
+    <string name="build_task_kotlin_compile">编译 Kotlin %1$s</string>
+    <string name="build_task_apt">注解处理 %1$s</string>
+    <string name="build_task_ksp">KSP %1$s</string>
+    <string name="build_task_core_library_desugaring">核心库脱糖 %1$s</string>
+    <string name="build_report_error">错误：%1$s</string>
+    <string name="build_status_running">进行中</string>
+    <string name="build_status_success">成功</string>
+    <string name="build_status_failed">失败</string>
+    <string name="build_status_cancelled">已停止</string>
+    <string name="build_status_skipped">已跳过</string>
+    <string name="build_skipped_count">\u0020· 跳过：%1$d</string>
+    <string name="build_install_apk">安装 APK</string>
+    <string name="build_install_apk_action">安装这个 APK</string>
+    <string name="build_install_apk_missing">APK 已不存在：%1$s</string>
 </resources>

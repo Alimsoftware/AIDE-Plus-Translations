@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="kotlin_diagnostic_details">Kotlin 问题详情</string>
+    <string name="kotlin_diagnostic_original">完整编译器诊断</string>
+    <string name="kotlin_diagnostic_go_to_code">转到代码</string>
+    <string name="kotlin_diagnostic_location">第 %1$d 行 · 第 %2$d 列</string>
+    <string name="kotlin_diagnostic_missing_argument">缺少必填参数：%1$s</string>
+    <string name="kotlin_diagnostic_missing_argument_advice">在这处调用中为 %1$s 传入值。编辑器的“修复（Kotlin）”可能提供占位参数，运行前请替换为实际值。</string>
+    <string name="kotlin_diagnostic_unknown_parameter">不存在的参数名：%1$s</string>
+    <string name="kotlin_diagnostic_unknown_parameter_advice">对照函数声明检查参数名，并确认本项目使用的库版本。</string>
+    <string name="kotlin_diagnostic_too_many_arguments">传入的参数过多</string>
+    <string name="kotlin_diagnostic_too_many_arguments_advice">对照函数声明检查调用，删除多余的参数，或选择正确的重载。</string>
+    <string name="kotlin_diagnostic_no_matching_overload">找不到匹配的函数调用</string>
+    <string name="kotlin_diagnostic_ambiguous_overload">多个函数都能匹配这次调用</string>
+    <string name="kotlin_diagnostic_overload_advice">检查参数名称、数量和类型。下方函数签名是可选候选，不是需要逐项修复的多个错误。</string>
+    <string name="kotlin_diagnostic_unresolved_reference">无法解析：%1$s</string>
+    <string name="kotlin_diagnostic_unresolved_reference_advice">检查拼写、导入和项目依赖是否已下载；可用“修复（Kotlin）”查看可用的导入建议。</string>
+    <string name="kotlin_diagnostic_type_mismatch">传入值或表达式的类型不符合要求</string>
+    <string name="kotlin_diagnostic_type_mismatch_advice">在下方完整诊断中对比实际类型与所需类型，同时检查是否允许 null。</string>
+    <string name="kotlin_diagnostic_composable_context">在非 Composable 上下文中调用了界面函数</string>
+    <string name="kotlin_diagnostic_composable_context_advice">从 @Composable 函数或 lambda 中调用此函数；只有外层函数确实用于构建界面时，才为它添加 @Composable。</string>
+    <string name="kotlin_diagnostic_suspend_context">在协程外调用了挂起函数</string>
+    <string name="kotlin_diagnostic_suspend_context_advice">从协程或另一个 suspend 函数中调用；Compose 中的副作用应放在合适的 effect 中，例如 LaunchedEffect。</string>
+    <string name="kotlin_diagnostic_unsafe_call">调用对象可能为 null</string>
+    <string name="kotlin_diagnostic_unsafe_call_advice">先判断 null 或使用安全调用（?.）；不能保证非空时，不要直接使用 !!。</string>
+    <string name="kotlin_diagnostic_other_advice">请结合下方完整诊断查看具体原因；原文已保留，可复制排查。</string>
+    <string name="kotlin_diagnostic_unknown">Kotlin 编译器诊断</string>
+</resources>

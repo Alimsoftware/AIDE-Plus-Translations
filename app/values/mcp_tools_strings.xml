@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="mcp_tools_title">MCP tools</string>
+    <string name="mcp_tools_summary">Choose which tools external AI clients can see and which calls need your approval</string>
+    <string name="mcp_tools_status">%1$d of %2$d tools are open to external clients</string>
+    <string name="mcp_tools_loading">Loading tools…</string>
+    <string name="mcp_tools_server_off">The local MCP server is off. These settings take effect once you turn it on.</string>
+    <string name="mcp_tools_writes_off">Editing tools stay closed until “Allow file changes” is on. Commands and external services always ask before running.</string>
+    <string name="mcp_tools_group_read">Read only</string>
+    <string name="mcp_tools_group_write">Edit files</string>
+    <string name="mcp_tools_group_execute">Commands and external services</string>
+    <string name="mcp_tools_open">Open %1$s to external clients</string>
+    <string name="mcp_tools_search">Search tools</string>
+    <string name="mcp_tools_reset">Restore defaults</string>
+    <string name="mcp_tools_reset_confirm">Restore the default access for every tool?</string>
+    <string name="mcp_tools_empty">No tools found</string>
+    <string name="mcp_tools_reload">Reload</string>
+    <string name="mcp_tools_writes_needed">Turn on “Allow file changes” in the MCP server settings first</string>
+</resources>

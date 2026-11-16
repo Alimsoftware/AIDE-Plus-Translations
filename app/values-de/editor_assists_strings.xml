@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="editor_indent_guides_title">Einrückungslinien</string>
+    <string name="editor_indent_guides_summary">Einrückungslinien anzeigen, ohne das Dokument zu ändern.</string>
+    <string name="editor_bracket_guides_title">Klammerpaar-Linien</string>
+    <string name="editor_bracket_guides_summary">Umschließende Klammern in Java/Kotlin/C/C++/JSON/JSONC und XML/SVG/HTML-Tags hervorheben. Zeichenketten und sprachspezifische Kommentare überspringen.</string>
+    <string name="editor_symbol_bar_title">Signatur- und Symbolhinweise</string>
+    <string name="editor_symbol_bar_summary">Steht die Einfügemarke in einer Argumentliste, werden die Parameter des Aufrufs wie in IntelliJ IDEA gezeigt: eine Zeile je Überladung, der aktuelle Parameter fett, noch fehlende Parameter hervorgehoben. Für Java liefert die Code-Analyse die Daten, Bibliotheksmethoden eingeschlossen; Kotlin nutzt die Deklarationen der aktuellen Datei. Sonst wird die Deklaration des Bezeichners unter der Einfügemarke gezeigt (nur aktuelle Datei).</string>
+    <string name="editor_folding_title">Code-Faltung</string>
+    <string name="editor_folding_summary">Mehrzeilige Blöcke falten: Das kleine Dreieck am Ende der ersten Blockzeile faltet zu, die …-Marke mit der Anzahl verborgener Zeilen faltet auf. Nutzt die Klammer- und Tag-Paare von Java, Kotlin, C/C++, JSON/JSONC und XML/SVG/HTML. Die schließende Zeile bleibt sichtbar.</string>
+    <string name="editor_sticky_title">Haftendes Scrollen</string>
+    <string name="editor_sticky_summary">Umschließende Gültigkeitsbereiche beim Scrollen oben im Editor anheften; antippen springt zurück. Nutzt die Klammer- und Tag-Paare von Java, Kotlin, C/C++, JSON/JSONC und XML/SVG/HTML.</string>
+    <string name="editor_occurrence_title">Hervorhebung gleicher Symbole</string>
+    <string name="editor_occurrence_summary">Weitere Vorkommen des Bezeichners an der Einfügemarke umranden. Rein lexikalisch: Zeichenketten, Kommentare und Schlüsselwörter werden übersprungen, gleichnamige Symbole aus anderen Gültigkeitsbereichen treffen weiterhin zu.</string>
+    <string name="editor_auto_closing_title">Intelligente Klammerpaare</string>
+    <string name="editor_auto_closing_summary">Klammern und Anführungszeichen paaren, Auswahl umschließen und leere Paare löschen in Java, Kotlin, C/C++, AIDL, Gradle/Groovy, Dart, Lua, TOML, Shell, CMake, smali und JSON/JSONC. XML/SVG-Tags schließen und leere Attribut-Anführungszeichen paaren oder löschen. Ausgeschaltet bleibt die native Eingabe.</string>
+    <string name="editor_inline_title">Diagnosen in der Codezeile</string>
+    <string name="editor_inline_summary">Live-Diagnosen hinter dem Quelltext anzeigen. Antippen öffnet Details; Build-Fehler bleiben in der Problemliste.</string>
+    <string name="editor_inline_error">Fehler: %1$s</string>
+    <string name="editor_inline_warning">Warnung: %1$s</string>
+    <string name="editor_inline_more">%1$s (+%2$d)</string>
+    <string name="editor_inline_group">Diagnosen in Zeile %1$d</string>
+    <string name="quick_key_bar_hide">Symbolleiste ausblenden</string>
+    <string name="quick_key_bar_show">Symbolleiste einblenden</string>
+    <string name="editor_ligature_font_title">Ligaturschrift (JetBrains Mono)</string>
+    <string name="editor_ligature_font_summary">Die mitgelieferte JetBrains Mono verwenden, damit ->, !=, >= und ähnliche Operatoren als Ligaturen dargestellt werden. Eine oben angegebene eigene Schrift hat Vorrang; ausgeschaltet wird die Monospace-Schrift des Systems verwendet.</string>
+    <string name="editor_format_on_paste_title">Nach dem Einfügen formatieren</string>
+    <string name="editor_format_on_paste_summary">Eingefügte Zeilen von der Code-Analyse neu einrücken lassen; der Editor wartet auf das Ergebnis. Einfügungen mit mehr als 2000 Zeilen werden nicht formatiert (mit Hinweis). Ausschalten, um sofort ohne Neueinrückung einzufügen.</string>
+    <plurals name="editor_format_on_paste_skipped">
+        <item quantity="one">%1$d Zeile eingefügt. Über %2$d Zeilen wird nicht automatisch formatiert.</item>
+        <item quantity="other">%1$d Zeilen eingefügt. Über %2$d Zeilen wird nicht automatisch formatiert.</item>
+    </plurals>
+    <string name="editor_param_info_none">Keine Parameter</string>
+    <plurals name="editor_param_info_more">
+        <item quantity="one">+%d weitere Überladung</item>
+        <item quantity="other">+%d weitere Überladungen</item>
+    </plurals>
+</resources>

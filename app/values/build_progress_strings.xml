@@ -6,4 +6,18 @@
     <string name="build_progress_bucket">Group %1$d/%2$d · %3$d libraries · %4$s</string>
     <string name="build_progress_bucket_reused">Group %1$d/%2$d unchanged</string>
     <string name="build_core_library_desugaring">Compiling the core library desugaring runtime (L8)</string>
+    <string name="build_task_kotlin_compile">Compiling Kotlin %1$s</string>
+    <string name="build_task_apt">Annotation processing %1$s</string>
+    <string name="build_task_ksp">KSP %1$s</string>
+    <string name="build_task_core_library_desugaring">Core library desugaring %1$s</string>
+    <string name="build_report_error">Error: %1$s</string>
+    <string name="build_status_running">Running</string>
+    <string name="build_status_success">Succeeded</string>
+    <string name="build_status_failed">Failed</string>
+    <string name="build_status_cancelled">Stopped</string>
+    <string name="build_status_skipped">Skipped</string>
+    <string name="build_skipped_count">\u0020· skipped: %1$d</string>
+    <string name="build_install_apk">Install APK</string>
+    <string name="build_install_apk_action">Install this APK</string>
+    <string name="build_install_apk_missing">The APK is gone: %1$s</string>
 </resources>

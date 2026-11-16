@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="mcp_tools_title">MCP 工具管理</string>
+    <string name="mcp_tools_summary">选择外部 AI 客户端能看到哪些工具，以及哪些调用需要你确认</string>
+    <string name="mcp_tools_status">向外部客户端开放 %1$d / %2$d 个工具</string>
+    <string name="mcp_tools_loading">正在读取工具…</string>
+    <string name="mcp_tools_server_off">本机 MCP 服务未开启，开启后按这里的设置提供工具。</string>
+    <string name="mcp_tools_writes_off">开启“允许修改文件”之前，修改类工具不对外开放；执行命令与外部服务类工具每次都会先询问。</string>
+    <string name="mcp_tools_group_read">只读</string>
+    <string name="mcp_tools_group_write">修改文件</string>
+    <string name="mcp_tools_group_execute">执行命令与外部服务</string>
+    <string name="mcp_tools_open">向外部客户端开放 %1$s</string>
+    <string name="mcp_tools_search">搜索工具</string>
+    <string name="mcp_tools_reset">全部恢复默认</string>
+    <string name="mcp_tools_reset_confirm">把所有工具恢复为默认开放方式？</string>
+    <string name="mcp_tools_empty">没有找到工具</string>
+    <string name="mcp_tools_reload">重新读取</string>
+    <string name="mcp_tools_writes_needed">请先在 MCP 服务设置中开启“允许修改文件”</string>
+</resources>

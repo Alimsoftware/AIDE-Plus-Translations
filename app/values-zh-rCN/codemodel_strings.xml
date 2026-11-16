@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="codemodel_background_title">后台代码分析</string>
+    <string name="codemodel_background_summary">在工作线程分析代码，输入、补全和高亮不必等待（目前用于 Kotlin 错误、高亮与修复）；关闭后与原来一样在引擎线程分析</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="goto_title">Gehe zu</string>
+    <string name="goto_hint">Klassen, Dateien, Symbole, Aktionen…</string>
+    <string name="goto_tab_all">Alle</string>
+    <string name="goto_tab_classes">Klassen</string>
+    <string name="goto_tab_files">Dateien</string>
+    <string name="goto_tab_symbols">Symbole</string>
+    <string name="goto_tab_actions">Aktionen</string>
+    <string name="goto_section_open_files">Geöffnete Dateien</string>
+    <string name="goto_show_all">Alle (%1$d)</string>
+    <string name="goto_line">Gehe zu Zeile %1$d</string>
+    <string name="goto_line_column">Gehe zu Zeile %1$d, Spalte %2$d</string>
+    <string name="goto_nav_next_error">Nächster Fehler</string>
+    <string name="goto_nav_previous_error">Vorheriger Fehler</string>
+    <string name="goto_nav_back">Zurück</string>
+    <string name="goto_nav_forward">Vorwärts</string>
+    <string name="goto_no_results">Keine Treffer für „%1$s“</string>
+    <string name="goto_too_many">Zu viele Treffer. Gib weitere Zeichen ein, um sie einzugrenzen.</string>
+    <string name="goto_no_project">Öffne ein Projekt, um seine Klassen, Dateien und Symbole zu durchsuchen.</string>
+    <string name="goto_files_truncated">Nur die ersten %1$d Dateien dieses Projekts werden durchsucht.</string>
+    <string name="goto_library">Bibliothek</string>
+    <string name="goto_clear">Löschen</string>
+    <string name="goto_type_to_search">Gib einen Klassen-, Datei- oder Symbolnamen ein. Mit Name:Zeile springst du zu einer Zeile.</string>
+    <string name="goto_engine_unavailable">Die Codeanalyse ist noch nicht bereit.</string>
+    <string name="goto_tab_current">Diese Datei</string>
+    <string name="goto_section_recent">Zuletzt</string>
+    <string name="goto_clear_recent">Leeren</string>
+    <string name="goto_tip">Name:Zeile öffnet eine Datei an einer Zeile, :Zeile springt in dieser Datei. Klasse oder Member lange drücken für die Dokumentation.</string>
+    <string name="goto_current_unavailable">Die aktuelle Datei ist keine Java- oder Kotlin-Datei oder enthält keine auflistbaren Deklarationen.</string>
+</resources>

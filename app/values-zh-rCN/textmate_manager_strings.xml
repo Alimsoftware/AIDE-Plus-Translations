@@ -43,4 +43,8 @@
     <string name="tm_notice">只导入可信来源的语法。正则引擎存在差异，并非所有 TextMate/VS Code 语法均兼容；时间预算不能强制中止所有慢正则。导入内容复制到应用私有目录，不写入项目或内置 assets；未知 include 不会触发下载。语法开关只影响其文件高亮，不阻断其它语法对它的 include。原有 TextMate 全局开关仍然有效，保存不会自动重载项目。</string>
     <string name="tm_limits">支持 UTF-8 JSON 和 XML plist，不支持二进制 plist、YAML 或 ZIP。输入不超过 512 KiB，规范化语法不超过 1 MiB；最多 32 个外部语法、256 个映射，语法存储总量 8 MiB。预览最多 4096 字符、20 行、每行 512 字符，软时间预算 1 秒。配置冲突不会覆盖较新的修改。</string>
     <string name="tm_draft_lost">进程已重启，请重新选择语法文件以恢复未保存的预览。</string>
+    <string name="tm_toggle_source">启用语法 %1$s</string>
+    <string name="tm_toggle_mapping">启用文件映射 %1$s</string>
+    <string name="tm_no_results">没有匹配的语法或文件映射。</string>
+    <string name="tm_no_entries">此分组暂无条目。</string>
 </resources>

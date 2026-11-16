@@ -38,4 +38,7 @@
     <string name="manifest_editor_add_application">Add application</string>
     <string name="manifest_editor_namespace_readonly">Namespace declarations are preserved and read-only</string>
     <string name="manifest_editor_catalog_error">Permission catalog unavailable; existing and custom permissions can still be edited.</string>
+    <string name="manifest_editor_store_encoding">The encoding declared in this manifest is not supported.</string>
+    <string name="manifest_editor_store_changed">The file was modified by another editor.</string>
+    <string name="manifest_editor_store_refresh">The file changed while the editor was refreshing, so this version was not written.</string>
 </resources>

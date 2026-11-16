@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="home_tab_projects">Projekte</string>
+    <string name="home_tab_plugins">Plugins</string>
+    <string name="home_tab_share">Geteilt</string>
+    <string name="home_menu_editor">Editor öffnen</string>
+    <string name="home_menu_setup">Einrichtungsassistent</string>
+    <string name="home_menu_settings">Einstellungen</string>
+    <string name="home_menu_home">Startseite</string>
+    <string name="home_skip_title">Beim Start Editor öffnen</string>
+    <string name="home_skip_summary">Startseite beim Start über den Launcher überspringen</string>
+    <string name="setup_title">Einrichtung</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="goto_title">跳转</string>
+    <string name="goto_hint">类、文件、符号或操作…</string>
+    <string name="goto_tab_all">全部</string>
+    <string name="goto_tab_classes">类</string>
+    <string name="goto_tab_files">文件</string>
+    <string name="goto_tab_symbols">符号</string>
+    <string name="goto_tab_actions">操作</string>
+    <string name="goto_section_open_files">已打开的文件</string>
+    <string name="goto_show_all">全部 (%1$d)</string>
+    <string name="goto_line">跳转到第 %1$d 行</string>
+    <string name="goto_line_column">跳转到第 %1$d 行第 %2$d 列</string>
+    <string name="goto_nav_next_error">下一个错误</string>
+    <string name="goto_nav_previous_error">上一个错误</string>
+    <string name="goto_nav_back">后退</string>
+    <string name="goto_nav_forward">前进</string>
+    <string name="goto_no_results">没有与“%1$s”匹配的结果</string>
+    <string name="goto_too_many">匹配项太多，请继续输入以缩小范围。</string>
+    <string name="goto_no_project">打开项目后可搜索其中的类、文件和符号。</string>
+    <string name="goto_files_truncated">只搜索了这个项目的前 %1$d 个文件。</string>
+    <string name="goto_library">库</string>
+    <string name="goto_clear">清除</string>
+    <string name="goto_type_to_search">输入类、文件或符号名；用“名称:行号”可跳到指定行。</string>
+    <string name="goto_engine_unavailable">代码分析尚未就绪。</string>
+    <string name="goto_tab_current">本文件</string>
+    <string name="goto_section_recent">最近</string>
+    <string name="goto_clear_recent">清除</string>
+    <string name="goto_tip">“名称:行号”打开并跳到该行，“:行号”在本文件内跳转；长按类或成员查看文档。</string>
+    <string name="goto_current_unavailable">当前文件不是 Java 或 Kotlin 文件，或没有可列出的声明。</string>
+</resources>

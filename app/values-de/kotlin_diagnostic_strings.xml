@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="kotlin_diagnostic_details">Kotlin-Problemdetails</string>
+    <string name="kotlin_diagnostic_original">Vollständige Compilerdiagnose</string>
+    <string name="kotlin_diagnostic_go_to_code">Zum Code</string>
+    <string name="kotlin_diagnostic_location">Zeile %1$d · Spalte %2$d</string>
+    <string name="kotlin_diagnostic_missing_argument">Erforderliches Argument fehlt: %1$s</string>
+    <string name="kotlin_diagnostic_missing_argument_advice">Übergeben Sie bei diesem Aufruf einen Wert für %1$s. „Beheben (Kotlin)“ im Editor bietet möglicherweise einen Platzhalter an; ersetzen Sie ihn vor dem Ausführen durch einen echten Wert.</string>
+    <string name="kotlin_diagnostic_unknown_parameter">Unbekannter Parameter: %1$s</string>
+    <string name="kotlin_diagnostic_unknown_parameter_advice">Prüfen Sie den Parameternamen in der Funktionsdeklaration und die im Projekt verwendete Bibliotheksversion.</string>
+    <string name="kotlin_diagnostic_too_many_arguments">Zu viele Argumente</string>
+    <string name="kotlin_diagnostic_too_many_arguments_advice">Vergleichen Sie den Aufruf mit der Funktionsdeklaration. Entfernen Sie überzählige Argumente oder wählen Sie die passende Überladung.</string>
+    <string name="kotlin_diagnostic_no_matching_overload">Kein passender Funktionsaufruf</string>
+    <string name="kotlin_diagnostic_ambiguous_overload">Mehrere Funktionen passen zu diesem Aufruf</string>
+    <string name="kotlin_diagnostic_overload_advice">Prüfen Sie Namen, Anzahl und Typen der Argumente. Die folgenden Signaturen sind Alternativen, keine Fehler, die alle einzeln behoben werden müssen.</string>
+    <string name="kotlin_diagnostic_unresolved_reference">Nicht auflösbar: %1$s</string>
+    <string name="kotlin_diagnostic_unresolved_reference_advice">Prüfen Sie Schreibweise, Importe und heruntergeladene Projektabhängigkeiten. „Beheben (Kotlin)“ zeigt verfügbare Importvorschläge.</string>
+    <string name="kotlin_diagnostic_type_mismatch">Werttyp entspricht nicht dem erforderlichen Typ</string>
+    <string name="kotlin_diagnostic_type_mismatch_advice">Vergleichen Sie tatsächlichen und erwarteten Typ in der vollständigen Diagnose, einschließlich der Zulässigkeit von null.</string>
+    <string name="kotlin_diagnostic_composable_context">Composable-Aufruf außerhalb eines Composable-Kontexts</string>
+    <string name="kotlin_diagnostic_composable_context_advice">Rufen Sie die Funktion aus einer @Composable-Funktion oder einem solchen Lambda auf. Ergänzen Sie @Composable nur, wenn die umgebende Funktion die Oberfläche aufbauen soll.</string>
+    <string name="kotlin_diagnostic_suspend_context">Suspend-Aufruf außerhalb einer Coroutine</string>
+    <string name="kotlin_diagnostic_suspend_context_advice">Rufen Sie die Funktion aus einer Coroutine oder einer anderen suspend-Funktion auf. Verwenden Sie in Compose für Seiteneffekte einen passenden Effekt wie LaunchedEffect.</string>
+    <string name="kotlin_diagnostic_unsafe_call">Empfänger kann null sein</string>
+    <string name="kotlin_diagnostic_unsafe_call_advice">Prüfen Sie auf null oder verwenden Sie einen sicheren Aufruf (?.). Verwenden Sie !! nur, wenn der Wert garantiert nicht null ist.</string>
+    <string name="kotlin_diagnostic_other_advice">Lesen Sie die vollständige Diagnose im Kontext. Der Originaltext bleibt zum Kopieren und zur Fehlersuche erhalten.</string>
+    <string name="kotlin_diagnostic_unknown">Kotlin-Compilerdiagnose</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="jf_screen_title">Eclipse Java 格式</string>
+    <string name="jf_indent">缩进</string>
+    <string name="jf_indent_size">缩进宽度</string>
+    <string name="jf_indent_size_summary">%s（跟随编辑器时使用编辑器的宽度）</string>
+    <string name="jf_line_width">行宽</string>
+    <string name="jf_braces">大括号位置</string>
+    <string name="jf_blank_lines">保留的空行数</string>
+    <string name="jf_join_wrapped">合并手动换行的语句</string>
+    <string name="jf_join_wrapped_summary">关闭时保留你写的换行</string>
+    <string name="jf_comments">格式化注释</string>
+    <string name="jf_annotation_newline">注解后换行</string>
+    <string name="jf_annotation_newline_summary">类、方法、字段与枚举常量上的注解</string>
+    <string-array name="jf_indent_entries">
+        <item>跟随编辑器</item>
+        <item>制表符</item>
+        <item>空格</item>
+    </string-array>
+    <string-array name="jf_line_width_entries">
+        <item>保持原换行（不按行宽折行）</item>
+        <item>80</item>
+        <item>100</item>
+        <item>120</item>
+        <item>160</item>
+    </string-array>
+    <string-array name="jf_braces_entries">
+        <item>同一行</item>
+        <item>下一行</item>
+    </string-array>
+    <string-array name="jf_blank_lines_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>全部保留</item>
+    </string-array>
+</resources>

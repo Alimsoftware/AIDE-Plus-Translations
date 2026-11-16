@@ -43,4 +43,8 @@
     <string name="tm_notice">Nur vertrauenswürdige Grammatiken importieren. Regex-Engines unterscheiden sich; nicht jede TextMate-/VS-Code-Grammatik ist kompatibel. Zeitbudgets können nicht jeden langsamen Regex zwangsweise stoppen. Importe werden in private App-Daten kopiert, nicht in Projekte oder integrierte Assets. Unbekannte Includes werden nie heruntergeladen. Grammatikschalter betreffen Dateien, nicht Includes anderer Grammatiken. Der globale TextMate-Schalter gilt weiterhin. Speichern lädt das Projekt nicht automatisch neu.</string>
     <string name="tm_limits">Unterstützt: UTF-8-JSON und XML plist, nicht binäres plist, YAML oder ZIP. Eingabe höchstens 512 KiB, normalisierte Grammatik 1 MiB; 32 externe Grammatiken, 256 Zuordnungen und insgesamt 8 MiB Grammatikdaten. Vorschau: 4096 Zeichen, 20 Zeilen, 512 Zeichen je Zeile; weiches Zeitbudget 1 Sekunde. Konflikte überschreiben keine neueren Änderungen.</string>
     <string name="tm_draft_lost">Der Prozess wurde neu gestartet. Die Grammatikdatei erneut auswählen, um die ungespeicherte Vorschau aufzubauen.</string>
+    <string name="tm_toggle_source">Grammatik %1$s aktivieren</string>
+    <string name="tm_toggle_mapping">Dateizuordnung %1$s aktivieren</string>
+    <string name="tm_no_results">Keine passenden Grammatiken oder Dateizuordnungen.</string>
+    <string name="tm_no_entries">Diese Gruppe enthält keine Einträge.</string>
 </resources>

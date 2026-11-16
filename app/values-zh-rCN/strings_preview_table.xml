@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="preview_table_title">表格</string>
+    <string name="preview_table_loading">正在加载表格…</string>
+    <string name="preview_table_saving">正在更新编辑器…</string>
+    <string name="preview_table_load_failed">无法加载表格，请返回源码后重试。</string>
+    <string name="preview_table_write_failed">编辑器未接受此次修改，表格未改变。</string>
+    <string name="preview_table_empty">空表格</string>
+    <string name="preview_table_header_on">首行作为表头</string>
+    <string name="preview_table_header_off">首行作为数据</string>
+    <string name="preview_table_add_row">添加行</string>
+    <string name="preview_table_add_column">添加列</string>
+    <string name="preview_table_find">在表格中查找</string>
+    <string name="preview_table_previous">上一个匹配单元格</string>
+    <string name="preview_table_next">下一个匹配单元格</string>
+    <string name="preview_table_close_find">关闭查找</string>
+    <string name="preview_table_searching">正在查找…</string>
+    <string name="preview_table_search_failed">查找失败，请重试。</string>
+    <string name="preview_table_no_match">没有匹配的单元格</string>
+    <string name="preview_table_match_position">%1$d / %2$d</string>
+    <string name="preview_table_status">%1$s · %2$s · %3$s</string>
+    <string name="preview_table_ragged">%1$s · 行列数不一致</string>
+    <string name="preview_table_status_error">%1$s · 第 %2$d 行解析异常</string>
+    <string name="preview_table_warning">第 %1$d 行解析异常 · 点按查看源码</string>
+    <string name="preview_table_open_error">在源码中查看解析异常</string>
+    <string name="preview_table_tab">制表符</string>
+    <string name="preview_table_comma">逗号</string>
+    <string name="preview_table_semicolon">分号</string>
+    <string name="preview_table_row">第 %1$d 行</string>
+    <string name="preview_table_column">第 %1$d 列</string>
+    <string name="preview_table_cell">第 %1$d 行，第 %2$d 列</string>
+    <string name="preview_table_cell_description">第 %1$d 行，第 %2$d 列：%3$s</string>
+    <string name="preview_table_edit">编辑单元格</string>
+    <string name="preview_table_row_above">在上方插入行</string>
+    <string name="preview_table_row_below">在下方插入行</string>
+    <string name="preview_table_column_left">在左侧插入列</string>
+    <string name="preview_table_column_right">在右侧插入列</string>
+    <string name="preview_table_delete_row">删除行</string>
+    <string name="preview_table_delete_column">删除列</string>
+    <string name="preview_table_delete">删除</string>
+    <string name="preview_table_confirm_row">删除第 %1$d 行及其全部单元格？可在源码编辑器中撤销。</string>
+    <string name="preview_table_confirm_column">从所有行中删除第 %1$d 列？可在源码编辑器中撤销。</string>
+    <plurals name="preview_table_rows">
+        <item quantity="other">%1$d 行</item>
+    </plurals>
+    <plurals name="preview_table_columns">
+        <item quantity="other">%1$d 列</item>
+    </plurals>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="preference_title_theme_accent">Accent color</string>
+    <string name="preference_summary_theme_accent">%s</string>
+    <string name="preference_dialog_theme_accent">Accent color</string>
+    <string name="theme_accent_default">AIDE blue</string>
+    <string name="theme_accent_azure">Azure</string>
+    <string name="theme_accent_indigo">Indigo</string>
+    <string name="theme_accent_teal">Teal</string>
+    <string name="theme_accent_violet">Violet</string>
+    <string name="theme_accent_green">Green</string>
+    <string name="theme_accent_amber">Amber</string>
+    <string name="theme_accent_crimson">Crimson</string>
+    <string name="theme_accent_graphite">Graphite</string>
+    <string-array name="theme_accent_entries">
+        <item>@string/theme_accent_default</item>
+        <item>@string/theme_accent_azure</item>
+        <item>@string/theme_accent_indigo</item>
+        <item>@string/theme_accent_teal</item>
+        <item>@string/theme_accent_violet</item>
+        <item>@string/theme_accent_green</item>
+        <item>@string/theme_accent_amber</item>
+        <item>@string/theme_accent_crimson</item>
+        <item>@string/theme_accent_graphite</item>
+    </string-array>
+    <string-array name="theme_accent_values" translatable="false">
+        <item>default</item>
+        <item>azure</item>
+        <item>indigo</item>
+        <item>teal</item>
+        <item>violet</item>
+        <item>green</item>
+        <item>amber</item>
+        <item>crimson</item>
+        <item>graphite</item>
+    </string-array>
+    <!-- 页面标题（清单里的 android:label 不得写死文案，见 AGENTS.md §9） -->
+    <string name="layout_designer_title">Layout designer</string>
+    <string name="permission_edit_title">Permission editor</string>
+</resources>

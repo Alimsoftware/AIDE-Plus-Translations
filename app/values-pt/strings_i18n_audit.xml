@@ -46,14 +46,8 @@
     <string name="dependency_inspection_failed">Não foi possível inspecionar as dependências</string>
     <string name="logcat_resume">Retomar registos</string>
     <string name="logcat_pause">Pausar registos</string>
-    <string name="logcat_paused">Em pausa; a recolha continua em segundo plano</string>
-    <string name="logcat_resumed">Retomado e histórico sincronizado</string>
-    <string name="logcat_filters_applied">Filtros aplicados</string>
-    <string name="logcat_showing_all">A mostrar todos os registos</string>
     <string name="logcat_window_failed">Não foi possível abrir o Logcat flutuante (%1$s); volte ao AIDE e tente novamente</string>
     <string name="logcat_overlay_title">Logcat flutuante</string>
-    <string name="logcat_overlay_hint">Toque no ícone à esquerda para mostrar ou ocultar; prima sem soltar para fechar</string>
-    <string name="logcat_adrt_service">Os registos ADRT são fornecidos pelo LogcatService nativo do AIDE</string>
     <string name="logcat_shizuku_not_running">O Shizuku não está em execução; inicie-o primeiro</string>
     <string name="logcat_shizuku_authorize">Permissão do Shizuku recusada; conceda-a no Shizuku</string>
     <string name="logcat_shizuku_denied">Permissão do Shizuku recusada</string>
@@ -200,6 +194,8 @@
     <string name="build_apt_processing">A executar processadores de anotações…</string>
     <string name="build_user_stopped">Compilação parada pelo utilizador</string>
     <string name="build_unknown_error">Erro desconhecido</string>
+    <string name="build_automation_blocked_by_errors">Compilação bloqueada: o projeto tem erros de compilação. O cliente de IA pode lê-los com build_status.</string>
+    <string name="build_automation_failed">A compilação falhou (iniciada pelo cliente de IA). Detalhes no painel de tarefas de compilação.</string>
     <string name="build_project_title">Compilar%1$s</string>
     <plurals name="build_compile_errors">
         <item quantity="one">%1$d erro de compilação</item>
@@ -232,8 +228,6 @@
     <string name="app_not_installed">A aplicação não foi instalada.</string>
     <string name="app_launch_intent_missing">A aplicação foi instalada, mas não foi encontrado um intent de lançamento no manifesto.</string>
     <string name="native_toolchain_install_hint">%1$s\n\nInstale as ferramentas em Definições → Compilar e executar → Gestor de NDK / CMake e volte a compilar.</string>
-    <string name="logcat_handle_hide">Ocultar Logcat; prima sem soltar para fechar; arraste para mover</string>
-    <string name="logcat_handle_show">Mostrar Logcat; prima sem soltar para fechar; arraste para mover</string>
     <string name="signing_build_error">Erro de compilação</string>
     <string name="signing_invalid_credentials">Credenciais do keystore inválidas!</string>
     <string name="signing_select_alias">Selecionar alias do keystore</string>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="mcp_tools_title">Ferramentas MCP</string>
+    <string name="mcp_tools_summary">Escolha quais ferramentas os clientes de IA externos veem e quais chamadas precisam da sua aprovação</string>
+    <string name="mcp_tools_status">%1$d de %2$d ferramentas estão abertas a clientes externos</string>
+    <string name="mcp_tools_loading">A carregar ferramentas…</string>
+    <string name="mcp_tools_server_off">O servidor MCP local está desligado. Estas configurações valem quando você ligá-lo.</string>
+    <string name="mcp_tools_writes_off">As ferramentas de edição ficam fechadas até ativar “Permitir alterações de ficheiros”. Comandos e serviços externos sempre pedem aprovação.</string>
+    <string name="mcp_tools_group_read">Somente leitura</string>
+    <string name="mcp_tools_group_write">Editar ficheiros</string>
+    <string name="mcp_tools_group_execute">Comandos e serviços externos</string>
+    <string name="mcp_tools_open">Abrir %1$s para clientes externos</string>
+    <string name="mcp_tools_search">Pesquisar ferramentas</string>
+    <string name="mcp_tools_reset">Restaurar padrões</string>
+    <string name="mcp_tools_reset_confirm">Restaurar o acesso padrão de todas as ferramentas?</string>
+    <string name="mcp_tools_empty">Nenhuma ferramenta encontrada</string>
+    <string name="mcp_tools_reload">Recarregar</string>
+    <string name="mcp_tools_writes_needed">Ative primeiro “Permitir alterações de ficheiros” nas configurações do servidor MCP</string>
+</resources>

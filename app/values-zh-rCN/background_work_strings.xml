@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="background_channel_work">后台任务</string>
+    <string name="background_channel_events">任务结果</string>
+    <string name="background_work_title">AIDE+ 正在后台工作</string>
+    <string name="background_task_line">%1$s：%2$s</string>
+    <string name="background_stop_build">停止构建</string>
+    <string name="background_stop_agent">停止 AI</string>
+    <string name="background_build_title">正在构建 %1$s</string>
+    <string name="background_build_succeeded">构建完成：%1$s</string>
+    <string name="background_build_failed">构建失败：%1$s</string>
+    <string name="background_open_hint">点按返回 AIDE+</string>
+    <string name="background_agent_title">AI 助手正在工作</string>
+    <string name="background_agent_working">正在生成回复</string>
+    <string name="background_agent_tool">正在执行 %1$s</string>
+    <string name="background_agent_waiting">等待你的回复</string>
+    <string name="background_agent_waiting_tool">等待你确认 %1$s</string>
+    <string name="background_agent_waiting_title">AI 助手需要你确认</string>
+    <string name="background_agent_done_title">AI 助手已完成</string>
+</resources>

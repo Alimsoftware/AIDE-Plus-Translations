@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="erp_menu">Menu preview</string>
+    <string name="erp_color">Color states</string>
+    <string name="erp_preference">Preferences preview</string>
+    <string name="erp_navigation">Navigation preview</string>
+    <string name="erp_animation">Animation preview</string>
+    <string name="erp_font">Font family preview</string>
+    <string name="erp_loading">Reading resource XML…</string>
+    <string name="erp_error">Line %1$d: %2$s</string>
+    <string name="erp_invalid">Invalid or incomplete XML. Tap to open the source.</string>
+    <string name="erp_limit">Preview limit exceeded (2 MiB, 10,000 nodes, depth 64).</string>
+    <string name="erp_unavailable">Resource could not be read.</string>
+    <string name="erp_approximate">Source preview · tap a row for code; hold for details. Resource qualifiers, themes and runtime behavior are approximate.</string>
+    <string name="erp_empty">No preview items.</string>
+    <string name="erp_overflow">More menu items (shown below)</string>
+    <string name="erp_untitled">Untitled item</string>
+    <string name="erp_hidden">Hidden</string>
+    <string name="erp_disabled">Disabled</string>
+    <string name="erp_action_view">Action view placeholder: %1$s</string>
+    <string name="erp_default">Default</string>
+    <string name="erp_color_value">%1$s · alpha %2$s</string>
+    <string name="erp_unresolved">Unresolved</string>
+    <string name="erp_dependency">Depends on %1$s (disabled illustration)</string>
+    <string name="erp_start">Start destination</string>
+    <string name="erp_start_target">Start → %1$s</string>
+    <string name="erp_font_spec">Weight %1$s · %2$s</string>
+    <string name="erp_font_sample">The quick brown fox 0123456789</string>
+    <string name="erp_font_missing">Local font unavailable; downloadable fonts are not fetched.</string>
+    <string name="erp_play">Play animation</string>
+    <string name="erp_pause">Pause animation</string>
+    <string name="erp_animation_sample">AIDE+</string>
+    <string name="erp_animation_unsupported">Cannot play this specification. Supported: numeric transforms, sets and standard interpolators; no paths, keyframes or custom properties.</string>
+</resources>

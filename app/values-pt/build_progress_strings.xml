@@ -6,4 +6,18 @@
     <string name="build_progress_bucket">Grupo %1$d/%2$d · %3$d bibliotecas · %4$s</string>
     <string name="build_progress_bucket_reused">Grupo %1$d/%2$d sem alterações</string>
     <string name="build_core_library_desugaring">A compilar o runtime de desugaring da biblioteca principal (L8)</string>
+    <string name="build_task_kotlin_compile">Compilando Kotlin %1$s</string>
+    <string name="build_task_apt">Processamento de anotações %1$s</string>
+    <string name="build_task_ksp">KSP %1$s</string>
+    <string name="build_task_core_library_desugaring">Desugaring da biblioteca principal %1$s</string>
+    <string name="build_report_error">Erro: %1$s</string>
+    <string name="build_status_running">Em execução</string>
+    <string name="build_status_success">Concluído</string>
+    <string name="build_status_failed">Falhou</string>
+    <string name="build_status_cancelled">Interrompido</string>
+    <string name="build_status_skipped">Ignorado</string>
+    <string name="build_skipped_count">\u0020· ignorados: %1$d</string>
+    <string name="build_install_apk">Instalar APK</string>
+    <string name="build_install_apk_action">Instalar este APK</string>
+    <string name="build_install_apk_missing">O APK não existe mais: %1$s</string>
 </resources>

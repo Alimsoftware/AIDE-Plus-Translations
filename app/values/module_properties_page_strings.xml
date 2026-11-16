@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="mp_section_project">Project</string>
+    <string name="mp_section_modules">Modules</string>
+    <string name="mp_project_settings">Settings and modules</string>
+    <string name="mp_project_repositories">Repositories</string>
+    <string name="mp_project_repositories_summary">Plugin, dependency and build script repositories</string>
+    <string name="mp_kotlin_versions_summary">Kotlin plugin, standard library and BOM versions</string>
+    <string name="mp_catalog_missing">No gradle/libs.versions.toml yet</string>
+    <string name="mp_module_summary">%1$s · %2$s · %3$s</string>
+    <string name="mp_section_basic">Basics</string>
+    <string name="mp_section_build">Build</string>
+    <string name="mp_section_features">Features</string>
+    <string name="mp_category_general">General</string>
+    <string name="mp_category_sdk">SDK and tools</string>
+    <string name="mp_category_defaults">Default config</string>
+    <string name="mp_category_resources">Resources and packaging</string>
+    <string name="mp_category_processors">Annotation processing and compiler plugins</string>
+    <string name="mp_category_protection">Obfuscation and hardening</string>
+    <string name="mp_section_runtime">Runtime</string>
+    <string name="mp_section_api_levels">API levels</string>
+    <string name="mp_section_tools">Build tools</string>
+    <string name="mp_section_options">Options</string>
+    <string name="mp_api_level">API %1$s · Android %2$s</string>
+    <string name="mp_platform_installed">Platform installed</string>
+    <string name="mp_toolchain_installed">Installed</string>
+    <string name="mp_desugaring_summary">Use Java 8+ APIs on older Android versions</string>
+    <string name="mp_not_configured_add">Not configured · Add</string>
+    <string name="mp_keep_current">Keep the current value</string>
+    <string name="mp_custom_value">Custom…</string>
+    <string name="mp_search">Search</string>
+    <string name="mp_search_dependencies">Search dependencies</string>
+    <string name="mp_no_matches">No matching dependencies</string>
+    <string name="mp_one_per_line">One item per line</string>
+    <string name="mp_signed_with">Signed with %1$s</string>
+    <string name="mp_view_declaration">View declaration</string>
+    <string name="mp_protection_off">Not enabled</string>
+    <string name="mp_unsaved_title">Unsaved changes</string>
+    <string name="mp_unsaved_message">Save the changes before leaving?</string>
+    <string name="mp_discard">Discard</string>
+    <string name="mp_reload">Reload from disk</string>
+    <plurals name="mp_settings_summary">
+        <item quantity="one">%1$s · %2$d module</item>
+        <item quantity="other">%1$s · %2$d modules</item>
+    </plurals>
+    <plurals name="mp_declaration_count">
+        <item quantity="one">%1$d declaration</item>
+        <item quantity="other">%1$d declarations</item>
+    </plurals>
+    <plurals name="mp_exclude_count">
+        <item quantity="one">%1$d exclusion rule</item>
+        <item quantity="other">%1$d exclusion rules</item>
+    </plurals>
+    <plurals name="mp_plugin_count">
+        <item quantity="one">%1$d plugin</item>
+        <item quantity="other">%1$d plugins</item>
+    </plurals>
+    <plurals name="mp_kotlin_plugin_count">
+        <item quantity="one">%1$d Kotlin plugin</item>
+        <item quantity="other">%1$d Kotlin plugins</item>
+    </plurals>
+</resources>

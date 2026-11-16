@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="background_channel_work">Background tasks</string>
+    <string name="background_channel_events">Task results</string>
+    <string name="background_work_title">AIDE+ is working in the background</string>
+    <string name="background_task_line">%1$s: %2$s</string>
+    <string name="background_stop_build">Stop build</string>
+    <string name="background_stop_agent">Stop AI</string>
+    <string name="background_build_title">Building %1$s</string>
+    <string name="background_build_succeeded">Build finished: %1$s</string>
+    <string name="background_build_failed">Build failed: %1$s</string>
+    <string name="background_open_hint">Tap to return to AIDE+</string>
+    <string name="background_agent_title">AI assistant is working</string>
+    <string name="background_agent_working">Generating a reply</string>
+    <string name="background_agent_tool">Running %1$s</string>
+    <string name="background_agent_waiting">Waiting for your answer</string>
+    <string name="background_agent_waiting_tool">Waiting for you to approve %1$s</string>
+    <string name="background_agent_waiting_title">AI assistant needs you</string>
+    <string name="background_agent_done_title">AI assistant finished</string>
+</resources>

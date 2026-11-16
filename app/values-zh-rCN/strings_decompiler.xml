@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="decompiler_failed">反编译失败：%1$s</string>
+    <string name="decompiler_subtitle">由 %1$s 反编译</string>
+    <string name="decompiler_show_source_title">查看 class 时显示反编译源码</string>
+    <string name="decompiler_show_source_summary">打开 .class 文件和没有源代码的库类时显示反编译出的 Java 源码（只读）；关闭时显示类结构概要</string>
+    <string name="decompiler_engine_title">反编译引擎</string>
+</resources>
