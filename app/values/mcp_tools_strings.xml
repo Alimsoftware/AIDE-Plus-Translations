@@ -5,7 +5,8 @@
     <string name="mcp_tools_status">%1$d of %2$d tools are open to external clients</string>
     <string name="mcp_tools_loading">Loading tools…</string>
     <string name="mcp_tools_server_off">The local MCP server is off. These settings take effect once you turn it on.</string>
-    <string name="mcp_tools_writes_off">Editing tools stay closed until “Allow file changes” is on. Commands and external services always ask before running.</string>
+    <string name="mcp_tools_writes_off">Editing tools stay closed until “Allow file changes” is on.</string>
+    <string name="mcp_tools_execute_note">By default, AIDE+ asks you each time an external client calls one of these tools (AIDE+ must be in the foreground). Tap a tool and set it to “Automatic” to stop asking.</string>
     <string name="mcp_tools_group_read">Read only</string>
     <string name="mcp_tools_group_write">Edit files</string>
     <string name="mcp_tools_group_execute">Commands and external services</string>

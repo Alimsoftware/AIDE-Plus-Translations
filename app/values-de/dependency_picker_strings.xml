@@ -39,4 +39,13 @@
     <string name="dependency_add_project_summary">Von einem anderen Modul dieses Projekts abhängen</string>
     <string name="dependency_add_filetree_summary">Alle jar / aar eines Ordners verwenden</string>
     <string name="dependency_add_file_summary">Eine einzelne jar- / aar-Datei verwenden</string>
+    <string name="dependency_repository_missing_title">Repository nicht deklariert</string>
+    <string name="dependency_repository_missing">%2$s stammen aus %1$s, aber das Projekt deklariert weder %1$s noch einen Spiegel davon, daher findet der Build sie nicht. %1$s wird zu %3$s hinzugefügt.</string>
+    <string name="dependency_repository_missing_manual">%2$s stammen aus %1$s, aber das Projekt deklariert weder %1$s noch einen Spiegel davon, daher findet der Build sie nicht. Füge das Repository nach dem Speichern zu %3$s hinzu.</string>
+    <string name="dependency_repository_add">Repository hinzufügen</string>
+    <string name="dependency_repository_skip">Nur Abhängigkeit hinzufügen</string>
+    <string name="dependency_repository_failed">%1$s konnte nicht automatisch hinzugefügt werden; füge es selbst zu %2$s hinzu.</string>
+    <string name="dependency_repository_target_settings">dependencyResolutionManagement in %1$s</string>
+    <string name="dependency_repository_target_root">allprojects in %1$s</string>
+    <string name="dependency_repository_target_module">repositories in %1$s</string>
 </resources>

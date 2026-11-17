@@ -1758,4 +1758,5 @@
     <string name="toolchain_kind_ndk">NDK</string>
     <string name="toolchain_kind_cmake">CMake</string>
     <string name="toolchain_kind_terminal">Terminal-Umgebung</string>
+    <string name="command_find_implementations">Implementierungen suchen</string>
 </resources>

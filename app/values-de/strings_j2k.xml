@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="j2k_menu">In Kotlin umwandeln…</string>
+    <string name="j2k_title">Java zu Kotlin</string>
+    <string name="j2k_filter_hint">Nach Pfad filtern (regulärer Ausdruck)</string>
+    <string name="j2k_select_all">Alle auswählen</string>
+    <string name="j2k_select_none">Keine auswählen</string>
+    <string name="j2k_model">Modell: %1$s</string>
+    <string name="j2k_no_model_title">Kein Modell eingerichtet</string>
+    <string name="j2k_no_model">Die Umwandlung verwendet das im KI-Assistenten eingerichtete Modell.</string>
+    <string name="j2k_open_settings">Modell einrichten</string>
+    <string name="j2k_loading">Java-Dateien werden gesucht…</string>
+    <string name="j2k_empty">Hier gibt es keine Java-Dateien</string>
+    <string name="j2k_note_no_plugin">%1$s deklariert kein Kotlin-Plugin. AIDE+ baut Kotlin-Dateien auch ohne; ein echter Gradle-Build braucht das Plugin org.jetbrains.kotlin.android.</string>
+    <string name="j2k_files">Java-Dateien</string>
+    <string name="j2k_stop">Stoppen</string>
+    <string name="j2k_convert">Umwandeln (%1$d)</string>
+    <string name="j2k_apply">Übernehmen (%1$d)</string>
+    <string name="j2k_preview_action">Vorschau von %1$s</string>
+    <string name="j2k_select">%1$s auswählen</string>
+    <string name="j2k_status_queued">Wartet</string>
+    <string name="j2k_status_done">Umgewandelt</string>
+    <string name="j2k_status_failed">Fehlgeschlagen: %1$s</string>
+    <string name="j2k_status_cancelled">Gestoppt</string>
+    <string name="j2k_status_stale">Die Java-Datei wurde nach der Umwandlung geändert; bitte erneut umwandeln</string>
+    <string name="j2k_status_applied">Ersetzt durch %1$s</string>
+    <string name="j2k_status_applied_git">Ersetzt durch %1$s · Umbenennung committet (%2$s)</string>
+    <string name="j2k_error_too_large">die Datei ist größer als %1$s</string>
+    <string name="j2k_error_truncated">die Antwort hat das Ausgabelimit erreicht. Erhöhe die maximalen Ausgabe-Tokens in den Einstellungen des KI-Assistenten oder teile die Datei auf</string>
+    <string name="j2k_error_empty">das Modell hat keinen Kotlin-Code geliefert</string>
+    <string name="j2k_error_read">die Datei konnte nicht gelesen werden: %1$s</string>
+    <string name="j2k_error_request">Anfrage fehlgeschlagen: %1$s</string>
+    <string name="j2k_privacy_title">Quellcode an das Modell senden?</string>
+    <string name="j2k_privacy_message">Die ausgewählten Java-Dateien werden an %1$s gesendet, den im KI-Assistenten eingerichteten Modelldienst. Fahre nur fort, wenn du diesen Code dorthin senden darfst.</string>
+    <string name="j2k_continue">Weiter</string>
+    <string name="j2k_preview_kotlin">Kotlin</string>
+    <string name="j2k_preview_java">Java</string>
+    <string name="j2k_preview_issues">Probleme (%1$d)</string>
+    <string name="j2k_copy_kotlin">Kotlin-Code kopieren</string>
+    <string name="j2k_copied">Kopiert</string>
+    <string name="j2k_preview_no_issues">Keine Probleme gefunden. Geprüft wird nur die Syntax; Typfehler zeigt erst ein Build.</string>
+    <string name="j2k_preview_apply">Übernehmen</string>
+    <string name="j2k_preview_retry">Erneut umwandeln</string>
+    <string name="j2k_close">Schließen</string>
+    <string name="j2k_issue_syntax">Zeile %1$d: %2$s</string>
+    <string name="j2k_default_package">(Standardpaket)</string>
+    <string name="j2k_issue_package">Das Paket hat sich geändert: %1$s → %2$s</string>
+    <string name="j2k_issue_type">%1$s fehlt; andere Dateien verwenden es eventuell noch</string>
+    <string name="j2k_apply_title">Durch Kotlin ersetzen</string>
+    <string name="j2k_apply_git">Dateien in Git ohne nicht committete Änderungen werden zuerst in einem eigenen Commit umbenannt (Inhalt unverändert), damit die Historie ihnen folgt. Der Kotlin-Code bleibt als nicht committete Änderung, die du baust und selbst committest.</string>
+    <string name="j2k_apply_no_git">Diese Dateien haben nicht committete Änderungen und werden ohne Umbenennungs-Commit ersetzt: %1$s</string>
+    <string name="j2k_leave_running">Umwandlung stoppen und verlassen?</string>
+    <string name="j2k_leave">Verlassen</string>
+    <string name="j2k_leave_unapplied">Umgewandelte, nicht übernommene Dateien gehen verloren. Trotzdem verlassen?</string>
+    <string name="j2k_error_exists">%1$s existiert bereits</string>
+    <string name="j2k_error_git">der Umbenennungs-Commit ist fehlgeschlagen: %1$s</string>
+    <string name="j2k_error_write">die Datei konnte nicht geschrieben werden: %1$s</string>
+    <plurals name="j2k_status_running">
+        <item quantity="one">Wird umgewandelt… %1$d Zeichen empfangen</item>
+        <item quantity="other">Wird umgewandelt… %1$d Zeichen empfangen</item>
+    </plurals>
+    <plurals name="j2k_status_done_errors">
+        <item quantity="one">Umgewandelt · %1$d Syntaxfehler</item>
+        <item quantity="other">Umgewandelt · %1$d Syntaxfehler</item>
+    </plurals>
+    <plurals name="j2k_status_done_warnings">
+        <item quantity="one">Umgewandelt · %1$d Hinweis</item>
+        <item quantity="other">Umgewandelt · %1$d Hinweise</item>
+    </plurals>
+    <plurals name="j2k_lines">
+        <item quantity="one">%1$d Zeile</item>
+        <item quantity="other">%1$d Zeilen</item>
+    </plurals>
+    <plurals name="j2k_apply_message">
+        <item quantity="one">%1$d Java-Datei durch die umgewandelte Kotlin-Datei ersetzen (.java → .kt)?</item>
+        <item quantity="other">%1$d Java-Dateien durch die umgewandelten Kotlin-Dateien ersetzen (.java → .kt)?</item>
+    </plurals>
+    <plurals name="j2k_apply_errors">
+        <item quantity="one">%1$d Datei hat noch Syntaxfehler, die nach dem Übernehmen behoben werden müssen.</item>
+        <item quantity="other">%1$d Dateien haben noch Syntaxfehler, die nach dem Übernehmen behoben werden müssen.</item>
+    </plurals>
+    <plurals name="j2k_applied">
+        <item quantity="one">%1$d Datei durch Kotlin ersetzt</item>
+        <item quantity="other">%1$d Dateien durch Kotlin ersetzt</item>
+    </plurals>
+</resources>

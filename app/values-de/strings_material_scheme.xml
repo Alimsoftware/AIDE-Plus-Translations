@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="material_scheme_title">Material-Farben</string>
+    <string name="material_scheme_seed">Ausgangsfarbe</string>
+    <string name="material_scheme_seed_hint">Hex-Farbe, z. B. #6750A4</string>
+    <string name="material_scheme_seed_invalid">Gib eine Farbe wie #6750A4 ein</string>
+    <string name="material_scheme_preset">Vorgabe %1$s</string>
+    <string name="material_scheme_style">Stil</string>
+    <string name="material_scheme_contrast">Kontrast</string>
+    <string name="material_scheme_preview">Vorschau</string>
+    <string name="material_scheme_light">Hell</string>
+    <string name="material_scheme_dark">Dunkel</string>
+    <string name="material_scheme_variant_tonal_spot">Tonal</string>
+    <string name="material_scheme_variant_vibrant">Lebhaft</string>
+    <string name="material_scheme_variant_expressive">Ausdrucksstark</string>
+    <string name="material_scheme_variant_fidelity">Originalgetreu</string>
+    <string name="material_scheme_variant_content">Inhalt</string>
+    <string name="material_scheme_variant_neutral">Neutral</string>
+    <string name="material_scheme_variant_monochrome">Monochrom</string>
+    <string name="material_scheme_variant_rainbow">Regenbogen</string>
+    <string name="material_scheme_variant_fruit_salad">Obstsalat</string>
+    <string name="material_scheme_contrast_standard">Standard</string>
+    <string name="material_scheme_contrast_medium">Mittel</string>
+    <string name="material_scheme_contrast_high">Hoch</string>
+    <string name="material_scheme_copy">Code kopieren</string>
+    <string name="material_scheme_save">Zum Projekt hinzufügen</string>
+    <string name="material_scheme_copied">In die Zwischenablage kopiert</string>
+    <string name="material_scheme_copied_value">%1$s kopiert</string>
+    <string name="material_scheme_copy_xml">Android-XML (Farben und Theme-Attribute)</string>
+    <string name="material_scheme_copy_compose">Jetpack Compose (Material 3)</string>
+    <string name="material_scheme_copy_theme">Theme-Attribute kopieren</string>
+    <string name="material_scheme_no_project">Kein Projekt geöffnet. Öffne zuerst ein Projekt im Editor oder kopiere stattdessen den Code.</string>
+    <string name="material_scheme_project_changed">Das geöffnete Projekt hat sich geändert. Versuche es erneut.</string>
+    <string name="material_scheme_no_module">Im geöffneten Projekt wurde kein Android-Modul gefunden.</string>
+    <string name="material_scheme_save_failed">Die Dateien konnten nicht geschrieben werden: %1$s</string>
+    <string name="material_scheme_choose_module">Modul wählen</string>
+    <string name="material_scheme_conflict">Farben namens %1$s* sind bereits in %2$s definiert. Entferne sie zuerst, um doppelte Ressourcen zu vermeiden.</string>
+    <string name="material_scheme_save_confirm">%1$s und %2$s schreiben?
+
+Verweise danach im App-Theme auf die Farben, z. B. colorPrimary → @color/md_theme_primary („Theme-Attribute kopieren“ kopiert alle).</string>
+    <string name="material_scheme_save_replace">Vorhandene Dateien werden ersetzt.</string>
+    <string name="material_scheme_write">Schreiben</string>
+    <string name="material_scheme_saved">%1$s und %2$s gespeichert</string>
+    <string name="material_scheme_new_project_label">Farbschema</string>
+    <string name="material_scheme_new_project_enable">Material-Farben aus einer Grundfarbe erzeugen</string>
+    <string name="material_scheme_new_project_summary">%1$s · %2$s · %3$s</string>
+    <string name="material_scheme_new_project_adjust">In Material-Farben anpassen</string>
+    <string name="material_scheme_new_project_hint">Schreibt helle und dunkle Farben nach values und values-night; das App-Theme folgt dem dunklen Modus des Systems.</string>
+    <string name="material_scheme_new_project_dynamic">Unter Android 12+ weiter Hintergrundbildfarben verwenden (dynamische Farben)</string>
+    <string name="material_scheme_new_project_failed">Das Projekt wurde erstellt, aber das Farbschema wurde nicht geschrieben: %1$s</string>
+    <string name="material_scheme_new_project_no_theme">im Modul wurde kein Material-Theme namens %1$s gefunden</string>
+</resources>

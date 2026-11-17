@@ -5,7 +5,8 @@
     <string name="mcp_tools_status">%1$d von %2$d Werkzeugen sind für externe Clients freigegeben</string>
     <string name="mcp_tools_loading">Werkzeuge werden geladen…</string>
     <string name="mcp_tools_server_off">Der lokale MCP-Server ist aus. Diese Einstellungen gelten, sobald du ihn einschaltest.</string>
-    <string name="mcp_tools_writes_off">Bearbeitungswerkzeuge bleiben gesperrt, bis „Dateiänderungen erlauben“ aktiv ist. Befehle und externe Dienste fragen immer vorher nach.</string>
+    <string name="mcp_tools_writes_off">Bearbeitungswerkzeuge bleiben gesperrt, bis „Dateiänderungen erlauben“ aktiv ist.</string>
+    <string name="mcp_tools_execute_note">Standardmäßig fragt AIDE+ jedes Mal nach, wenn ein externer Client eines dieser Werkzeuge aufruft (AIDE+ muss im Vordergrund sein). Tippen Sie auf ein Werkzeug und wählen Sie „Automatisch“, damit nicht mehr gefragt wird.</string>
     <string name="mcp_tools_group_read">Nur lesen</string>
     <string name="mcp_tools_group_write">Dateien bearbeiten</string>
     <string name="mcp_tools_group_execute">Befehle und externe Dienste</string>

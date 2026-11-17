@@ -37,4 +37,13 @@
     <string name="dependency_add_project_summary">依赖本工程的其他模块</string>
     <string name="dependency_add_filetree_summary">引用目录里的全部 jar / aar</string>
     <string name="dependency_add_file_summary">引用单个 jar / aar 文件</string>
+    <string name="dependency_repository_missing_title">项目里没有这个仓库</string>
+    <string name="dependency_repository_missing">%2$s 来自 %1$s，但项目没有声明 %1$s，也没有它的镜像，构建时会找不到。将把 %1$s 添加到 %3$s。</string>
+    <string name="dependency_repository_missing_manual">%2$s 来自 %1$s，但项目没有声明 %1$s，也没有它的镜像，构建时会找不到。请保存后在 %3$s 中添加这个仓库。</string>
+    <string name="dependency_repository_add">添加仓库</string>
+    <string name="dependency_repository_skip">只添加依赖</string>
+    <string name="dependency_repository_failed">无法自动添加 %1$s，请手动添加到 %2$s。</string>
+    <string name="dependency_repository_target_settings">%1$s 的 dependencyResolutionManagement</string>
+    <string name="dependency_repository_target_root">%1$s 的 allprojects</string>
+    <string name="dependency_repository_target_module">%1$s 的 repositories</string>
 </resources>

@@ -51,6 +51,7 @@
     <string name="terminal_selection_start">Auswahlanfang</string>
     <string name="terminal_selection_end">Auswahlende</string>
     <string name="terminal_environment_debian_bookworm">Debian 12 Bookworm</string>
+    <string name="terminal_environment_debian_trixie">Debian 13 Trixie</string>
     <string name="terminal_environment_archlinux_current">Arch Linux (aktuell)</string>
     <string name="terminal_new_session">Neue Sitzung</string>
     <string name="terminal_find">Im Terminal suchen</string>
@@ -229,13 +230,17 @@
     <string name="terminal_tab_unread">%1$s, neue Ausgabe</string>
     <string name="terminal_cortex_enabled">Linux mit Cortex ausführen (experimentell)</string>
     <string name="terminal_cortex_details">Cortex-Kompatibilität</string>
-    <string name="terminal_cortex_warning">PRoot bleibt die Standardeinstellung. Diese Option betrifft nur neue Linux-Befehle. Cortex benötigt eine angepasste Laufzeit; normale Linux-Abbilder werden nicht unterstützt. Es ist weder eine Sandbox noch ein vollständiger Linux-Kernel. Android kann die Ausführung aus dem App-Speicher verweigern, besonders ab Ziel-API 29 (AIDE+: 34). Kein Root, keine SDK-Absenkung und kein stiller Rückfall. Eine vertrauenswürdige Laufzeit importieren, die importierte Instanz wählen und die Option testen; zum Zurückkehren zu PRoot ausschalten.</string>
+    <string name="terminal_cortex_warning">PRoot bleibt die Standardeinstellung. Diese Option betrifft nur neue Linux-Befehle. Cortex benötigt eine angepasste Laufzeit; normale Linux-Abbilder werden nicht unterstützt. Es ist weder eine Sandbox noch ein vollständiger Linux-Kernel. Android kann die Ausführung aus dem App-Speicher verweigern, besonders ab Ziel-API 29 (AIDE+: 34). Kein Root, keine SDK-Absenkung und kein stiller Rückfall. Eine vertrauenswürdige Laufzeit herunterladen oder importieren, diese Instanz wählen und die Option testen; zum Zurückkehren zu PRoot ausschalten.</string>
     <string name="terminal_cortex_import">Cortex-Laufzeit importieren (.tar.gz)</string>
     <string name="terminal_cortex_import_summary">Eine vorbereitete kompatible Laufzeit als benannte Linux-Instanz importieren, ohne vorhandene Umgebungen zu überschreiben.</string>
     <string name="terminal_cortex_import_done">Laufzeit importiert. Die importierte Instanz als Terminal- oder Build-Umgebung wählen und die experimentelle Option aktivieren. Die Ausführung auf diesem Gerät ist nicht garantiert.</string>
     <string name="terminal_cortex_import_failed">Cortex-Import fehlgeschlagen: %1$s</string>
     <string name="terminal_cortex_exists">Die Zielumgebung existiert bereits und wird nicht überschrieben. Einen anderen Instanznamen verwenden.</string>
     <string name="terminal_cortex_environment">Cortex Ubuntu (experimentell)</string>
+    <string name="terminal_cortex_download">Cortex Ubuntu (experimentell, Cortex %1$s, %2$s Download)</string>
+    <string name="terminal_cortex_download_message">Lädt das offizielle Cortex-%1$s-Release für arm64 (%2$s) von GitHub, prüft die SHA-256-Prüfsumme und entpackt die enthaltene Ubuntu-Laufzeit als neue Instanz. Nur die Laufzeit wird verwendet; die Cortex-App wird nicht installiert. Cortex ist experimentell: Instanz auswählen und in den Einstellungen „Linux mit Cortex ausführen“ einschalten, um es zu testen.</string>
+    <string name="terminal_cortex_download_action">Herunterladen</string>
+    <string name="terminal_cortex_loader_mismatch">Dieses Cortex-Release verwendet einen anderen glibc-Loader als den in AIDE+ enthaltenen und kann daher nicht verwendet werden.</string>
     <string name="terminal_environment_new_instance">Neue Linux-Instanz installieren</string>
     <string name="terminal_environment_new_instance_summary">Dieselbe Distribution mehrfach mit getrennten Dateien und Namen installieren</string>
     <string name="terminal_environment_restore">Umgebungssicherung wiederherstellen</string>

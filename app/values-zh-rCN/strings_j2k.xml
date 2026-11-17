@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="j2k_menu">转换为 Kotlin…</string>
+    <string name="j2k_title">Java 转 Kotlin</string>
+    <string name="j2k_filter_hint">按路径过滤（正则表达式）</string>
+    <string name="j2k_select_all">全选</string>
+    <string name="j2k_select_none">全不选</string>
+    <string name="j2k_model">模型：%1$s</string>
+    <string name="j2k_no_model_title">还没有设置模型</string>
+    <string name="j2k_no_model">转换使用 AI 助手里设置的模型。</string>
+    <string name="j2k_open_settings">设置模型</string>
+    <string name="j2k_loading">正在查找 Java 文件…</string>
+    <string name="j2k_empty">这里没有 Java 文件</string>
+    <string name="j2k_note_no_plugin">%1$s 没有声明 Kotlin 插件。AIDE+ 内置构建不需要它也能编译 .kt；用真实 Gradle 构建时需要添加 org.jetbrains.kotlin.android 插件。</string>
+    <string name="j2k_files">Java 文件</string>
+    <string name="j2k_stop">停止</string>
+    <string name="j2k_convert">转换（%1$d）</string>
+    <string name="j2k_apply">应用（%1$d）</string>
+    <string name="j2k_preview_action">预览 %1$s</string>
+    <string name="j2k_select">选择 %1$s</string>
+    <string name="j2k_status_queued">排队中</string>
+    <string name="j2k_status_done">已转换</string>
+    <string name="j2k_status_failed">失败：%1$s</string>
+    <string name="j2k_status_cancelled">已停止</string>
+    <string name="j2k_status_stale">转换后 Java 文件又改过，请重新转换</string>
+    <string name="j2k_status_applied">已替换为 %1$s</string>
+    <string name="j2k_status_applied_git">已替换为 %1$s · 已提交改名（%2$s）</string>
+    <string name="j2k_error_too_large">文件超过 %1$s</string>
+    <string name="j2k_error_truncated">回复达到输出上限被截断。请在 AI 助手设置里调大最大输出 token，或拆分文件</string>
+    <string name="j2k_error_empty">模型没有返回 Kotlin 代码</string>
+    <string name="j2k_error_read">读取文件失败：%1$s</string>
+    <string name="j2k_error_request">请求失败：%1$s</string>
+    <string name="j2k_privacy_title">把源码发送给模型？</string>
+    <string name="j2k_privacy_message">所选 Java 文件会发送到 AI 助手中设置的模型服务（%1$s）。确认可以把这些代码发给它再继续。</string>
+    <string name="j2k_continue">继续</string>
+    <string name="j2k_preview_kotlin">Kotlin</string>
+    <string name="j2k_preview_java">Java</string>
+    <string name="j2k_preview_issues">问题（%1$d）</string>
+    <string name="j2k_copy_kotlin">复制 Kotlin 代码</string>
+    <string name="j2k_copied">已复制</string>
+    <string name="j2k_preview_no_issues">没有发现问题。这里只检查语法，类型错误要构建项目才能发现。</string>
+    <string name="j2k_preview_apply">应用</string>
+    <string name="j2k_preview_retry">重新转换</string>
+    <string name="j2k_close">关闭</string>
+    <string name="j2k_issue_syntax">第 %1$d 行：%2$s</string>
+    <string name="j2k_default_package">（默认包）</string>
+    <string name="j2k_issue_package">包名变了：%1$s → %2$s</string>
+    <string name="j2k_issue_type">缺少 %1$s，其它文件可能还在使用它</string>
+    <string name="j2k_apply_title">替换为 Kotlin</string>
+    <string name="j2k_apply_git">在 Git 里且没有未提交修改的文件，先单独提交一次改名（内容不变），历史会跟着文件走；Kotlin 代码作为未提交的修改留给你编译后再提交。</string>
+    <string name="j2k_apply_no_git">以下文件有未提交的修改，直接替换、不做改名提交：%1$s</string>
+    <string name="j2k_leave_running">停止转换并离开？</string>
+    <string name="j2k_leave">离开</string>
+    <string name="j2k_leave_unapplied">已转换但没有应用的结果会丢失，仍要离开吗？</string>
+    <string name="j2k_error_exists">%1$s 已存在</string>
+    <string name="j2k_error_git">改名提交失败：%1$s</string>
+    <string name="j2k_error_write">写入文件失败：%1$s</string>
+    <plurals name="j2k_status_running">
+        <item quantity="other">转换中… 已接收 %1$d 个字符</item>
+    </plurals>
+    <plurals name="j2k_status_done_errors">
+        <item quantity="other">已转换 · %1$d 处语法错误</item>
+    </plurals>
+    <plurals name="j2k_status_done_warnings">
+        <item quantity="other">已转换 · %1$d 条提示</item>
+    </plurals>
+    <plurals name="j2k_lines">
+        <item quantity="other">%1$d 行</item>
+    </plurals>
+    <plurals name="j2k_apply_message">
+        <item quantity="other">把 %1$d 个 Java 文件替换为转换后的 Kotlin 文件（.java → .kt）？</item>
+    </plurals>
+    <plurals name="j2k_apply_errors">
+        <item quantity="other">其中 %1$d 个文件还有语法错误，应用后需要手动修正。</item>
+    </plurals>
+    <plurals name="j2k_applied">
+        <item quantity="other">已把 %1$d 个文件替换为 Kotlin</item>
+    </plurals>
+</resources>

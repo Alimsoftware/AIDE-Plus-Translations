@@ -18,6 +18,7 @@
     <string name="kotlin_fix_add_override">Adicionar override a %1$s</string>
     <string name="kotlin_fix_add_else">Adicionar ramo else a %1$s</string>
     <string name="kotlin_fix_implement_members">Implementar membros de %1$s</string>
+    <string name="kotlin_fix_add_kdoc">Adicionar comentário de documentação a %1$s</string>
     <string name="kotlin_fix_initialize">Inicializar %1$s com %2$s</string>
     <string name="kotlin_fix_lateinit">Marcar %1$s como lateinit</string>
     <string name="kotlin_fix_add_not_null">Afirmar que %1$s não é nulo (!!)</string>

@@ -20,4 +20,6 @@
     <string name="build_install_apk">安装 APK</string>
     <string name="build_install_apk_action">安装这个 APK</string>
     <string name="build_install_apk_missing">APK 已不存在：%1$s</string>
+    <string name="build_task_gradle_plugins">检查 Gradle 插件</string>
+    <string name="build_gradle_plugins_unsupported">%1$s 应用了内置构建不会执行的 Gradle 插件：%2$s。它们在构建时做的事（例如 Chaquopy 打包 Python、google-services 生成配置资源）不会出现在 APK 里；需要时请用“%3$s”。</string>
 </resources>

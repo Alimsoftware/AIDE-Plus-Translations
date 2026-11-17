@@ -10,12 +10,18 @@
     <string name="editor_folding_summary">折叠跨行的块：点块首行行尾的小三角折起，点带隐藏行数的 … 标记展开。按 Java/Kotlin/C/C++/JSON/JSONC 的括号与 XML/SVG/HTML 的标签配对判断层级，结束行保持可见。</string>
     <string name="editor_sticky_title">粘性滚动</string>
     <string name="editor_sticky_summary">滚动时把所在的外层作用域钉在编辑器顶部，点一下跳回去。按 Java/Kotlin/C/C++/JSON/JSONC 的括号与 XML/SVG/HTML 的标签配对判断层级。</string>
+    <string name="editor_soft_wrap_title">软换行</string>
+    <string name="editor_soft_wrap_summary">一行比屏幕宽时接着排到下面几行，不再横向滚动；行号仍按源码行计。超大文件不换行。</string>
     <string name="editor_occurrence_title">相同符号高亮</string>
     <string name="editor_occurrence_summary">描出光标所在标识符在当前屏幕里的其它出现位置。只按词法判断，会跳过字符串、注释和关键字，不区分作用域，同名符号会一起描出。</string>
     <string name="editor_auto_closing_title">智能括号配对</string>
     <string name="editor_auto_closing_summary">在 Java、Kotlin、C/C++、AIDL、Gradle/Groovy、Dart、Lua、TOML、shell、CMake、smali 及 JSON/JSONC 中配对括号与引号、包裹选区、删除空对。XML/SVG 自动闭合标签并配对或删除空的属性引号。关闭后沿用原生输入。</string>
     <string name="editor_inline_title">行内错误提示</string>
     <string name="editor_inline_summary">在代码后显示实时诊断摘要，点按查看详情；构建错误仍保留在错误列表中。</string>
+    <string name="editor_diagnostic_tooltip_title">错误显示为光标处提示</string>
+    <string name="editor_diagnostic_tooltip_summary">光标所在行的错误或警告显示成光标旁的提示条，不再接在代码后面；关闭后回到行尾显示。</string>
+    <string name="editor_inlay_hints_title">Kotlin 类型提示（内联提示）</string>
+    <string name="editor_inlay_hints_summary">在 Kotlin 文件里，把没写类型的 val / var、lambda 参数与隐式 it 推断出的类型，用淡色小标签显示在该行行尾（如 user: User、it: Account）。从初始值一眼就能看出类型时不显示。</string>
     <string name="editor_inline_error">错误：%1$s</string>
     <string name="editor_inline_warning">警告：%1$s</string>
     <string name="editor_inline_more">%1$s（另 %2$d 条）</string>
@@ -25,7 +31,7 @@
     <string name="editor_ligature_font_title">连字字体（JetBrains Mono）</string>
     <string name="editor_ligature_font_summary">使用内置的 JetBrains Mono 字体，->、!=、>= 等运算符显示为连字。上面填了自定义字体时以自定义字体为准；关闭后使用系统等宽字体。</string>
     <string name="editor_format_on_paste_title">粘贴后自动格式化</string>
-    <string name="editor_format_on_paste_summary">粘贴后让代码分析引擎重新缩进粘贴的行，编辑器会等结果；超过 2000 行的粘贴不格式化（会提示）。关闭后直接粘贴，不调整缩进。</string>
+    <string name="editor_format_on_paste_summary">粘贴后由代码分析引擎在后台重新缩进粘贴的行，不卡编辑器，撤销粘贴时缩进一起撤销；缩进完成前输入或点到别处，这次缩进会放弃。超过 2000 行的粘贴不格式化（会提示）。关闭后粘贴的内容保持原样。</string>
     <plurals name="editor_format_on_paste_skipped">
         <item quantity="one">粘贴了 %1$d 行，超过 %2$d 行不自动格式化。</item>
         <item quantity="other">粘贴了 %1$d 行，超过 %2$d 行不自动格式化。</item>

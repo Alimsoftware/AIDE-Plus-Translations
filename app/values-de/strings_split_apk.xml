@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="split_apk_menu">Zu einer APK zusammenführen…</string>
+    <string name="split_apk_title">Split-APKs zusammenführen</string>
+    <string name="split_apk_loading">Paket wird gelesen…</string>
+    <string name="split_apk_app">App</string>
+    <string name="split_apk_version">Version %1$s (%2$s) · minSdk %3$s</string>
+    <string name="split_apk_parts">Splits</string>
+    <string name="split_apk_base">Basis-APK</string>
+    <string name="split_apk_kind_abi">Architektur: %1$s</string>
+    <string name="split_apk_kind_density">Bildschirmdichte: %1$s</string>
+    <string name="split_apk_kind_language">Sprache: %1$s</string>
+    <string name="split_apk_kind_feature">Funktionsmodul: %1$s</string>
+    <string name="split_apk_kind_other">Split: %1$s</string>
+    <string name="split_apk_part_detail">%1$s · %2$s</string>
+    <string name="split_apk_include">%1$s einbeziehen</string>
+    <plurals name="split_apk_skipped">
+        <item quantity="one">%1$d OBB-Datei im Paket wird nicht zusammengeführt. Kopiere sie bei Bedarf separat nach Android/obb/.</item>
+        <item quantity="other">%1$d OBB-Dateien im Paket werden nicht zusammengeführt. Kopiere sie bei Bedarf separat nach Android/obb/.</item>
+    </plurals>
+    <string name="split_apk_variant">Dieses Paket enthält %1$d Varianten für verschiedene Android-Versionen. Verwendet wird die für API %2$d und höher, passend zu diesem Gerät.</string>
+    <string name="split_apk_signature_note">Die zusammengeführte APK ist mit einem anderen Schlüssel signiert. Sie kann eine aus einem Store installierte Version nicht aktualisieren; deinstalliere diese zuerst.</string>
+    <string name="split_apk_signing">Signatur</string>
+    <string name="split_apk_signing_test">AIDE+-Testschlüssel</string>
+    <string name="split_apk_signing_change">Zum Ändern tippen</string>
+    <string name="split_apk_signing_profile">%1$s · Alias %2$s</string>
+    <string name="split_apk_signing_choose">Signieren mit</string>
+    <string name="split_apk_output">Ausgabe</string>
+    <string name="split_apk_merge">Zusammenführen und signieren</string>
+    <string name="split_apk_merging">Wird zusammengeführt…</string>
+    <string name="split_apk_signing_progress">Wird signiert…</string>
+    <string name="split_apk_done">Zusammengeführte APK</string>
+    <string name="split_apk_done_detail">%1$s · signiert mit %2$s</string>
+    <string name="split_apk_install">Installieren</string>
+    <string name="split_apk_removed">Beim Zusammenführen entfernt</string>
+    <string name="split_apk_removed_none">Es musste nichts entfernt werden.</string>
+    <string name="split_apk_show_removed">Entfernte Einträge anzeigen</string>
+    <string name="split_apk_error_title">Zusammenführen nicht möglich</string>
+    <string name="split_apk_error_not_archive">%1$s ist kein gültiges ZIP-Archiv.</string>
+    <string name="split_apk_error_encrypted">Das Paket ist verschlüsselt (ältere .apkm-Dateien von APKMirror). Exportiere es erneut ohne Verschlüsselung.</string>
+    <string name="split_apk_error_no_apk">Im Paket wurden keine APK-Dateien gefunden.</string>
+    <string name="split_apk_error_no_base">Keine Basis-APK gefunden: Alle APKs im Paket sind Splits.</string>
+    <string name="split_apk_error_multiple_base">Das Paket enthält mehr als eine Basis-APK: %1$s</string>
+    <string name="split_apk_error_mismatch">Ein Split gehört nicht zur Basis-APK: %1$s</string>
+    <string name="split_apk_error_too_large">Das Paket ist zu groß zum Entpacken.</string>
+    <string name="split_apk_error_bad_apk">Das Manifest von %1$s kann nicht gelesen werden.</string>
+    <string name="split_apk_error_merge">Zusammenführen fehlgeschlagen: %1$s</string>
+    <string name="split_apk_error_sign">Signieren fehlgeschlagen: %1$s</string>
+    <string name="split_apk_error_profiles">Gespeicherte Signaturprofile können nicht gelesen werden: %1$s</string>
+</resources>

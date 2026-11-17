@@ -5,7 +5,8 @@
     <string name="mcp_tools_status">向外部客户端开放 %1$d / %2$d 个工具</string>
     <string name="mcp_tools_loading">正在读取工具…</string>
     <string name="mcp_tools_server_off">本机 MCP 服务未开启，开启后按这里的设置提供工具。</string>
-    <string name="mcp_tools_writes_off">开启“允许修改文件”之前，修改类工具不对外开放；执行命令与外部服务类工具每次都会先询问。</string>
+    <string name="mcp_tools_writes_off">开启“允许修改文件”之前，修改类工具不对外开放。</string>
+    <string name="mcp_tools_execute_note">外部客户端调用这一组工具时，默认每次先在 AIDE+ 里询问（AIDE+ 要在前台）；点按工具把它设为“自动”后不再询问。</string>
     <string name="mcp_tools_group_read">只读</string>
     <string name="mcp_tools_group_write">修改文件</string>
     <string name="mcp_tools_group_execute">执行命令与外部服务</string>

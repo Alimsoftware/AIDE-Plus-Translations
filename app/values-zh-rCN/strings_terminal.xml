@@ -9,6 +9,7 @@
     <string name="terminal_environment_ubuntu_jammy">Ubuntu 22.04 LTS</string>
     <string name="terminal_environment_ubuntu_focal">Ubuntu 20.04 LTS</string>
     <string name="terminal_environment_debian_bookworm">Debian 12 Bookworm</string>
+    <string name="terminal_environment_debian_trixie">Debian 13 Trixie</string>
     <string name="terminal_environment_archlinux_current">Arch Linux（当前）</string>
     <string name="terminal_environment_linux">Linux 发行版</string>
     <string name="terminal_environment_current">当前</string>
@@ -227,13 +228,17 @@
     <string name="terminal_tab_unread">%1$s，有新输出</string>
     <string name="terminal_cortex_enabled">使用 Cortex 运行 Linux（试验）</string>
     <string name="terminal_cortex_details">Cortex 兼容性说明</string>
-    <string name="terminal_cortex_warning">默认仍使用 PRoot，此开关只影响新启动的 Linux 命令。Cortex 需要专门适配的运行包，不能直接使用普通 Linux 镜像；它不是安全沙箱，也不提供完整 Linux 内核。Android 可能拒绝从应用目录执行，尤其是目标 API 29 及以上（AIDE+ 为 34）。不会申请 Root、降低目标 SDK 或静默回退。请导入可信运行包，选择 已导入的实例 后开启试用；关闭即可恢复 PRoot。</string>
+    <string name="terminal_cortex_warning">默认仍使用 PRoot，此开关只影响新启动的 Linux 命令。Cortex 需要专门适配的运行包，不能直接使用普通 Linux 镜像；它不是安全沙箱，也不提供完整 Linux 内核。Android 可能拒绝从应用目录执行，尤其是目标 API 29 及以上（AIDE+ 为 34）。不会申请 Root、降低目标 SDK 或静默回退。请下载或导入可信运行包，选择该实例后开启试用；关闭即可恢复 PRoot。</string>
     <string name="terminal_cortex_import">导入 Cortex 运行包（.tar.gz）</string>
     <string name="terminal_cortex_import_summary">将准备好的兼容运行包导入为可命名的 Linux 实例，不覆盖现有环境。</string>
     <string name="terminal_cortex_import_done">运行包已导入。请选择 已导入的实例 作为终端或构建环境，再开启试验开关；不保证当前设备能够执行。</string>
     <string name="terminal_cortex_import_failed">Cortex 导入失败：%1$s</string>
     <string name="terminal_cortex_exists">目标环境已存在，不会覆盖。请使用其它实例名称。</string>
     <string name="terminal_cortex_environment">Cortex Ubuntu（试验）</string>
+    <string name="terminal_cortex_download">Cortex Ubuntu（试验，Cortex %1$s，下载 %2$s）</string>
+    <string name="terminal_cortex_download_message">从 GitHub 下载官方发布的 Cortex %1$s arm64 安装包（%2$s），校验 SHA-256 后取出其中的 Ubuntu 运行包，装成一个新环境。只使用运行包，不会安装 Cortex 应用。Cortex 仍是试验功能：选中这个环境，并在设置里打开“使用 Cortex 运行 Linux（试验）”后再试用。</string>
+    <string name="terminal_cortex_download_action">下载</string>
+    <string name="terminal_cortex_loader_mismatch">这个 Cortex 版本的 glibc 加载器与 AIDE+ 内置的不同，无法使用。</string>
     <string name="terminal_environment_new_instance">安装新 Linux 实例</string>
     <string name="terminal_environment_new_instance_summary">同一发行版可安装多次，各实例的文件和名称独立</string>
     <string name="terminal_environment_restore">恢复环境备份</string>

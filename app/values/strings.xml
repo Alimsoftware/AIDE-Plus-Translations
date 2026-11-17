@@ -31,4 +31,5 @@
     <string name="qqgroup" >QQ group %s</string>
     <string name="terminal_environment_title">Terminal environments</string>
     <string name="terminal_environment_summary">Manage Termux packages, Linux distributions and system shells</string>
+    <string name="command_find_implementations">Find implementations</string>
 </resources>

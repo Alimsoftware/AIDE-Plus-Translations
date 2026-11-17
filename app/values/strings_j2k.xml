@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="j2k_menu">Convert to Kotlin…</string>
+    <string name="j2k_title">Java to Kotlin</string>
+    <string name="j2k_filter_hint">Filter by path (regular expression)</string>
+    <string name="j2k_select_all">Select all</string>
+    <string name="j2k_select_none">Select none</string>
+    <string name="j2k_model">Model: %1$s</string>
+    <string name="j2k_no_model_title">No model set up</string>
+    <string name="j2k_no_model">Conversion uses the model configured in the AI assistant.</string>
+    <string name="j2k_open_settings">Set up model</string>
+    <string name="j2k_loading">Looking for Java files…</string>
+    <string name="j2k_empty">No Java files here</string>
+    <string name="j2k_note_no_plugin">%1$s does not declare a Kotlin plugin. AIDE+ builds Kotlin files without it; a real Gradle build needs the org.jetbrains.kotlin.android plugin.</string>
+    <string name="j2k_files">Java files</string>
+    <string name="j2k_stop">Stop</string>
+    <string name="j2k_convert">Convert (%1$d)</string>
+    <string name="j2k_apply">Apply (%1$d)</string>
+    <string name="j2k_preview_action">Preview %1$s</string>
+    <string name="j2k_select">Select %1$s</string>
+    <string name="j2k_status_queued">Waiting</string>
+    <string name="j2k_status_done">Converted</string>
+    <string name="j2k_status_failed">Failed: %1$s</string>
+    <string name="j2k_status_cancelled">Stopped</string>
+    <string name="j2k_status_stale">The Java file changed after conversion; convert it again</string>
+    <string name="j2k_status_applied">Replaced by %1$s</string>
+    <string name="j2k_status_applied_git">Replaced by %1$s · rename committed (%2$s)</string>
+    <string name="j2k_error_too_large">the file is larger than %1$s</string>
+    <string name="j2k_error_truncated">the reply hit the output limit. Raise the maximum output tokens in the AI assistant settings, or split the file</string>
+    <string name="j2k_error_empty">the model returned no Kotlin code</string>
+    <string name="j2k_error_read">could not read the file: %1$s</string>
+    <string name="j2k_error_request">request failed: %1$s</string>
+    <string name="j2k_privacy_title">Send source code to the model?</string>
+    <string name="j2k_privacy_message">The selected Java files are sent to %1$s, the model service configured in the AI assistant. Continue only if you may share this code with it.</string>
+    <string name="j2k_continue">Continue</string>
+    <string name="j2k_preview_kotlin">Kotlin</string>
+    <string name="j2k_preview_java">Java</string>
+    <string name="j2k_preview_issues">Problems (%1$d)</string>
+    <string name="j2k_copy_kotlin">Copy Kotlin code</string>
+    <string name="j2k_copied">Copied</string>
+    <string name="j2k_preview_no_issues">No problems found. Only syntax is checked; build the project to find type errors.</string>
+    <string name="j2k_preview_apply">Apply</string>
+    <string name="j2k_preview_retry">Convert again</string>
+    <string name="j2k_close">Close</string>
+    <string name="j2k_issue_syntax">Line %1$d: %2$s</string>
+    <string name="j2k_default_package">(default package)</string>
+    <string name="j2k_issue_package">The package changed: %1$s → %2$s</string>
+    <string name="j2k_issue_type">%1$s is missing; other files may still use it</string>
+    <string name="j2k_apply_title">Replace with Kotlin</string>
+    <string name="j2k_apply_git">Files in Git without uncommitted changes are first renamed in a commit of their own (content unchanged), so history follows them. The Kotlin code stays as an uncommitted change for you to build and commit.</string>
+    <string name="j2k_apply_no_git">These files have uncommitted changes and are replaced without a rename commit: %1$s</string>
+    <string name="j2k_leave_running">Stop the conversion and leave?</string>
+    <string name="j2k_leave">Leave</string>
+    <string name="j2k_leave_unapplied">Converted files that were not applied will be lost. Leave anyway?</string>
+    <string name="j2k_error_exists">%1$s already exists</string>
+    <string name="j2k_error_git">the rename commit failed: %1$s</string>
+    <string name="j2k_error_write">could not write the file: %1$s</string>
+    <plurals name="j2k_status_running">
+        <item quantity="one">Converting… %1$d character received</item>
+        <item quantity="other">Converting… %1$d characters received</item>
+    </plurals>
+    <plurals name="j2k_status_done_errors">
+        <item quantity="one">Converted · %1$d syntax error</item>
+        <item quantity="other">Converted · %1$d syntax errors</item>
+    </plurals>
+    <plurals name="j2k_status_done_warnings">
+        <item quantity="one">Converted · %1$d warning</item>
+        <item quantity="other">Converted · %1$d warnings</item>
+    </plurals>
+    <plurals name="j2k_lines">
+        <item quantity="one">%1$d line</item>
+        <item quantity="other">%1$d lines</item>
+    </plurals>
+    <plurals name="j2k_apply_message">
+        <item quantity="one">Replace %1$d Java file with the converted Kotlin file (.java → .kt)?</item>
+        <item quantity="other">Replace %1$d Java files with the converted Kotlin files (.java → .kt)?</item>
+    </plurals>
+    <plurals name="j2k_apply_errors">
+        <item quantity="one">%1$d file still has syntax errors to fix after applying.</item>
+        <item quantity="other">%1$d files still have syntax errors to fix after applying.</item>
+    </plurals>
+    <plurals name="j2k_applied">
+        <item quantity="one">Replaced %1$d file with Kotlin</item>
+        <item quantity="other">Replaced %1$d files with Kotlin</item>
+    </plurals>
+</resources>

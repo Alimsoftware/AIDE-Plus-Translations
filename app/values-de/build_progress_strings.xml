@@ -20,4 +20,6 @@
     <string name="build_install_apk">APK installieren</string>
     <string name="build_install_apk_action">Dieses APK installieren</string>
     <string name="build_install_apk_missing">Das APK ist nicht mehr vorhanden: %1$s</string>
+    <string name="build_task_gradle_plugins">Gradle-Plugins prüfen</string>
+    <string name="build_gradle_plugins_unsupported">%1$s wendet Gradle-Plugins an, die der integrierte Build nicht ausführt: %2$s. Was sie beim Build tun (z. B. Chaquopy packt Python, google-services erzeugt seine Ressourcen), fehlt in der APK. Verwende bei Bedarf „%3$s“.</string>
 </resources>

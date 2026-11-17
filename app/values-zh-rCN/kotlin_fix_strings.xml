@@ -18,6 +18,7 @@
     <string name="kotlin_fix_add_override">为 %1$s 添加 override</string>
     <string name="kotlin_fix_add_else">为 %1$s 添加 else 分支</string>
     <string name="kotlin_fix_implement_members">实现 %1$s 的抽象成员</string>
+    <string name="kotlin_fix_add_kdoc">为 %1$s 生成文档注释</string>
     <string name="kotlin_fix_initialize">将 %1$s 初始化为 %2$s</string>
     <string name="kotlin_fix_lateinit">将 %1$s 标为 lateinit</string>
     <string name="kotlin_fix_add_not_null">断言 %1$s 不为空（!!）</string>

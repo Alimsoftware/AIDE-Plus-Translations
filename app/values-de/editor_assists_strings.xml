@@ -10,12 +10,18 @@
     <string name="editor_folding_summary">Mehrzeilige Blöcke falten: Das kleine Dreieck am Ende der ersten Blockzeile faltet zu, die …-Marke mit der Anzahl verborgener Zeilen faltet auf. Nutzt die Klammer- und Tag-Paare von Java, Kotlin, C/C++, JSON/JSONC und XML/SVG/HTML. Die schließende Zeile bleibt sichtbar.</string>
     <string name="editor_sticky_title">Haftendes Scrollen</string>
     <string name="editor_sticky_summary">Umschließende Gültigkeitsbereiche beim Scrollen oben im Editor anheften; antippen springt zurück. Nutzt die Klammer- und Tag-Paare von Java, Kotlin, C/C++, JSON/JSONC und XML/SVG/HTML.</string>
+    <string name="editor_soft_wrap_title">Weicher Zeilenumbruch</string>
+    <string name="editor_soft_wrap_summary">Zeilen, die breiter als der Bildschirm sind, in den folgenden Zeilen fortsetzen, statt seitlich zu scrollen. Die Zeilennummern zählen weiterhin Quelltextzeilen. Gilt nicht für sehr große Dateien.</string>
     <string name="editor_occurrence_title">Hervorhebung gleicher Symbole</string>
     <string name="editor_occurrence_summary">Weitere Vorkommen des Bezeichners an der Einfügemarke umranden. Rein lexikalisch: Zeichenketten, Kommentare und Schlüsselwörter werden übersprungen, gleichnamige Symbole aus anderen Gültigkeitsbereichen treffen weiterhin zu.</string>
     <string name="editor_auto_closing_title">Intelligente Klammerpaare</string>
     <string name="editor_auto_closing_summary">Klammern und Anführungszeichen paaren, Auswahl umschließen und leere Paare löschen in Java, Kotlin, C/C++, AIDL, Gradle/Groovy, Dart, Lua, TOML, Shell, CMake, smali und JSON/JSONC. XML/SVG-Tags schließen und leere Attribut-Anführungszeichen paaren oder löschen. Ausgeschaltet bleibt die native Eingabe.</string>
     <string name="editor_inline_title">Diagnosen in der Codezeile</string>
     <string name="editor_inline_summary">Live-Diagnosen hinter dem Quelltext anzeigen. Antippen öffnet Details; Build-Fehler bleiben in der Problemliste.</string>
+    <string name="editor_diagnostic_tooltip_title">Diagnosen als Hinweis am Cursor</string>
+    <string name="editor_diagnostic_tooltip_summary">Fehler oder Warnungen der Cursorzeile in einer kleinen Leiste am Cursor statt hinter dem Quelltext anzeigen. Ausschalten, um sie am Zeilenende anzuzeigen.</string>
+    <string name="editor_inlay_hints_title">Kotlin-Typhinweise (Inlay-Hinweise)</string>
+    <string name="editor_inlay_hints_summary">In Kotlin-Dateien den abgeleiteten Typ von val oder var ohne Typangabe, von Lambda-Parametern und des impliziten it als blasses Etikett am Zeilenende anzeigen (z. B. user: User, it: Account). Ist der Typ am Initialwert schon erkennbar, wird nichts angezeigt.</string>
     <string name="editor_inline_error">Fehler: %1$s</string>
     <string name="editor_inline_warning">Warnung: %1$s</string>
     <string name="editor_inline_more">%1$s (+%2$d)</string>
@@ -25,7 +31,7 @@
     <string name="editor_ligature_font_title">Ligaturschrift (JetBrains Mono)</string>
     <string name="editor_ligature_font_summary">Die mitgelieferte JetBrains Mono verwenden, damit ->, !=, >= und ähnliche Operatoren als Ligaturen dargestellt werden. Eine oben angegebene eigene Schrift hat Vorrang; ausgeschaltet wird die Monospace-Schrift des Systems verwendet.</string>
     <string name="editor_format_on_paste_title">Nach dem Einfügen formatieren</string>
-    <string name="editor_format_on_paste_summary">Eingefügte Zeilen von der Code-Analyse neu einrücken lassen; der Editor wartet auf das Ergebnis. Einfügungen mit mehr als 2000 Zeilen werden nicht formatiert (mit Hinweis). Ausschalten, um sofort ohne Neueinrückung einzufügen.</string>
+    <string name="editor_format_on_paste_summary">Eingefügte Zeilen im Hintergrund von der Code-Analyse neu einrücken lassen, ohne den Editor zu blockieren; Rückgängig macht Einfügen und Einrückung zusammen rückgängig. Wird vorher getippt oder woanders hingetippt, entfällt die Neueinrückung. Einfügungen mit mehr als 2000 Zeilen werden nicht formatiert (mit Hinweis). Ausschalten, um eingefügten Text unverändert zu lassen.</string>
     <plurals name="editor_format_on_paste_skipped">
         <item quantity="one">%1$d Zeile eingefügt. Über %2$d Zeilen wird nicht automatisch formatiert.</item>
         <item quantity="other">%1$d Zeilen eingefügt. Über %2$d Zeilen wird nicht automatisch formatiert.</item>

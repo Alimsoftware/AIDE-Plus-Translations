@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="third_party_title">第三方许可</string>
+    <string name="third_party_summary">AIDE+ 内置的开源组件、依赖库及其许可证</string>
+    <string name="third_party_search">搜索组件或许可证</string>
+    <string name="third_party_loading">正在读取许可清单…</string>
+    <string name="third_party_load_failed">无法读取许可清单：%1$s</string>
+    <string name="third_party_group_bundled">内置组件</string>
+    <string name="third_party_group_icons">图标库</string>
+    <string name="third_party_group_libraries">依赖库</string>
+    <string name="third_party_empty">没有匹配的组件</string>
+    <string name="third_party_reload">重新读取</string>
+    <string name="third_party_no_license">未声明许可证</string>
+    <string name="third_party_version">版本 %1$s</string>
+    <string name="third_party_developers">作者：%1$s</string>
+    <string name="third_party_license">许可证</string>
+    <string name="third_party_open_website">打开主页</string>
+    <string name="third_party_text_failed">无法读取许可证全文</string>
+    <plurals name="third_party_components">
+        <item quantity="other">%1$d 个组件</item>
+    </plurals>
+    <plurals name="third_party_licenses">
+        <item quantity="other">%1$d 种许可证</item>
+    </plurals>
+</resources>

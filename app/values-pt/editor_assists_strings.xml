@@ -10,12 +10,18 @@
     <string name="editor_folding_summary">Dobre blocos de várias linhas: toque no pequeno triângulo no fim da primeira linha do bloco para dobrar e na marca … com o número de linhas ocultas para desdobrar. Usa os pares de delimitadores e tags de Java, Kotlin, C/C++, JSON/JSONC e XML/SVG/HTML. A linha de fecho permanece visível.</string>
     <string name="editor_sticky_title">Rolagem fixa</string>
     <string name="editor_sticky_summary">Fixe os escopos que envolvem a posição atual no topo do editor ao rolar e toque num deles para voltar. Usa os pares de delimitadores e tags de Java, Kotlin, C/C++, JSON/JSONC e XML/SVG/HTML.</string>
+    <string name="editor_soft_wrap_title">Quebra de linha suave</string>
+    <string name="editor_soft_wrap_summary">Continua nas linhas seguintes as linhas mais largas do que o ecrã, em vez de rolar para o lado. Os números de linha continuam a contar as linhas do código. Não se aplica a ficheiros muito grandes.</string>
     <string name="editor_occurrence_title">Destaque de símbolos iguais</string>
     <string name="editor_occurrence_summary">Contorne as outras ocorrências do identificador sob o cursor. Apenas léxico: strings, comentários e palavras reservadas são ignorados, e símbolos de mesmo nome em outros escopos também correspondem.</string>
     <string name="editor_auto_closing_title">Pares inteligentes de delimitadores</string>
     <string name="editor_auto_closing_summary">Emparelhe delimitadores e aspas, envolva a seleção e apague pares vazios em Java, Kotlin, C/C++, AIDL, Gradle/Groovy, Dart, Lua, TOML, shell, CMake, smali e JSON/JSONC. Feche tags XML/SVG e emparelhe ou apague aspas de atributo vazias. Desativado, mantém a edição nativa.</string>
     <string name="editor_inline_title">Diagnósticos na linha</string>
     <string name="editor_inline_summary">Mostrar resumos de diagnósticos em tempo real após o código. Toque para ver detalhes; erros de compilação permanecem na lista de problemas.</string>
+    <string name="editor_diagnostic_tooltip_title">Diagnósticos como dica no cursor</string>
+    <string name="editor_diagnostic_tooltip_summary">Mostrar o erro ou aviso da linha do cursor numa pequena barra junto ao cursor em vez de após o código. Desative para os mostrar no fim da linha.</string>
+    <string name="editor_inlay_hints_title">Dicas de tipo de Kotlin (inlay hints)</string>
+    <string name="editor_inlay_hints_summary">Em ficheiros Kotlin, mostra o tipo inferido de um val ou var declarado sem tipo, dos parâmetros de lambdas e do it implícito numa etiqueta esbatida no fim da linha (por exemplo user: User, it: Account). Nada é mostrado quando o valor inicial já torna o tipo evidente.</string>
     <string name="editor_inline_error">Erro: %1$s</string>
     <string name="editor_inline_warning">Aviso: %1$s</string>
     <string name="editor_inline_more">%1$s (+%2$d)</string>
@@ -25,7 +31,7 @@
     <string name="editor_ligature_font_title">Fonte com ligaduras (JetBrains Mono)</string>
     <string name="editor_ligature_font_summary">Usar a JetBrains Mono incluída para que ->, !=, >= e operadores semelhantes apareçam como ligaduras. Uma fonte personalizada indicada acima tem prioridade; desativado, usa a fonte monoespaçada do sistema.</string>
     <string name="editor_format_on_paste_title">Formatar após colar</string>
-    <string name="editor_format_on_paste_summary">Reindentar as linhas coladas com o mecanismo de análise de código; o editor espera pelo resultado. Colagens com mais de 2000 linhas não são formatadas (com aviso). Desative para colar imediatamente sem reindentar.</string>
+    <string name="editor_format_on_paste_summary">Reindentar as linhas coladas em segundo plano com o mecanismo de análise de código, sem bloquear o editor; desfazer a colagem também desfaz a indentação. Digitar ou tocar em outro lugar antes de terminar cancela a reindentação. Colagens com mais de 2000 linhas não são formatadas (com aviso). Desative para manter o texto colado como está.</string>
     <plurals name="editor_format_on_paste_skipped">
         <item quantity="one">%1$d linha colada. Acima de %2$d linhas não se formata automaticamente.</item>
         <item quantity="other">%1$d linhas coladas. Acima de %2$d linhas não se formata automaticamente.</item>

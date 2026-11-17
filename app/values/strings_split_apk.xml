@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="split_apk_menu">Merge into one APK…</string>
+    <string name="split_apk_title">Merge split APKs</string>
+    <string name="split_apk_loading">Reading the package…</string>
+    <string name="split_apk_app">App</string>
+    <string name="split_apk_version">Version %1$s (%2$s) · minSdk %3$s</string>
+    <string name="split_apk_parts">Splits</string>
+    <string name="split_apk_base">Base APK</string>
+    <string name="split_apk_kind_abi">Architecture: %1$s</string>
+    <string name="split_apk_kind_density">Screen density: %1$s</string>
+    <string name="split_apk_kind_language">Language: %1$s</string>
+    <string name="split_apk_kind_feature">Feature module: %1$s</string>
+    <string name="split_apk_kind_other">Split: %1$s</string>
+    <string name="split_apk_part_detail">%1$s · %2$s</string>
+    <string name="split_apk_include">Include %1$s</string>
+    <plurals name="split_apk_skipped">
+        <item quantity="one">%1$d OBB data file in the package is not merged. Copy it to Android/obb/ separately if the app needs it.</item>
+        <item quantity="other">%1$d OBB data files in the package are not merged. Copy them to Android/obb/ separately if the app needs them.</item>
+    </plurals>
+    <string name="split_apk_variant">This set has %1$d variants for different Android versions. Using the one for API %2$d and later, which suits this device.</string>
+    <string name="split_apk_signature_note">The merged APK is signed with a different key. It cannot update a copy installed from a store; uninstall that copy first.</string>
+    <string name="split_apk_signing">Signing</string>
+    <string name="split_apk_signing_test">AIDE+ test key</string>
+    <string name="split_apk_signing_change">Tap to change</string>
+    <string name="split_apk_signing_profile">%1$s · alias %2$s</string>
+    <string name="split_apk_signing_choose">Sign with</string>
+    <string name="split_apk_output">Output</string>
+    <string name="split_apk_merge">Merge and sign</string>
+    <string name="split_apk_merging">Merging…</string>
+    <string name="split_apk_signing_progress">Signing…</string>
+    <string name="split_apk_done">Merged APK</string>
+    <string name="split_apk_done_detail">%1$s · signed with %2$s</string>
+    <string name="split_apk_install">Install</string>
+    <string name="split_apk_removed">Removed while merging</string>
+    <string name="split_apk_removed_none">Nothing needed removing.</string>
+    <string name="split_apk_show_removed">Show removed items</string>
+    <string name="split_apk_error_title">Cannot merge</string>
+    <string name="split_apk_error_not_archive">%1$s is not a valid ZIP archive.</string>
+    <string name="split_apk_error_encrypted">The package is encrypted (older .apkm files from APKMirror). Export it again without encryption.</string>
+    <string name="split_apk_error_no_apk">No APK files were found in the package.</string>
+    <string name="split_apk_error_no_base">No base APK found: every APK in the package is a split.</string>
+    <string name="split_apk_error_multiple_base">The package has more than one base APK: %1$s</string>
+    <string name="split_apk_error_mismatch">A split does not belong to the base APK: %1$s</string>
+    <string name="split_apk_error_too_large">The package is too large to extract.</string>
+    <string name="split_apk_error_bad_apk">Cannot read the manifest of %1$s.</string>
+    <string name="split_apk_error_merge">Merging failed: %1$s</string>
+    <string name="split_apk_error_sign">Signing failed: %1$s</string>
+    <string name="split_apk_error_profiles">Cannot read saved signing profiles: %1$s</string>
+</resources>

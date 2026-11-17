@@ -10,12 +10,18 @@
     <string name="editor_folding_summary">Fold multi-line blocks: tap the small triangle at the end of the first line in a block to fold it, and the … badge with the hidden line count to unfold. Uses the bracket and tag pairs of Java, Kotlin, C/C++, JSON/JSONC and XML/SVG/HTML. The closing line stays visible.</string>
     <string name="editor_sticky_title">Sticky scroll</string>
     <string name="editor_sticky_summary">Pin the enclosing scopes to the top of the editor while scrolling and tap one to jump back. Uses the bracket and tag pairs of Java, Kotlin, C/C++, JSON/JSONC and XML/SVG/HTML.</string>
+    <string name="editor_soft_wrap_title">Soft wrap</string>
+    <string name="editor_soft_wrap_summary">Continue lines that are wider than the screen on the following rows instead of scrolling sideways. Line numbers still count source lines. Not applied to very large files.</string>
     <string name="editor_occurrence_title">Matching symbol highlight</string>
     <string name="editor_occurrence_summary">Outline the other occurrences of the identifier at the caret. Lexical only: strings, comments and keywords are skipped, and same-named symbols from other scopes still match.</string>
     <string name="editor_auto_closing_title">Smart bracket pairs</string>
     <string name="editor_auto_closing_summary">Pair brackets and quotes, wrap selections and delete empty pairs in Java, Kotlin, C/C++, AIDL, Gradle/Groovy, Dart, Lua, TOML, shell, CMake, smali and JSON/JSONC. Close XML/SVG tags and pair or delete empty attribute quotes. Turning this off keeps native editing.</string>
     <string name="editor_inline_title">Inline diagnostics</string>
     <string name="editor_inline_summary">Show live diagnostic summaries after source text. Tap a summary for details; build errors remain in the Problems list.</string>
+    <string name="editor_diagnostic_tooltip_title">Show diagnostics as a caret tooltip</string>
+    <string name="editor_diagnostic_tooltip_summary">Show the error or warning of the caret line in a small bar near the caret instead of after the source text. Turn off to show them at the end of the line.</string>
+    <string name="editor_inlay_hints_title">Kotlin type hints (inlay hints)</string>
+    <string name="editor_inlay_hints_summary">In Kotlin files, show the inferred type of a val or var declared without one, of lambda parameters and of the implicit it as a dimmed label at the end of the line (for example user: User, it: Account). Nothing is shown when the initializer already makes the type obvious.</string>
     <string name="editor_inline_error">Error: %1$s</string>
     <string name="editor_inline_warning">Warning: %1$s</string>
     <string name="editor_inline_more">%1$s (+%2$d)</string>
@@ -25,7 +31,7 @@
     <string name="editor_ligature_font_title">Ligature font (JetBrains Mono)</string>
     <string name="editor_ligature_font_summary">Use the bundled JetBrains Mono so that ->, !=, >= and similar operators are drawn as ligatures. A custom font path above takes precedence; turn off to use the system monospace font.</string>
     <string name="editor_format_on_paste_title">Format after paste</string>
-    <string name="editor_format_on_paste_summary">Re-indent pasted lines with the code analysis engine; the editor waits for the result. Pastes over 2000 lines are not formatted (a message says so). Turn off to paste immediately without re-indenting.</string>
+    <string name="editor_format_on_paste_summary">Re-indent pasted lines with the code analysis engine in the background, without blocking the editor; undoing the paste also undoes the indent. Typing or tapping elsewhere before it finishes skips the re-indent. Pastes over 2000 lines are not formatted (a message says so). Turn off to keep pasted text as is.</string>
     <plurals name="editor_format_on_paste_skipped">
         <item quantity="one">Pasted %1$d line. Pastes over %2$d lines are not auto-formatted.</item>
         <item quantity="other">Pasted %1$d lines. Pastes over %2$d lines are not auto-formatted.</item>

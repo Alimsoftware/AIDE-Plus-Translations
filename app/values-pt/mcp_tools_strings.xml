@@ -5,7 +5,8 @@
     <string name="mcp_tools_status">%1$d de %2$d ferramentas estão abertas a clientes externos</string>
     <string name="mcp_tools_loading">A carregar ferramentas…</string>
     <string name="mcp_tools_server_off">O servidor MCP local está desligado. Estas configurações valem quando você ligá-lo.</string>
-    <string name="mcp_tools_writes_off">As ferramentas de edição ficam fechadas até ativar “Permitir alterações de ficheiros”. Comandos e serviços externos sempre pedem aprovação.</string>
+    <string name="mcp_tools_writes_off">As ferramentas de edição ficam fechadas até ativar “Permitir alterações de ficheiros”.</string>
+    <string name="mcp_tools_execute_note">Por predefinição, o AIDE+ pede a sua aprovação sempre que um cliente externo chama uma destas ferramentas (o AIDE+ tem de estar em primeiro plano). Toque numa ferramenta e escolha “Automático” para deixar de perguntar.</string>
     <string name="mcp_tools_group_read">Somente leitura</string>
     <string name="mcp_tools_group_write">Editar ficheiros</string>
     <string name="mcp_tools_group_execute">Comandos e serviços externos</string>

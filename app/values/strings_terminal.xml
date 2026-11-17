@@ -10,6 +10,7 @@
     <string name="terminal_environment_ubuntu_jammy">Ubuntu 22.04 LTS</string>
     <string name="terminal_environment_ubuntu_focal">Ubuntu 20.04 LTS</string>
     <string name="terminal_environment_debian_bookworm">Debian 12 Bookworm</string>
+    <string name="terminal_environment_debian_trixie">Debian 13 Trixie</string>
     <string name="terminal_environment_archlinux_current">Arch Linux (current)</string>
     <string name="terminal_environment_linux">Linux distributions</string>
     <string name="terminal_environment_current">Current</string>
@@ -229,13 +230,17 @@
     <string name="terminal_tab_unread">%1$s, new output</string>
     <string name="terminal_cortex_enabled">Use Cortex for Linux (experimental)</string>
     <string name="terminal_cortex_details">Cortex compatibility details</string>
-    <string name="terminal_cortex_warning">PRoot remains the default. This switch affects new Linux commands only. Cortex needs its own compatible runtime; ordinary Linux images are not supported. It is not a sandbox or a complete Linux kernel. Android may deny execution from app storage, especially with target API 29 or later (AIDE+ targets 34). No root, SDK downgrade or silent fallback is used. Import a trusted runtime, select the imported instance, then enable this option to try; turn it off to return to PRoot.</string>
+    <string name="terminal_cortex_warning">PRoot remains the default. This switch affects new Linux commands only. Cortex needs its own compatible runtime; ordinary Linux images are not supported. It is not a sandbox or a complete Linux kernel. Android may deny execution from app storage, especially with target API 29 or later (AIDE+ targets 34). No root, SDK downgrade or silent fallback is used. Download or import a trusted runtime, select that instance, then enable this option to try; turn it off to return to PRoot.</string>
     <string name="terminal_cortex_import">Import Cortex runtime (.tar.gz)</string>
     <string name="terminal_cortex_import_summary">Import a prepared compatible runtime as a named Linux instance; existing environments are not overwritten.</string>
     <string name="terminal_cortex_import_done">Runtime imported. Select the imported instance as the terminal or build environment and enable the experimental switch. Execution is not guaranteed on this device.</string>
     <string name="terminal_cortex_import_failed">Cortex import failed: %1$s</string>
     <string name="terminal_cortex_exists">The target environment already exists and will not be overwritten. Use a different instance name.</string>
     <string name="terminal_cortex_environment">Cortex Ubuntu (experimental)</string>
+    <string name="terminal_cortex_download">Cortex Ubuntu (experimental, Cortex %1$s, %2$s download)</string>
+    <string name="terminal_cortex_download_message">Downloads the official Cortex %1$s arm64 release (%2$s) from GitHub, checks its SHA-256 and unpacks its Ubuntu runtime as a new instance. Only the runtime is used; the Cortex app is not installed. Cortex is experimental: select the instance and turn on “Use Cortex for Linux” in the settings to try it.</string>
+    <string name="terminal_cortex_download_action">Download</string>
+    <string name="terminal_cortex_loader_mismatch">This Cortex release uses a different glibc loader than the one bundled with AIDE+, so it cannot be used.</string>
     <string name="terminal_environment_new_instance">Install new Linux instance</string>
     <string name="terminal_environment_new_instance_summary">Install the same distribution more than once with separate files and names</string>
     <string name="terminal_environment_restore">Restore environment backup</string>
