@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_empty_title">Como posso ajudar?</string>
+    <string name="ai_empty_message">Pergunte sobre o projeto aberto. Posso ler, pesquisar e alterar o código e peço confirmação antes de alterar arquivos. Escreva / para usar skills do projeto.</string>
+    <string name="ai_empty_title_setup">Configure primeiro um modelo</string>
+    <string name="ai_empty_setup_message">Escolha o tipo de API e insira a chave e o nome do modelo para começar.</string>
+    <string name="ai_configure_model">Configurar modelo</string>
+</resources>

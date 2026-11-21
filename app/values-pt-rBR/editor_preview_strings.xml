@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="editor_preview_title_markdown">Pré-visualização Markdown</string>
+    <string name="editor_preview_title_compose">Pré-visualização Compose</string>
+    <string name="editor_preview_title_xml">Pré-visualização de gráfico XML</string>
+    <string name="editor_preview_more">Mais ações de pré-visualização</string>
+    <plurals name="compose_preview_problems">
+        <item quantity="one">%1$d problema</item>
+        <item quantity="other">%1$d problemas</item>
+    </plurals>
+</resources>

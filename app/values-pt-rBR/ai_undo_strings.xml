@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_undo_menu">Desfazer últimas alterações de arquivos</string>
+    <string name="ai_undo_title">Desfazer alterações de arquivos</string>
+    <string name="ai_undo_action">Desfazer</string>
+    <plurals name="ai_undo_message">
+        <item quantity="one">Restaurar %1$d arquivo alterado pelo assistente para “%2$s” ao conteúdo anterior? Os arquivos que ele criou são excluídos.</item>
+        <item quantity="other">Restaurar %1$d arquivos alterados pelo assistente para “%2$s” ao conteúdo anterior? Os arquivos que ele criou são excluídos.</item>
+    </plurals>
+    <string name="ai_undo_done">%1$d arquivo(s) restaurado(s), %2$d arquivo(s) novo(s) excluído(s).</string>
+    <string name="ai_undo_failed">Não foi possível restaurar estes arquivos (grandes demais ou ilegíveis):%1$s</string>
+    <string name="ai_undo_nothing">Não há alterações de arquivos para desfazer.</string>
+</resources>

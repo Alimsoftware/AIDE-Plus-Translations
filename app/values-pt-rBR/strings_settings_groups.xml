@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="st_cat_checks">Verificação de erros</string>
+    <string name="st_cat_navigation">Navegação e código-fonte</string>
+    <string name="st_cat_platform">SDK e dados da plataforma</string>
+    <string name="st_cat_sdk_deps">SDK e dependências</string>
+    <string name="st_cat_gradle_command">Compilação por comandos Gradle</string>
+    <string name="st_cat_code_translation">Tradução de código</string>
+    <string name="st_cat_startup_layout">Inicialização e layout</string>
+    <string name="st_cat_appbar_tabs">Barra de título e abas</string>
+    <string name="st_cat_gestures">Gestos e toque</string>
+    <string name="st_cat_file_browser">Navegador de arquivos</string>
+    <string name="st_cat_keyboard">Teclado e método de entrada</string>
+    <string name="st_cat_guides">Guias e destaques</string>
+    <string name="st_cat_structure">Dobramento e estrutura</string>
+    <string name="st_cat_editor_hints">Dicas no editor</string>
+    <string name="st_cat_offline_docs">Documentação offline</string>
+    <string name="st_cat_editor_actions">Botões de ação do editor</string>
+    <string name="st_cat_semantic_completion">Conclusão semântica</string>
+    <string name="st_cat_warnings">Exibição de avisos</string>
+    <string name="st_cat_decompiler">Descompilação</string>
+    <string name="st_cat_compile_package">Compilação e empacotamento</string>
+    <string name="st_cat_build_output">Saída da compilação</string>
+    <string name="st_cat_java_project">Projetos Java</string>
+    <string name="st_cat_install">Instalação</string>
+    <string name="st_cat_terminal">Terminal</string>
+    <string name="st_cat_git_identity">Identidade do Git</string>
+    <string name="st_cat_git_credentials">Credenciais e SSH</string>
+    <string name="st_cat_ai_assistant">Acesso ao assistente de IA</string>
+    <string name="st_cat_mcp_server">Servidor MCP</string>
+    <string name="st_cat_translation_engine">Motores de tradução</string>
+    <string name="st_cat_translation_cache">Cache de tradução</string>
+    <string name="st_cat_logging">Registro de eventos</string>
+    <string name="st_cat_tools_logs">Toolchains e registros</string>
+    <string name="st_cat_community">Comunidade e contato</string>
+</resources>

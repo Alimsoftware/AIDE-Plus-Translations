@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pv_cannot_preview">Não é possível visualizar</string>
+    <string name="pv_open_page">Abrir em página separada</string>
+    <string name="pv_hex">Visualização hexadecimal</string>
+    <string name="pv_hex_summary">Ver cada byte do arquivo</string>
+    <string name="pv_hex_partial">Mostrando os primeiros %1$s desta entrada</string>
+    <string name="pv_go_to_offset">Ir para o deslocamento</string>
+    <string name="pv_offset_invalid">Informe um deslocamento menor que %1$s (decimal ou hex como 0x1F0)</string>
+    <string name="pv_close_search">Fechar pesquisa</string>
+    <string name="pv_search_results">Resultados da pesquisa</string>
+    <string name="pv_view_packages">Ver por pacote</string>
+    <string name="pv_view_folders">Ver por pasta</string>
+    <string name="pv_find_previous">Resultado anterior</string>
+    <string name="pv_find_next">Próximo resultado</string>
+    <string name="pv_no_match">Sem resultados</string>
+    <string name="pv_match_position">%1$d/%2$d</string>
+    <string name="pv_section_file">Arquivo</string>
+    <string name="pv_section_format">Formato</string>
+    <string name="pv_section_checksum">Soma de verificação</string>
+    <string name="pv_section_content">Conteúdo</string>
+    <string name="pv_entry">Entrada</string>
+    <string name="pv_archive">Arquivo compactado</string>
+    <string name="pv_size">Tamanho</string>
+    <string name="pv_compressed">Tamanho compactado</string>
+    <string name="pv_modified">Modificado</string>
+    <string name="pv_type">Tipo</string>
+    <string name="pv_tap_to_calculate">Toque para calcular</string>
+    <string name="pv_uncompressed_short">%1$s descompactado</string>
+    <string name="pv_app_name">Nome do aplicativo</string>
+    <string name="pv_app_version">Versão</string>
+    <string name="pv_fact_format">Formato</string>
+    <string name="pv_fact_abi">ABI</string>
+    <string name="pv_fact_elf_type">Tipo ELF</string>
+    <string name="pv_fact_dex_version">Versão DEX</string>
+    <string name="pv_fact_classes">Classes</string>
+    <string name="pv_fact_methods">Referências de métodos</string>
+    <string name="pv_fact_strings">Strings</string>
+    <string name="pv_fact_java_version">Versão do Java</string>
+    <string name="pv_fact_entries">Arquivos</string>
+    <string name="pv_fact_uncompressed">Tamanho descompactado</string>
+    <string name="pv_fact_implementation">Implementação</string>
+    <string name="pv_fact_package">Nome do pacote</string>
+    <string name="pv_fact_min_sdk">SDK mínimo</string>
+    <string name="pv_fact_target_sdk">SDK alvo</string>
+    <string name="pv_copy">Copiar</string>
+    <string name="pv_media_error">Este dispositivo não consegue reproduzir o arquivo. Tente abrir com outro app.</string>
+    <string name="pv_media_tap">Toque para mostrar os controles</string>
+    <string name="pv_pdf_error">Este PDF está danificado ou não é compatível.</string>
+    <string name="pv_pdf_protected">Este PDF é protegido por senha. Abra com outro app.</string>
+    <string name="pv_sqlite_error">Não é possível abrir este banco de dados somente para leitura.</string>
+    <string name="pv_sqlite_empty">Este banco de dados não tem tabelas</string>
+    <string name="pv_sqlite_tables">Tabelas</string>
+    <string name="pv_sqlite_views">Visões</string>
+    <string name="pv_sqlite_first_rows">Mostrando as primeiras %1$d de %2$d linhas</string>
+    <string name="pv_certificate">Certificado</string>
+    <string name="pv_certificate_number">Certificado %1$d</string>
+    <string name="pv_certificate_error">Não é um certificado X.509 legível.</string>
+    <string name="pv_certificate_subject">Titular</string>
+    <string name="pv_certificate_issuer">Emissor</string>
+    <string name="pv_certificate_valid">Validade</string>
+    <string name="pv_certificate_serial">Número de série</string>
+    <string name="pv_certificate_signature">Algoritmo de assinatura</string>
+    <string name="pv_certificate_key">Chave pública</string>
+    <string name="pv_font_sample_line">Um pequeno jabuti xereta viu dez cegonhas felizes 0123</string>
+    <string name="pv_font_characters">Caracteres</string>
+    <plurals name="pv_entries">
+        <item quantity="one">%1$d entrada</item>
+        <item quantity="other">%1$d entradas</item>
+    </plurals>
+    <plurals name="pv_hidden_entries">
+        <item quantity="one">%1$d entrada com caminho inseguro está oculta</item>
+        <item quantity="other">%1$d entradas com caminhos inseguros estão ocultas</item>
+    </plurals>
+    <plurals name="pv_lines">
+        <item quantity="one">%1$d linha</item>
+        <item quantity="other">%1$d linhas</item>
+    </plurals>
+    <plurals name="pv_pages">
+        <item quantity="one">%1$d página</item>
+        <item quantity="other">%1$d páginas</item>
+    </plurals>
+    <plurals name="pv_tables">
+        <item quantity="one">%1$d tabela</item>
+        <item quantity="other">%1$d tabelas</item>
+    </plurals>
+    <plurals name="pv_rows">
+        <item quantity="one">%1$d linha</item>
+        <item quantity="other">%1$d linhas</item>
+    </plurals>
+    <plurals name="pv_columns">
+        <item quantity="one">%1$d coluna</item>
+        <item quantity="other">%1$d colunas</item>
+    </plurals>
+</resources>

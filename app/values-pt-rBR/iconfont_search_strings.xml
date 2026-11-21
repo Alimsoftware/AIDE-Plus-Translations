@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="iconfont_search_source">Pesquisar no iconfont online</string>
+    <string name="iconfont_search_source_detail">Ícones online · favoritos disponíveis offline</string>
+    <string name="iconfont_search_hint">Pesquisar no iconfont por palavra-chave</string>
+    <string name="iconfont_search_any_color">Todas as cores</string>
+    <string name="iconfont_search_mono">Monocromático</string>
+    <string name="iconfont_search_multi">Multicolorido</string>
+    <string name="iconfont_search_featured">Destaques</string>
+    <string name="iconfont_search_line">Contorno</string>
+    <string name="iconfont_search_fill">Preenchido</string>
+    <string name="iconfont_search_flat">Plano</string>
+    <string name="iconfont_search_hand">Desenhado à mão</string>
+    <string name="iconfont_search_simple">Simples</string>
+    <string name="iconfont_search_complex">Detalhado</string>
+    <string name="iconfont_search_rights">Os direitos dos ícones pertencem aos autores originais. Verifique a licença antes do uso comercial.</string>
+    <string name="iconfont_search_retry">Repetir pesquisa</string>
+    <string name="iconfont_search_loading">Carregando ícones…</string>
+    <string name="iconfont_search_prompt">Insira uma palavra-chave para pesquisar no iconfont.cn.</string>
+    <string name="iconfont_search_empty">Nenhum ícone encontrado. Altere a palavra-chave ou os filtros.</string>
+    <string name="iconfont_search_count">Carregados: %1$d</string>
+    <string name="iconfont_search_count_total">Carregados: %1$d / %2$d</string>
+    <string name="iconfont_search_http_error">O iconfont.cn retornou HTTP %1$d. Tente novamente mais tarde.</string>
+    <string name="iconfont_search_api_error">O iconfont.cn não conseguiu concluir a pesquisa. Tente novamente mais tarde.</string>
+    <string name="iconfont_search_response_error">Resposta inesperada do iconfont.cn; o acesso pode estar limitado. Tente novamente mais tarde.</string>
+    <string name="iconfont_search_size_error">A resposta excede o limite de 4 MB. Use uma palavra-chave mais específica.</string>
+    <string name="iconfont_search_network_error">Não foi possível acessar o iconfont.cn. Verifique a conexão e tente novamente.</string>
+    <string name="iconfont_search_svg_error">Este SVG não é seguro ou não é suportado. Não é possível pré-visualizar nem exportar.</string>
+    <string name="iconfont_search_copy">Copiar SVG</string>
+    <string name="iconfont_search_copied">SVG copiado</string>
+    <string name="iconfont_search_favorite">Salvar localmente</string>
+    <string name="iconfont_search_saved">Salvo no pacote de ícones “Favoritos do iconfont” para usar offline.</string>
+    <string name="iconfont_search_save_failed">Não foi possível salvar este ícone. Verifique o espaço disponível e tente novamente.</string>
+    <string name="iconfont_search_favorites_pack">Favoritos do iconfont</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="decompiler_failed">Falha ao descompilar: %1$s</string>
+    <string name="decompiler_subtitle">Descompilado por %1$s</string>
+    <string name="decompiler_show_source_title">Mostrar código descompilado de classes</string>
+    <string name="decompiler_show_source_summary">Abrir arquivos .class e classes de bibliotecas sem código-fonte como Java descompilado (somente leitura). Desativado mostra o resumo da classe</string>
+    <string name="decompiler_engine_title">Descompilador</string>
+</resources>

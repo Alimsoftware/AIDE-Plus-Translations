@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="j2k_menu">Converter para Kotlin…</string>
+    <string name="j2k_title">Java para Kotlin</string>
+    <string name="j2k_filter_hint">Filtrar por caminho (expressão regular)</string>
+    <string name="j2k_select_all">Selecionar tudo</string>
+    <string name="j2k_select_none">Desmarcar tudo</string>
+    <string name="j2k_model">Modelo: %1$s</string>
+    <string name="j2k_no_model_title">Nenhum modelo configurado</string>
+    <string name="j2k_no_model">A conversão usa o modelo configurado no assistente de IA.</string>
+    <string name="j2k_open_settings">Configurar modelo</string>
+    <string name="j2k_loading">Procurando arquivos Java…</string>
+    <string name="j2k_empty">Não há arquivos Java aqui</string>
+    <string name="j2k_note_no_plugin">%1$s não declara um plugin Kotlin. O AIDE+ compila arquivos Kotlin sem ele; um build Gradle real precisa do plugin org.jetbrains.kotlin.android.</string>
+    <string name="j2k_files">Arquivos Java</string>
+    <string name="j2k_stop">Parar</string>
+    <string name="j2k_convert">Converter (%1$d)</string>
+    <string name="j2k_apply">Aplicar (%1$d)</string>
+    <string name="j2k_preview_action">Pré-visualizar %1$s</string>
+    <string name="j2k_select">Selecionar %1$s</string>
+    <string name="j2k_status_queued">Em espera</string>
+    <string name="j2k_status_done">Convertido</string>
+    <string name="j2k_status_failed">Falhou: %1$s</string>
+    <string name="j2k_status_cancelled">Parado</string>
+    <string name="j2k_status_stale">O arquivo Java mudou depois da conversão; converta-o novamente</string>
+    <string name="j2k_status_applied">Substituído por %1$s</string>
+    <string name="j2k_status_applied_git">Substituído por %1$s · mudança de nome registrada (%2$s)</string>
+    <string name="j2k_error_too_large">o arquivo é maior que %1$s</string>
+    <string name="j2k_error_truncated">a resposta atingiu o limite de saída. Aumente o máximo de tokens de saída nas configurações do assistente de IA ou divida o arquivo</string>
+    <string name="j2k_error_empty">o modelo não retornou código Kotlin</string>
+    <string name="j2k_error_read">não foi possível ler o arquivo: %1$s</string>
+    <string name="j2k_error_request">o pedido falhou: %1$s</string>
+    <string name="j2k_privacy_title">Enviar o código-fonte ao modelo?</string>
+    <string name="j2k_privacy_message">Os arquivos Java selecionados são enviados para %1$s, o serviço de modelo configurado no assistente de IA. Continue apenas se puder compartilhar este código com ele.</string>
+    <string name="j2k_continue">Continuar</string>
+    <string name="j2k_preview_kotlin">Kotlin</string>
+    <string name="j2k_preview_java">Java</string>
+    <string name="j2k_preview_issues">Problemas (%1$d)</string>
+    <string name="j2k_copy_kotlin">Copiar código Kotlin</string>
+    <string name="j2k_copied">Copiado</string>
+    <string name="j2k_preview_no_issues">Nenhum problema encontrado. Só a sintaxe é verificada; os erros de tipo aparecem ao compilar o projeto.</string>
+    <string name="j2k_preview_apply">Aplicar</string>
+    <string name="j2k_preview_retry">Converter novamente</string>
+    <string name="j2k_close">Fechar</string>
+    <string name="j2k_issue_syntax">Linha %1$d: %2$s</string>
+    <string name="j2k_default_package">(pacote padrão)</string>
+    <string name="j2k_issue_package">O pacote mudou: %1$s → %2$s</string>
+    <string name="j2k_issue_type">Falta %1$s; outros arquivos podem ainda usá-lo</string>
+    <string name="j2k_apply_title">Substituir por Kotlin</string>
+    <string name="j2k_apply_git">Os arquivos no Git sem alterações por registrar são primeiro renomeados num commit próprio (conteúdo inalterado), para que o histórico os acompanhe. O código Kotlin fica como alteração por registrar, para compilar e fazer commit.</string>
+    <string name="j2k_apply_no_git">Estes arquivos têm alterações por registrar e são substituídos sem commit de mudança de nome: %1$s</string>
+    <string name="j2k_leave_running">Parar a conversão e sair?</string>
+    <string name="j2k_leave">Sair</string>
+    <string name="j2k_leave_unapplied">Os arquivos convertidos que não foram aplicados serão perdidos. Sair mesmo assim?</string>
+    <string name="j2k_error_exists">%1$s já existe</string>
+    <string name="j2k_error_git">o commit de mudança de nome falhou: %1$s</string>
+    <string name="j2k_error_write">não foi possível escrever o arquivo: %1$s</string>
+    <plurals name="j2k_status_running">
+        <item quantity="one">Convertendo… %1$d carácter recebido</item>
+        <item quantity="other">Convertendo… %1$d caracteres recebidos</item>
+    </plurals>
+    <plurals name="j2k_status_done_errors">
+        <item quantity="one">Convertido · %1$d erro de sintaxe</item>
+        <item quantity="other">Convertido · %1$d erros de sintaxe</item>
+    </plurals>
+    <plurals name="j2k_status_done_warnings">
+        <item quantity="one">Convertido · %1$d aviso</item>
+        <item quantity="other">Convertido · %1$d avisos</item>
+    </plurals>
+    <plurals name="j2k_lines">
+        <item quantity="one">%1$d linha</item>
+        <item quantity="other">%1$d linhas</item>
+    </plurals>
+    <plurals name="j2k_apply_message">
+        <item quantity="one">Substituir %1$d arquivo Java pelo arquivo Kotlin convertido (.java → .kt)?</item>
+        <item quantity="other">Substituir %1$d arquivos Java pelos arquivos Kotlin convertidos (.java → .kt)?</item>
+    </plurals>
+    <plurals name="j2k_apply_errors">
+        <item quantity="one">%1$d arquivo ainda tem erros de sintaxe a corrigir depois de aplicar.</item>
+        <item quantity="other">%1$d arquivos ainda têm erros de sintaxe a corrigir depois de aplicar.</item>
+    </plurals>
+    <plurals name="j2k_applied">
+        <item quantity="one">%1$d arquivo substituído por Kotlin</item>
+        <item quantity="other">%1$d arquivos substituídos por Kotlin</item>
+    </plurals>
+</resources>

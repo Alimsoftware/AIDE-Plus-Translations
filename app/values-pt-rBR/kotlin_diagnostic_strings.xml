@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="kotlin_diagnostic_details">Detalhes do problema Kotlin</string>
+    <string name="kotlin_diagnostic_original">Diagnóstico completo do compilador</string>
+    <string name="kotlin_diagnostic_go_to_code">Ir para o código</string>
+    <string name="kotlin_diagnostic_location">Linha %1$d · Coluna %2$d</string>
+    <string name="kotlin_diagnostic_missing_argument">Falta um argumento obrigatório: %1$s</string>
+    <string name="kotlin_diagnostic_missing_argument_advice">Passe um valor para %1$s nesta chamada. A ação Corrigir (Kotlin) do editor pode oferecer um marcador; substitua-o por um valor real antes de executar.</string>
+    <string name="kotlin_diagnostic_unknown_parameter">Parâmetro desconhecido: %1$s</string>
+    <string name="kotlin_diagnostic_unknown_parameter_advice">Confira o nome do parâmetro na declaração da função e a versão da biblioteca usada neste projeto.</string>
+    <string name="kotlin_diagnostic_too_many_arguments">Argumentos em excesso</string>
+    <string name="kotlin_diagnostic_too_many_arguments_advice">Compare a chamada com a declaração da função. Remova argumentos extras ou escolha a sobrecarga pretendida.</string>
+    <string name="kotlin_diagnostic_no_matching_overload">Nenhuma chamada de função compatível</string>
+    <string name="kotlin_diagnostic_ambiguous_overload">Mais de uma função corresponde a esta chamada</string>
+    <string name="kotlin_diagnostic_overload_advice">Confira os nomes, a quantidade e os tipos dos argumentos. As assinaturas abaixo são alternativas, não correções que devem ser aplicadas todas juntas.</string>
+    <string name="kotlin_diagnostic_unresolved_reference">Não foi possível resolver: %1$s</string>
+    <string name="kotlin_diagnostic_unresolved_reference_advice">Confira a grafia, as importações e as dependências baixadas do projeto. Use Corrigir (Kotlin) para ver sugestões de importação disponíveis.</string>
+    <string name="kotlin_diagnostic_type_mismatch">O tipo do valor não corresponde ao tipo exigido</string>
+    <string name="kotlin_diagnostic_type_mismatch_advice">Compare os tipos real e esperado no diagnóstico completo abaixo, incluindo se null é permitido.</string>
+    <string name="kotlin_diagnostic_composable_context">Chamada Composable fora de um contexto Composable</string>
+    <string name="kotlin_diagnostic_composable_context_advice">Chame esta função a partir de uma função ou lambda @Composable. Adicione @Composable apenas se a função externa se destinar a construir a interface.</string>
+    <string name="kotlin_diagnostic_suspend_context">Chamada suspend fora de uma corrotina</string>
+    <string name="kotlin_diagnostic_suspend_context_advice">Chame esta função a partir de uma corrotina ou de outra função suspend. No Compose, use um efeito adequado, como LaunchedEffect, para efeitos colaterais.</string>
+    <string name="kotlin_diagnostic_unsafe_call">O receptor pode ser null</string>
+    <string name="kotlin_diagnostic_unsafe_call_advice">Verifique null ou use uma chamada segura (?.). Use !! apenas se houver garantia de que o valor não é null.</string>
+    <string name="kotlin_diagnostic_other_advice">Leia o diagnóstico completo abaixo para entender o contexto. O texto original é preservado para copiar e investigar o problema.</string>
+    <string name="kotlin_diagnostic_unknown">Diagnóstico do compilador Kotlin</string>
+</resources>

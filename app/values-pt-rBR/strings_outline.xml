@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ol_title">Estrutura do arquivo</string>
+    <string name="ol_search_hint">Pesquisar classes, métodos e campos</string>
+    <string name="ol_filter_all">Tudo</string>
+    <string name="ol_filter_types">Tipos</string>
+    <string name="ol_filter_methods">Métodos</string>
+    <string name="ol_filter_fields">Campos</string>
+    <string name="ol_loading">Lendo a estrutura…</string>
+    <string name="ol_empty">Sem declarações neste arquivo</string>
+    <string name="ol_no_match">Sem declarações correspondentes</string>
+    <string name="ol_failed">Não é possível ler a estrutura: %1$s</string>
+    <string name="ol_unsupported">A estrutura está disponível para arquivos .java, .kt e .class</string>
+    <string name="ol_flowchart">Fluxograma</string>
+    <string name="ol_flowchart_of">Fluxograma de %1$s</string>
+    <string name="ol_flowchart_failed">Não é possível criar o fluxograma: %1$s</string>
+    <string name="ol_flowchart_none">Este método não tem corpo</string>
+    <string name="ol_copy_mermaid">Copiar código Mermaid</string>
+    <string name="ol_copied">Copiado</string>
+    <string name="ol_fc_end">Fim</string>
+    <string name="ol_fc_init">Inicializador</string>
+    <string name="ol_fc_yes">sim</string>
+    <string name="ol_fc_no">não</string>
+    <string name="ol_fc_next">seguinte</string>
+    <string name="ol_fc_done">concluído</string>
+    <string name="ol_fc_exception">exceção</string>
+</resources>

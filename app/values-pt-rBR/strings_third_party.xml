@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="third_party_title">Licenças de terceiros</string>
+    <string name="third_party_summary">Componentes e bibliotecas de código aberto incluídos no AIDE+ e suas licenças</string>
+    <string name="third_party_search">Pesquisar componentes ou licenças</string>
+    <string name="third_party_loading">Lendo a lista de licenças…</string>
+    <string name="third_party_load_failed">Não foi possível ler a lista de licenças: %1$s</string>
+    <string name="third_party_group_bundled">Componentes incluídos</string>
+    <string name="third_party_group_icons">Pacotes de ícones</string>
+    <string name="third_party_group_libraries">Bibliotecas</string>
+    <string name="third_party_empty">Nenhum componente corresponde</string>
+    <string name="third_party_reload">Recarregar</string>
+    <string name="third_party_no_license">Licença não declarada</string>
+    <string name="third_party_version">Versão %1$s</string>
+    <string name="third_party_developers">Por %1$s</string>
+    <string name="third_party_license">Licença</string>
+    <string name="third_party_open_website">Abrir site</string>
+    <string name="third_party_text_failed">Não foi possível ler o texto da licença</string>
+    <plurals name="third_party_components">
+        <item quantity="one">%1$d componente</item>
+        <item quantity="other">%1$d componentes</item>
+    </plurals>
+    <plurals name="third_party_licenses">
+        <item quantity="one">%1$d licença</item>
+        <item quantity="other">%1$d licenças</item>
+    </plurals>
+</resources>
