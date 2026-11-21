@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="device_backend_entries">
+        <item>@string/device_backend_accessibility</item>
+        <item>@string/device_backend_shizuku</item>
+        <item>@string/device_backend_root</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="ai_devtools_latest">Ir para a mensagem mais recente</string>
+    <string name="ai_devtools_message_actions">Ações da mensagem</string>
+    <string name="ai_devtools_status">Status</string>
+    <string name="ai_devtools_error">Erro</string>
+    <string name="ai_devtools_environment">Ambiente de desenvolvimento Android</string>
+    <string name="ai_devtools_shizuku_authorize">Autorizar Shizuku</string>
+    <string name="ai_devtools_shizuku_unavailable">Inicie o Shizuku e conceda permissão ao AIDE+.</string>
+    <string name="ai_devtools_help">O assistente pode consultar erros do IDE, iniciar e acompanhar a compilação atual, compilar arquivos Java/Kotlin isoladamente e executar comandos Shell não interativos. As tarefas do compilador e do Shell retornam um ID para consulta ou pedido de cancelamento.\n\nO Shell do aplicativo usa o UID do aplicativo. Shizuku requer autorização separada; o UID shell não é root e não pode ler dados privados de aplicativos. Não há mudança automática de privilégios. As saídas dos compiladores são isoladas; compilar arquivos não equivale a criar um APK. O cancelamento do compilador é cooperativo. Os IDs deixam de existir quando o processo do aplicativo termina.</string>
+    <string name="ai_devtools_execution_warning">Esta ferramenta executa código ou controla uma compilação, não apenas edita arquivos. Os comandos Shell podem acessar tudo o que o UID escolhido permite; o diretório do projeto não é uma sandbox do sistema de arquivos. A compilação do IDE pode instalar ou iniciar o projeto atual. Verifique o comando, a origem dos privilégios e os parâmetros antes de autorizar. “Permitir sempre alterações de arquivos” não autoriza esta ferramenta.</string>
+</resources>
